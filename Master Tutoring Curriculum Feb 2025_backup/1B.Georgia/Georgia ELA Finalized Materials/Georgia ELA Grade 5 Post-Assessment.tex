@@ -1,0 +1,76 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{standalone}
+\usepackage[a4paper, top=0.8in, bottom=0.7in, left=0.8in, right=0.8in]{geometry}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{amsfonts}
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage{tcolorbox}
+\usepackage{tikz}
+\usepackage{multicol}
+\usepackage[defaultfam,tabular,lining]{montserrat}
+
+
+\usepackage{xcolor}  % To use colors
+\hypersetup{
+    colorlinks=true,   % Activate colored links
+    linkcolor=blue,    % Link color for internal links
+    urlcolor=blue,     % Link color for URLs
+    filecolor=blue,    % Link color for file links
+    menucolor=blue,    % Link color for menus
+}
+
+\sloppy
+
+\title{}
+\date{}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\setlength{\parindent}{0pt}
+\pagestyle{fancy}
+
+\setlength{\headheight}{27.11148pt}
+\addtolength{\topmargin}{-15.11148pt}
+
+
+
+
+\sloppy
+% Define a new command for the level letter
+\newcommand{\levelLetter}{F} 
+\newcommand{\assessmenttype}{Post-Assessment} 
+
+% Change this letter to update throughout the document
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\fancyhf{}
+\fancyhead[L]{\textbf{ELA \assessmenttype \ \levelLetter }}
+\fancyhead[R]{\includegraphics[width=0.8cm]{Round Logo.png}}
+\fancyfoot[C]{\footnotesize \textcopyright{} Study Smart Tutors}
+\fancyfoot[R]{\thepage}  % Page number in bottom right corner
+
+
+
+
+
+
+\begin{document}
+
+% Title Page
+\input{Tutoring Cover Pages/ELA Assessments Materials Cover Pages/ELA Post-Assessment F.tex} % Include the title page content here
+
+
+% Assessment File
+\newpage
+\input{Grade 5/Assessments/Post-Assessment F (5th grade).tex}
+
+
+
+\end{document}

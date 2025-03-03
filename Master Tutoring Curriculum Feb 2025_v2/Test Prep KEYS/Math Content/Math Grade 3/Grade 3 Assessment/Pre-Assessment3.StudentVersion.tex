@@ -1,0 +1,159 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper, top=0.8in, bottom=0.7in, left=0.8in, right=0.8in]{geometry}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage{tcolorbox}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage[defaultfam,tabular,lining]{montserrat}
+\usepackage[T1]{fontenc}
+\renewcommand*\oldstylenums[1]{{\fontfamily{Montserrat-TOsF}\selectfont #1}}
+\renewcommand{\familydefault}{\sfdefault}
+
+\setlength{\headheight}{27.11148pt}
+
+% Header Configuration
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{Practice Exam D: Pre-Test}
+\fancyhead[R]{\includegraphics[width=0.8cm]{Round Logo.png}}
+\fancyfoot[C]{\footnotesize © Study Smart Tutors}
+
+\begin{document}
+
+% \subsection*{Assessment D: Math Pre-Test}
+% \onehalfspacing
+
+\begin{tcolorbox}[colframe=black!50, colback=white, title=Assessment Directions]
+\textbf{Directions:} Solve each question carefully. For multiple-choice questions, circle the best answer. For "select all that apply" questions, mark all correct answers. For short-answer questions, show your work clearly.
+\end{tcolorbox}
+
+% Problem 1: Multiplication Sentence (Write-In)
+\begin{tcolorbox}[colframe=black!50, colback=white, title=\textbf{Problem 1}]
+Write a multiplication sentence for the following situation: \\ 
+``There are 4 baskets, and each basket has 6 apples.''  
+
+\vspace{1cm}
+\textbf{Answer:}  
+\vspace{1cm}
+\rule{0.2\textwidth}{0.4mm}
+\vspace{2cm}
+\end{tcolorbox}
+
+% Problem 2: Division Word Problem (Multiple Choice)
+\begin{tcolorbox}[colframe=black!50, colback=white, title=\textbf{Problem 2}]
+A classroom has 24 students. If the teacher wants to create groups of 6 students, how many groups will there be?  
+
+\begin{enumerate}[label=(\Alph*)]
+    \item 3
+    \item 4
+    \item 5
+    \item 6
+\end{enumerate}
+\end{tcolorbox}
+
+% Problem 3: Unknown Number in Equation (Write-In)
+\begin{tcolorbox}[colframe=black!50, colback=white, title=\textbf{Problem 3}]
+Find the missing number:  
+\(8 \times \_\_\_ = 56\)  
+
+\vspace{1cm}
+\textbf{Answer:}  
+\vspace{1cm}
+\rule{0.7\textwidth}{0.4mm}
+\vspace{2cm}
+\end{tcolorbox}
+
+% Problem 4: Visual Multiplication (Performance Task)
+\begin{tcolorbox}[colframe=black!50, colback=white, title=\textbf{Problem 4}]
+Draw an array to represent \(3 \times 5\). Then write the multiplication equation to describe it.
+
+\vspace{2cm}
+\textbf{Answer:}  
+\vspace{1cm}
+\rule{0.7\textwidth}{0.4mm}
+\end{tcolorbox}
+
+% Problem 5: Equivalent Equations (Select All That Apply with Boxes)
+\begin{tcolorbox}[colframe=black!50, colback=white, title=\textbf{Problem 5}]
+Select all the expressions that are equivalent to \(12\):  
+\vspace{0.1cm}
+
+\begin{itemize}[label=$\Box$]
+    \item \(4 \times 3 \)
+    \item \(6 \times 2 \)
+    \item \(12 \div 4\)
+    \item \(5 + 2 \)
+\end{itemize}
+\end{tcolorbox}
+
+% Problem 6: Division and Unknown Factor (Write-In)
+\begin{tcolorbox}[colframe=black!50, colback=white, title=\textbf{Problem 6}]
+Divide 45 cookies into 9 equal groups. How many cookies are in each group?  
+
+\vspace{1.5cm}
+\textbf{Answer:}  
+\vspace{1cm}
+\rule{0.7\textwidth}{0.4mm}
+\end{tcolorbox}
+
+% Problem 7: Fractions on Number Line (Performance Task)
+\begin{tcolorbox}[colframe=black!50, colback=white, title=\textbf{Problem 7}]
+Mark \(1\frac{3}{4}\) on the number line below.
+
+\begin{center}
+\begin{tikzpicture}[x=2.5cm, y=1cm]
+    \draw[thick, ->] (0,0) -- (5,0);
+    \foreach \x in {0,1,2,3,4} {
+        \draw[thick] (\x, 0.1) -- (\x, -0.1);
+        \node[below] at (\x, -0.2) {\x};
+    }
+    \foreach \x in {0.25, 0.5, 0.75, 1.25, 1.5, 1.75, 2.25, 2.5, 2.75, 3.25, 3.5, 3.75, 4.25, 4.5, 4.75} {
+        \draw[thick] (\x, 0.05) -- (\x, -0.05);
+    }
+\end{tikzpicture}
+\end{center}
+\end{tcolorbox}
+
+% Problem 8: Two-Step Word Problem (Multiple Choice)
+\begin{tcolorbox}[colframe=black!50, colback=white, title=\textbf{Problem 8}]
+Maya reads 12 pages a day. How many pages will she read in 5 days if she reads the same number of pages each day?  
+
+\begin{enumerate}[label=(\Alph*)]
+    \item 50 pages
+    \item 60 pages
+    \item 72 pages
+    \item 100 pages
+\end{enumerate}
+\end{tcolorbox}
+
+% Problem 9: Unshaded 12 Squares for Shading Fractions (Performance Task)
+\begin{tcolorbox}[colframe=black!50, colback=white, title=\textbf{Problem 9}]
+Shade \(\frac{3}{4}\) of the diagram below.
+
+\begin{center}
+\begin{tikzpicture}
+    \foreach \x in {0, 1, 2, 3} {
+        \foreach \y in {0, 1, 2} {
+            \draw[thick] (\x,\y) rectangle (\x+1,\y+1);
+        }
+    }
+\end{tikzpicture}
+\end{center}
+\end{tcolorbox}
+
+% Problem 10: Estimation Word Problem (Write-In)
+\begin{tcolorbox}[colframe=black!50, colback=white, title=\textbf{Problem 10}]
+A store sells apples for \$3 each. John buys 12 apples. Estimate the total cost and explain your reasoning.
+
+\vspace{1cm}
+\textbf{Answer:}  
+\vspace{2cm}
+\rule{0.7\textwidth}{0.4mm}
+\end{tcolorbox}
+
+\end{document}

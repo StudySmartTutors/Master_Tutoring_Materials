@@ -1,0 +1,706 @@
+/Users/juanescobar/Documents/Curriculum/Master Tutoring Curriculum Mar 2025
+├── 1A.CCSS
+│   └── CCSS Math Finalized Materials
+│       ├── CCSS Math Grade 3 SWB Main.tex
+│       ├── CCSS Math Grade 3 TWB Main.tex
+│       ├── CCSS Math Grade 4 SWB Main.tex
+│       ├── CCSS Math Grade 4 TWB Main.tex
+│       ├── CCSS Math Grade 5 SWB Main.tex
+│       ├── CCSS Math Grade 5 TWB Main.tex
+│       ├── CCSS Math Grade 6 SWB Main.tex
+│       ├── CCSS Math Grade 6 TWB Main.tex
+│       ├── CCSS Math Grade 7 SWB Main.tex
+│       ├── CCSS Math Grade 7 TWB Main.tex
+│       ├── CCSS Math Grade 8 SWB Main.tex
+│       └── CCSS Math Grade 8 TWB Main.tex
+├── 1B.Georgia
+│   ├── Georgia ELA Finalized Materials
+│   │   ├── Georgia ELA Grade 3 Instr.Assessment.tex
+│   │   ├── Georgia ELA Grade 3 Post-Assessment.tex
+│   │   ├── Georgia ELA Grade 3 Pre-Assessment.tex
+│   │   ├── Georgia ELA Grade 3 SWB Main.tex
+│   │   ├── Georgia ELA Grade 3 TWB Main.tex
+│   │   ├── Georgia ELA Grade 4 Instr.Assessment.tex
+│   │   ├── Georgia ELA Grade 4 Post-Assessment.tex
+│   │   ├── Georgia ELA Grade 4 Pre-Assessment.tex
+│   │   ├── Georgia ELA Grade 4 SWB Main.tex
+│   │   ├── Georgia ELA Grade 4 TWB Main.tex
+│   │   ├── Georgia ELA Grade 5 Instr.Assessment.tex
+│   │   ├── Georgia ELA Grade 5 Post-Assessment.tex
+│   │   ├── Georgia ELA Grade 5 Pre-Assessment.tex
+│   │   ├── Georgia ELA Grade 5 SWB Main.tex
+│   │   ├── Georgia ELA Grade 5 TWB Main.tex
+│   │   ├── Georgia ELA Grade 6 Instr.Assessment.tex
+│   │   ├── Georgia ELA Grade 6 Post-Assessment.tex
+│   │   ├── Georgia ELA Grade 6 Pre-Assessment.tex
+│   │   ├── Georgia ELA Grade 6 SWB Main.tex
+│   │   ├── Georgia ELA Grade 6 TWB Main.tex
+│   │   ├── Georgia ELA Grade 7 SWB Main.tex
+│   │   ├── Georgia ELA Grade 7 TWB Main.tex
+│   │   ├── Georgia ELA Grade 8 SWB Main(1).tex
+│   │   └── Georgia ELA Grade 8 TWB Main(1).tex
+│   ├── Georgia ELA Grade 8 SWB Main.tex
+│   └── Georgia Math Finalized Materials
+│       ├── Georgia Grade 3 Math Post-Assessment.tex
+│       ├── Georgia Grade 3 Math Pre-Assessment.tex
+│       ├── Georgia Grade 3 SWB Main.tex
+│       ├── Georgia Grade 3 TWB Main.tex
+│       ├── Georgia Grade 4 Math Post-Assessment.tex
+│       ├── Georgia Grade 4 Math Pre-Assessment.tex
+│       ├── Georgia Grade 4 SWB Main.tex
+│       ├── Georgia Grade 4 TWB Main.tex
+│       ├── Georgia Grade 5 Math Post-Assessment.tex
+│       ├── Georgia Grade 5 Math Pre-Assessment.tex
+│       ├── Georgia Grade 5 SWB Main.tex
+│       ├── Georgia Grade 5 TWB Main.tex
+│       ├── Georgia Grade 6 Math Post-Assessment.tex
+│       ├── Georgia Grade 6 Math Pre-Assessment.tex
+│       ├── Georgia Grade 6 SWB Main.tex
+│       ├── Georgia Grade 6 TWB Main.tex
+│       ├── Grade 3 Georgia WB TOC.tex
+│       ├── Grade 4 Georgia WB TOC.tex
+│       ├── Grade 5 Georgia WB TOC.tex
+│       └── Grade 6 Georgia WB TOC.tex
+├── ELA Content
+│   ├── ELA Grade 3
+│   │   ├── Archived
+│   │   │   └── ARCHIVED GP 3.L.2.tex
+│   │   ├── ELA Grade 3 Assessment
+│   │   │   ├── Assessment D with answer key (instructor copy).tex
+│   │   │   ├── Post-Assessment D (3rd grade).tex
+│   │   │   └── Pre-Assessment D (3rd grade).tex
+│   │   ├── Guided Practice
+│   │   │   ├── GP 3.L.1a & d.tex
+│   │   │   ├── GP 3.L.1h.tex
+│   │   │   ├── GP 3.L.1i.tex
+│   │   │   ├── GP 3.L.2a.tex
+│   │   │   ├── GP 3.RI.1.tex
+│   │   │   ├── GP 3.RI.2.tex
+│   │   │   ├── GP 3.RL.1&2.tex
+│   │   │   ├── GP 3.RL.3.tex
+│   │   │   ├── GP 3.W.1.tex
+│   │   │   ├── GP 3.W.2.tex
+│   │   │   ├── image.png
+│   │   │   ├── moviedog.jpg
+│   │   │   └── tooth.jpg
+│   │   ├── Guided Practice answer keys
+│   │   │   ├── 3L1a&d key.tex
+│   │   │   ├── 3L1h key.tex
+│   │   │   ├── 3L1i key.tex
+│   │   │   ├── 3L2a key.tex
+│   │   │   ├── 3RI1 key.tex
+│   │   │   ├── 3RI2 key.tex
+│   │   │   ├── 3RL1&2 key.tex
+│   │   │   ├── 3RL3 key.tex
+│   │   │   ├── 3W1 key (graded scoring).tex
+│   │   │   ├── 3W1 key (passfail grading).tex
+│   │   │   ├── 3W2 key (graded scoring).tex
+│   │   │   └── 3W2 key (passfail grading).tex
+│   │   ├── Test Prep
+│   │   │   ├── TP 3.L.1a&d new.tex
+│   │   │   ├── TP 3.L.1h new.tex
+│   │   │   ├── TP 3.L.1i new.tex
+│   │   │   ├── TP 3.L.2 new.tex
+│   │   │   ├── TP 3.RI.1 new.tex
+│   │   │   ├── TP 3.RI.2 new.tex
+│   │   │   ├── TP 3.RL.2 new.tex
+│   │   │   ├── TP 3.RL.3 new.tex
+│   │   │   ├── TP 3.W.1 new.tex
+│   │   │   ├── TP 3.W.2 new.tex
+│   │   │   └── archived
+│   │   │       ├── TP 3.L.1 new.tex
+│   │   │       ├── TP 3.L.1.tex
+│   │   │       ├── TP 3.L.2.tex
+│   │   │       ├── TP 3.RI.1.tex
+│   │   │       ├── TP 3.RI.2.tex
+│   │   │       ├── TP 3.RI.8.tex
+│   │   │       ├── TP 3.RL.2.tex
+│   │   │       ├── TP 3.RL.3.tex
+│   │   │       ├── TP 3.W.1.tex
+│   │   │       └── TP 3.W.2.tex
+│   │   └── yogurt.png
+│   ├── ELA Grade 4
+│   │   ├── ELA Grade 4 Assessment
+│   │   │   ├── Assessment E with answer key (instructor copy).tex
+│   │   │   ├── Post-Assessment E (4th grade).tex
+│   │   │   └── Pre-Assessment E (4th grade).tex
+│   │   ├── Guided Practice
+│   │   │   ├── GP 4.L.1a.tex
+│   │   │   ├── GP 4.L.1c.tex
+│   │   │   ├── GP 4.RI.1&2.tex
+│   │   │   ├── GP 4.RI.1&3.tex
+│   │   │   ├── GP 4.RL.1&2.tex
+│   │   │   ├── GP 4.RL.3.tex
+│   │   │   └── GP 4.W.1.tex
+│   │   ├── Guided Practice answer keys
+│   │   │   ├── 4L1a key.tex
+│   │   │   ├── 4L1c key.tex
+│   │   │   ├── 4RI12 key.tex
+│   │   │   ├── 4RI13 key.tex
+│   │   │   ├── 4RL12 key.tex
+│   │   │   ├── 4RL3 key.tex
+│   │   │   ├── 4W1 key (graded scoring).tex
+│   │   │   └── 4W1 key (passfail scoring).tex
+│   │   ├── Round Logo.png.png
+│   │   └── Test Prep
+│   │       ├── Arhived
+│   │       │   ├── TP 4.L.1.tex
+│   │       │   ├── TP 4.RI.1.tex
+│   │       │   ├── TP 4.RI.2.tex
+│   │       │   ├── TP 4.RI.3.tex
+│   │       │   ├── TP 4.RL.1.tex
+│   │       │   ├── TP 4.RL.2.tex
+│   │       │   ├── TP 4.RL.3.tex
+│   │       │   ├── TP 4.RL.4.tex
+│   │       │   └── TP 4.W.1.tex
+│   │       ├── TP 4.L.1a new.tex
+│   │       ├── TP 4.L1.c new.tex
+│   │       ├── TP 4.RI.1 new.tex
+│   │       ├── TP 4.RI.2 new.tex
+│   │       ├── TP 4.RI.3 new.tex
+│   │       ├── TP 4.RL.1.tex
+│   │       ├── TP 4.RL.2 new.tex
+│   │       ├── TP 4.RL.3 new.tex
+│   │       └── TP 4.W.1 new.tex
+│   ├── ELA Grade 5
+│   │   ├── Archived
+│   │   │   └── GP 5.RI.6.tex
+│   │   ├── Assessment
+│   │   │   ├── Assessment F with answer key (instructor copy).tex
+│   │   │   ├── Post-Assessment F (5th grade).tex
+│   │   │   └── Pre-Assessment F (5th grade).tex
+│   │   ├── Guided Practice
+│   │   │   ├── GP 5.L.1c.tex
+│   │   │   ├── GP 5.L.1d.tex
+│   │   │   ├── GP 5.RI.1&2.tex
+│   │   │   ├── GP 5.RI.1&3.tex
+│   │   │   ├── GP 5.RI.5.tex
+│   │   │   ├── GP 5.RL.1&2.tex
+│   │   │   ├── GP 5.RL.1&3.tex
+│   │   │   └── GP 5.W.1.tex
+│   │   ├── Guided Practice answer keys
+│   │   │   ├── 5L1c key.tex
+│   │   │   ├── 5L1d key.tex
+│   │   │   ├── 5RI12 key.tex
+│   │   │   ├── 5RI13 key.tex
+│   │   │   ├── 5RI5 key.tex
+│   │   │   ├── 5RL12 key.tex
+│   │   │   ├── 5RL13 key.tex
+│   │   │   ├── 5W1 key (graded scoring).tex
+│   │   │   └── 5W1 key (passfail scoring).tex
+│   │   ├── Round Logo.png.png
+│   │   ├── Table of Contents
+│   │   │   └── TOCs – Explore Prime Academy
+│   │   │       └── Explore Prime TOC Grade 5 – 8.tex
+│   │   └── Test Prep
+│   │       ├── TP 5.L.1c new.tex
+│   │       ├── TP 5.L.1d new.tex
+│   │       ├── TP 5.RI.1 new.tex
+│   │       ├── TP 5.RI.2 new.tex
+│   │       ├── TP 5.RI.3 new.tex
+│   │       ├── TP 5.RI.5 new.tex
+│   │       ├── TP 5.RL.1 new.tex
+│   │       ├── TP 5.RL.2 new.tex
+│   │       ├── TP 5.RL.3 new.tex
+│   │       ├── TP 5.W.1 new.tex
+│   │       └── archived
+│   │           ├── TP 5.L.1.tex
+│   │           ├── TP 5.RI.1.tex
+│   │           ├── TP 5.RI.2.tex
+│   │           ├── TP 5.RI.3.tex
+│   │           ├── TP 5.RI.5.tex
+│   │           ├── TP 5.RI.6.tex
+│   │           ├── TP 5.RL.1 + 2.tex
+│   │           ├── TP 5.RL.1 + 3.tex
+│   │           ├── TP 5.RL.1.tex
+│   │           └── TP 5.W.1.tex
+│   ├── ELA Grade 6
+│   │   ├── Assessments
+│   │   │   ├── Assessment G with answer key (instructor copy).tex
+│   │   │   ├── Post-Assessment G (6th grade).tex
+│   │   │   └── Pre-Assessment G (6th grade).tex
+│   │   ├── Guided Practice
+│   │   │   ├── GP 6.L.1a.tex
+│   │   │   ├── GP 6.L.1cd.tex
+│   │   │   ├── GP 6.RI.1&2.tex
+│   │   │   ├── GP 6.RI.1&3.tex
+│   │   │   ├── GP 6.RI.1&6.tex
+│   │   │   ├── GP 6.RL.1&2.tex
+│   │   │   ├── GP 6.RL.1&3.tex
+│   │   │   └── GP 6.W.1.tex
+│   │   ├── Guided Practice answer keys
+│   │   │   ├── 6L1a key.tex
+│   │   │   ├── 6L1cd key.tex
+│   │   │   ├── 6RI12 key.tex
+│   │   │   ├── 6RI13 key.tex
+│   │   │   ├── 6RI16 key.tex
+│   │   │   ├── 6RL12 key.tex
+│   │   │   ├── 6RL13 key.tex
+│   │   │   ├── 6W1 key (graded scoring).tex
+│   │   │   └── 6W1 key (passfail scoring).tex
+│   │   ├── Round Logo.png.png
+│   │   └── Test Prep
+│   │       ├── TP 6.L.1a new.tex
+│   │       ├── TP 6.L.1c new.tex
+│   │       ├── TP 6.L.1d new.tex
+│   │       ├── TP 6.RI.1 new.tex
+│   │       ├── TP 6.RI.2 new.tex
+│   │       ├── TP 6.RI.3 new.tex
+│   │       ├── TP 6.RL.1 new.tex
+│   │       ├── TP 6.RL.2 new.tex
+│   │       ├── TP 6.RL.3 new.tex
+│   │       ├── TP 6.W.1 new.tex
+│   │       └── archived
+│   │           ├── 6th grade graph.png
+│   │           ├── Test Prep 6.L.1.tex
+│   │           ├── Test Prep 6.RI.1&2.tex
+│   │           ├── Test Prep 6.RI.1&3.tex
+│   │           ├── Test Prep 6.RI.6.tex
+│   │           ├── Test Prep 6.RL.1.tex
+│   │           ├── Test Prep 6.RL.2.tex
+│   │           ├── Test Prep 6.RL.3.tex
+│   │           ├── Test Prep 6.RL.4.tex
+│   │           └── change rom 6,SL.2 to 6.W.1.tex
+│   ├── ELA Grade 7
+│   │   ├── Assessments
+│   │   │   ├── Assessment E with answer key (instructor copy).tex
+│   │   │   ├── Post-Assessment E (7th grade).tex
+│   │   │   └── Pre-Assessment E (7th grade) .tex
+│   │   ├── Guided Practice
+│   │   │   ├── GP 7.L.2.tex
+│   │   │   ├── GP 7.RL.1&2.tex
+│   │   │   ├── GP 7.RL.1&3.tex
+│   │   │   └── GP 7.W.1.tex
+│   │   ├── Guided Practice Answer Keys
+│   │   │   ├── 7.L.1b.Key.tex
+│   │   │   ├── 7.L.1c.Key.tex
+│   │   │   ├── 7.L.2.Key.tex
+│   │   │   ├── 7.RI.12.Key.tex
+│   │   │   ├── 7.RI.13Key.tex
+│   │   │   ├── 7.RL.12.Key.tex
+│   │   │   ├── 7.RL.13.Key.tex
+│   │   │   └── 7.W.1.Key.tex
+│   │   ├── Round Logo.png.png
+│   │   └── Test Prep
+│   │       ├── TP 7.L.1b new.tex
+│   │       ├── TP 7.L.1c new.tex
+│   │       ├── TP 7.L.2 new.tex
+│   │       ├── TP 7.RI.1 new.tex
+│   │       ├── TP 7.RI.2 new.tex
+│   │       ├── TP 7.RI.3 new.tex
+│   │       ├── TP 7.RL 1 new.tex
+│   │       ├── TP 7.RL.2 new.tex
+│   │       ├── TP 7.RL.3 new.tex
+│   │       ├── TP 7.W.1 new.tex
+│   │       └── archived
+│   │           ├── TP 7.L.1.tex
+│   │           ├── TP 7.L.2.tex
+│   │           ├── TP 7.RI.1 + 2.tex
+│   │           ├── TP 7.RI.1.tex
+│   │           ├── TP 7.RI.2.tex
+│   │           ├── TP 7.RI.3.tex
+│   │           ├── TP 7.RL.1 + 2.tex
+│   │           ├── TP 7.RL.1.tex
+│   │           ├── TP 7.RL.2.tex
+│   │           ├── TP 7.RL.3.tex
+│   │           └── change from 7.SL.2 to 7.W.1.tex
+│   └── ELA Grade 8
+│       ├── Assessments
+│       │   ├── Assessment F with answer key (instructor copy).tex
+│       │   ├── Post-Assessment F (8th grade).tex
+│       │   └── Pre-Assessment F (8th grade) .tex
+│       ├── Guided Practice
+│       │   ├── GP 8.L.1a.tex
+│       │   ├── GP 8.L.1b.tex
+│       │   ├── GP 8.L.1c.tex
+│       │   ├── GP 8.RI.1&2.tex
+│       │   ├── GP 8.RI.1&3.tex
+│       │   ├── GP 8.RL.1&2.tex
+│       │   ├── GP 8.RL.1&3.tex
+│       │   ├── GP 8.W.1.tex
+│       │   ├── GP 8.W.2.tex
+│       │   └── GP Answer Keys
+│       │       ├── GP 8.L.1a.Answer Key.tex
+│       │       ├── GP 8.L.1b.Answer Key.tex
+│       │       ├── GP 8.L.1c.Answer Key.tex
+│       │       ├── GP 8.RI.1&2.Answer Key.tex
+│       │       ├── GP 8.RI.1&3.Answer Key.tex
+│       │       ├── GP 8.RL.1&2.Answer Key.tex
+│       │       ├── GP 8.RL.1&3.Answer Key.tex
+│       │       ├── GP 8.W.1.Answer Key.tex
+│       │       ├── GP 8.W.2.Answer Key.tex
+│       │       └── SAMPLES.tex
+│       ├── Round Logo.png.png
+│       └── Test Prep
+│           ├── TP 8.L.1a new.tex
+│           ├── TP 8.L.1b new.tex
+│           ├── TP 8.L.1c new.tex
+│           ├── TP 8.RI.1 new.tex
+│           ├── TP 8.RI.2 new.tex
+│           ├── TP 8.RI.3 new.tex
+│           ├── TP 8.RL.1 new.tex
+│           ├── TP 8.RL.2 new.tex
+│           ├── TP 8.RL.3 new.tex
+│           ├── TP 8.W.1 new.tex
+│           ├── TP 8.W.2 new.tex
+│           └── archived
+│               ├── TP 8.L.1.tex
+│               ├── TP 8.RI.1 + 2.tex
+│               ├── TP 8.RI.1.tex
+│               ├── TP 8.RI.2.tex
+│               ├── TP 8.RI.3.tex
+│               ├── TP 8.RL.1.tex
+│               ├── TP 8.RL.2.tex
+│               ├── TP 8.RL.3.tex
+│               ├── TP 8.RL.4.tex
+│               ├── TP 8.W.1.tex
+│               └── TP 8.W.2.tex
+├── Math Content
+│   ├── Math Grade 3
+│   │   ├── Grade 3 Assessment
+│   │   │   ├── Post-Assessment 3.StudentVersion.tex
+│   │   │   ├── Pre-Assessment 3.StudentVersion.tex
+│   │   │   └── Pre-Post Assessment 3.InstructorVersion.tex
+│   │   ├── Grade 3 Guided Lesson
+│   │   │   ├── Generic.3.NF.A.1.GL.Instructor Version.tex
+│   │   │   ├── Generic.3.NF.A.1.GL.tex
+│   │   │   ├── Generic.3.OA.A.1, 3.OA.A.3.GL.Instructor Version.tex
+│   │   │   ├── Generic.3.OA.A.1, 3.OA.A.3.GL.tex
+│   │   │   ├── Generic.3.OA.A.4.GL.Instructor Version.tex
+│   │   │   ├── Generic.3.OA.A.4.GL.tex
+│   │   │   ├── Generic.3.OA.B.5, 3.OA.B.6.GL.Instructor Version.tex
+│   │   │   ├── Generic.3.OA.B.5, 3.OA.B.6.GL.tex
+│   │   │   ├── Generic.3.OA.C.7.GL.Instructor Version.tex
+│   │   │   ├── Generic.3.OA.C.7.GL.tex
+│   │   │   ├── Generic.3.OA.C.8.GL.Instructor Version.tex
+│   │   │   └── Generic.3.OA.C.8.GL.tex
+│   │   ├── Grade 3 Problem Sets
+│   │   │   ├── Generic.3.NF.A.1.PS.tex
+│   │   │   ├── Generic.3.OA.A.1, 3.OA.A.3.PS.tex
+│   │   │   ├── Generic.3.OA.A.4.PS.tex
+│   │   │   ├── Generic.3.OA.B.5, 3.OA.B.6.PS.tex
+│   │   │   ├── Generic.3.OA.C.7.PS.tex
+│   │   │   └── Generic.3.OA.C.8.PS.tex
+│   │   └── PS Answer Keys
+│   │       ├── Generic.KEY.3.NF.A.1.tex
+│   │       ├── Generic.KEY.3.OA.A.1, 3.OA.A.3.tex
+│   │       ├── Generic.KEY.3.OA.A.4.tex
+│   │       ├── Generic.KEY.3.OA.B.5, 3.OA.B.6.tex
+│   │       ├── Generic.KEY.3.OA.C.7.tex
+│   │       └── Generic.KEY.3.OA.C.8.tex
+│   ├── Math Grade 4
+│   │   ├── Grade 4 Assessment
+│   │   │   ├── AASA Post-Assessment 4.StudentVersion.tex
+│   │   │   ├── AASA Pre-Assessment 4.StudentVersion.tex
+│   │   │   ├── AASA Pre-Post Assessment 4.InstructorVersion.tex
+│   │   │   ├── RoundLogo.png.png
+│   │   │   └── logo.png.png
+│   │   ├── Grade 4 Guided Lessons
+│   │   │   ├── Generic.4.NBT.A.1, 4.NBT.A.2.GL.Instructor Version.tex
+│   │   │   ├── Generic.4.NBT.A.1, 4.NBT.A.2.GL.tex
+│   │   │   ├── Generic.4.NBT.B.4.GL.Instructor Version.tex
+│   │   │   ├── Generic.4.NBT.B.4.GL.tex
+│   │   │   ├── Generic.4.NBT.B.5.GL.Instructor Version.tex
+│   │   │   ├── Generic.4.NBT.B.5.GL.tex
+│   │   │   ├── Generic.4.NBT.B.6.GL.Instructor Version.tex
+│   │   │   ├── Generic.4.NBT.B.6.GL.tex
+│   │   │   ├── Generic.4.NF.A.1.GL.Instructor Version.tex
+│   │   │   ├── Generic.4.NF.A.1.GL.tex
+│   │   │   ├── Generic.4.OA.A.2, 4.OA.A.3.GL.Instructor Version.tex
+│   │   │   ├── Generic.4.OA.A.2, 4.OA.A.3.GL.tex
+│   │   │   └── Round Logo.png.png
+│   │   ├── Grade 4 Problem Set
+│   │   │   ├── Generic.4.NBT.A.1, 4.NBT.A.2.PS.tex
+│   │   │   ├── Generic.4.NBT.B.4.PS.tex
+│   │   │   ├── Generic.4.NBT.B.5.PS.tex
+│   │   │   ├── Generic.4.NBT.B.6.PS.tex
+│   │   │   ├── Generic.4.NF.A.1.PS.tex
+│   │   │   └── Generic.4.OA.A.2, 4.OA.A.3.PS.tex
+│   │   └── PS Answer Keys
+│   │       ├── Generic.KEYS.4.NBT.A.1, 4.NBT.A.2.tex
+│   │       ├── Generic.KEYS.4.NBT.B.4.tex
+│   │       ├── Generic.KEYS.4.NBT.B.5.tex
+│   │       ├── Generic.KEYS.4.NBT.B.6.tex
+│   │       ├── Generic.KEYS.4.NF.A.1.tex
+│   │       └── Generic.KEYS.4.OA.A.2, 4.OA.A.3.tex
+│   ├── Math Grade 5
+│   │   ├── Grade 5 Assessment
+│   │   │   ├── AASA Post-Assessment 5.StudentVersion.tex
+│   │   │   ├── AASA Pre-Assessment 5.StudentVersion.tex
+│   │   │   ├── AASA Pre-Post Assessment 5.InstructorVersion.tex
+│   │   │   └── Grade 5 Assessment.tex
+│   │   ├── Grade 5 Guided Lessons
+│   │   │   ├── Generic.5.NBT.6.GL.Instructor Version.tex
+│   │   │   ├── Generic.5.NBT.6.GL.tex
+│   │   │   ├── Generic.5.NBT.A.1, 5.NBT.A.2.GL.Instructor Version.tex
+│   │   │   ├── Generic.5.NBT.A.1, 5.NBT.A.2.GL.tex
+│   │   │   ├── Generic.5.NBT.A.3.GL.Instructor Version.tex
+│   │   │   ├── Generic.5.NBT.A.3.GL.tex
+│   │   │   ├── Generic.5.NBT.A.5.GL.Instructor Version.tex
+│   │   │   ├── Generic.5.NBT.A.5.GL.tex
+│   │   │   ├── Generic.5.NBT.B.7.GL.Instructor Version.tex
+│   │   │   ├── Generic.5.NBT.B.7.GL.tex
+│   │   │   ├── Generic.5.NF.A.1, 5.NF.A.2.GL.Instructor Version.tex
+│   │   │   ├── Generic.5.NF.A.1, 5.NF.A.2.GL.tex
+│   │   │   ├── Round Logo.png.png
+│   │   │   └── name.tex
+│   │   ├── Grade 5 Problem Set
+│   │   │   ├── Generic.5.NBT.6.PS.tex
+│   │   │   ├── Generic.5.NBT.A.1, 5.NBT.A.2.PS.tex
+│   │   │   ├── Generic.5.NBT.A.3.PS.tex
+│   │   │   ├── Generic.5.NBT.A.5.PS.tex
+│   │   │   ├── Generic.5.NBT.B.7.PS.tex
+│   │   │   └── Generic.5.NF.A.1, 5.NF.A.2.PS.tex
+│   │   ├── PS Answer Keys
+│   │   │   ├── Generic.KEYS.5.NBT.6.tex
+│   │   │   ├── Generic.KEYS.5.NBT.A.1, 5.NBT.A.2.tex
+│   │   │   ├── Generic.KEYS.5.NBT.A.3.tex
+│   │   │   ├── Generic.KEYS.5.NBT.A.5.tex
+│   │   │   ├── Generic.KEYS.5.NBT.B.7.tex
+│   │   │   └── Generic.KEYS.5.NF.A.1, 5.NF.A.2.tex
+│   │   └── Round Logo.png.png
+│   ├── Math Grade 6
+│   │   ├── Grade 6 Assessment
+│   │   │   ├── AASA Post-Assessment 6.StudentVersion.tex
+│   │   │   ├── AASA Pre-Assessment 6.StudentVersion.tex
+│   │   │   ├── AASA Pre-Post Assessment 6.InstructorVersion.tex
+│   │   │   ├── Grade 6 Assessment.tex
+│   │   │   └── logo.png.png
+│   │   ├── Grade 6 Guided Lessons
+│   │   │   ├── Generic.6.EE.A.2.GL.Instructor Version.tex
+│   │   │   ├── Generic.6.EE.A.2.GL.tex
+│   │   │   ├── Generic.6.EE.B.5.GL.Instructor Version.tex
+│   │   │   ├── Generic.6.EE.B.5.GL.tex
+│   │   │   ├── Generic.6.NS.A.1.GL.Instructor Version.tex
+│   │   │   ├── Generic.6.NS.A.1.GL.tex
+│   │   │   ├── Generic.6.NS.C.6, 6.NS.C.7.GL.Instructor Version.tex
+│   │   │   ├── Generic.6.NS.C.6, 6.NS.C.7.GL.tex
+│   │   │   ├── Generic.6.RP.A.1, 6.RP.A.2.GL.Instructor Version.tex
+│   │   │   ├── Generic.6.RP.A.1, 6.RP.A.2.GL.tex
+│   │   │   ├── Generic.6.RP.A.3.GL.Instructor Version.tex
+│   │   │   ├── Generic.6.RP.A.3.GL.tex
+│   │   │   └── Round Logo.png
+│   │   ├── Grade 6 Problem Set
+│   │   │   ├── Generic.6.EE.A.2.PS.tex
+│   │   │   ├── Generic.6.EE.B.5.PS.tex
+│   │   │   ├── Generic.6.NS.A.1.PS.tex
+│   │   │   ├── Generic.6.NS.C.6, 6.NS.C.7.PS.tex
+│   │   │   ├── Generic.6.RP.A.1, 6.RP.A.2.PS.tex
+│   │   │   └── Generic.6.RP.A.3.PS.tex
+│   │   ├── PS Answer Keys
+│   │   │   ├── Generic.KEYS.6.EE.A.2.PS.tex
+│   │   │   ├── Generic.KEYS.6.EE.B.5.PS.tex
+│   │   │   ├── Generic.KEYS.6.NS.A.1.PS.tex
+│   │   │   ├── Generic.KEYS.6.NS.C.6, 6.NS.C.7.PS.tex
+│   │   │   ├── Generic.KEYS.6.RP.A.1, 6.RP.A.2.PS.tex
+│   │   │   └── Generic.KEYS.6.RP.A.3.PS.tex
+│   │   └── Round Logo.png.png
+│   ├── Math Grade 7
+│   │   ├── Grade 7 Assessment
+│   │   │   ├── AASA Post-Assessment 7.StudentVersion.tex
+│   │   │   ├── AASA Pre-Assessment 7.StudentVersion.tex
+│   │   │   ├── AASA Pre-Post Assessment 7.InstructorVersion.tex
+│   │   │   ├── Grade 7 Assessment.tex
+│   │   │   └── logo.png.png
+│   │   ├── Grade 7 Guided Lessons
+│   │   │   ├── Generic.7.EE.B.3.GL.Instructor Version.tex
+│   │   │   ├── Generic.7.EE.B.3.GL.tex
+│   │   │   ├── Generic.7.EE.B.4.GL.Instructor Version.tex
+│   │   │   ├── Generic.7.EE.B.4.GL.tex
+│   │   │   ├── Generic.7.NS.A.1.GL.Instructor Version.tex
+│   │   │   ├── Generic.7.NS.A.1.GL.tex
+│   │   │   ├── Generic.7.NS.A.2.GL.Instructor Version.tex
+│   │   │   ├── Generic.7.NS.A.2.GL.tex
+│   │   │   ├── Generic.7.RP.A.2a, 7.RP.A.2b.GL.Instructor Version.tex
+│   │   │   ├── Generic.7.RP.A.2a, 7.RP.A.2b.GL.tex
+│   │   │   ├── Generic.7.RP.A.3.GL.Instructor Version.tex
+│   │   │   ├── Generic.7.RP.A.3.GL.tex
+│   │   │   └── Round Logo.png.png
+│   │   ├── Grade 7 Problem Set
+│   │   │   ├── Generic.7.EE.B.3.PS.tex
+│   │   │   ├── Generic.7.EE.B.4.PS.tex
+│   │   │   ├── Generic.7.NS.A.1.PS.tex
+│   │   │   ├── Generic.7.NS.A.2.PS.tex
+│   │   │   ├── Generic.7.RP.A.2a, 7.RP.A.2b.PS.tex
+│   │   │   └── Generic.7.RP.A.3.PS.tex
+│   │   ├── PS Answer Keys
+│   │   │   ├── Generic.KEYS.7.EE.B.3.tex
+│   │   │   ├── Generic.KEYS.7.EE.B.4.tex
+│   │   │   ├── Generic.KEYS.7.NS.A.1.tex
+│   │   │   ├── Generic.KEYS.7.NS.A.2.tex
+│   │   │   ├── Generic.KEYS.7.RP.A.2a, 7.RP.A.2b.tex
+│   │   │   └── Generic.KEYS.7.RP.A.3.tex
+│   │   └── Round Logo.png.png
+│   └── Math Grade 8
+│       ├── Grade 8 Assessment
+│       │   ├── AASA Post-Assessment 8.StudentVersion.tex
+│       │   ├── AASA Pre-Assessment 8.StudentVersion.tex
+│       │   ├── AASA Pre-Post Assessment 8.InstructorVersion.tex
+│       │   ├── Grade 8 Assessment.tex
+│       │   └── logo.png.png
+│       ├── Grade 8 Guided Lesson
+│       │   ├── Generic.8.EE.A.1.GL.Instructor Version.tex
+│       │   ├── Generic.8.EE.A.1.GL.tex
+│       │   ├── Generic.8.EE.A.2.GL.Instructor Version.tex
+│       │   ├── Generic.8.EE.A.2.GL.tex
+│       │   ├── Generic.8.EE.B.5.GL.Instructor Version.tex
+│       │   ├── Generic.8.EE.B.5.GL.tex
+│       │   ├── Generic.8.EE.C.7.GL.Instructor Version.tex
+│       │   ├── Generic.8.EE.C.7.GL.tex
+│       │   ├── Generic.8.NS.A.1.GL.Instructor Version.tex
+│       │   ├── Generic.8.NS.A.1.GL.tex
+│       │   ├── Generic.8.NS.A.2.GL.Instructor Version.tex
+│       │   ├── Generic.8.NS.A.2.GL.tex
+│       │   └── Round Logo.png.png
+│       ├── Grade 8 Problem Set
+│       │   ├── Generic.8.EE.A.1.PS.tex
+│       │   ├── Generic.8.EE.A.2.PS.tex
+│       │   ├── Generic.8.EE.B.5.PS.tex
+│       │   ├── Generic.8.EE.C.7.PS.tex
+│       │   ├── Generic.8.NS.A.1.PS.tex
+│       │   └── Generic.8.NS.A.2.PS.tex
+│       ├── PS Answer Keys
+│       │   ├── Generic.KEYS.8.EE.A.1.tex
+│       │   ├── Generic.KEYS.8.EE.A.2.tex
+│       │   ├── Generic.KEYS.8.EE.B.5.tex
+│       │   ├── Generic.KEYS.8.EE.C.7.tex
+│       │   ├── Generic.KEYS.8.NS.A.1.tex
+│       │   └── Generic.KEYS.8.NS.A.2.tex
+│       └── Round Logo.png.png
+├── Round Logo.png
+├── SST_Color_Logo.png
+├── Test Prep KEYS
+│   ├── TP 3.L.1a&d new.KEY.tex
+│   ├── TP 3.L.1h new.KEY.tex
+│   ├── TP 3.L.1i new.KEY.tex
+│   ├── TP 3.L.2 new.KEY.tex
+│   ├── TP 3.RI.1 new.KEY.tex
+│   ├── TP 3.RI.2 new.KEY.tex
+│   ├── TP 3.RL.2 new.KEY.tex
+│   ├── TP 3.RL.3 new.tex
+│   ├── TP 4.L.1a new.KEY.tex
+│   ├── TP 4.L1.c new.KEY.tex
+│   ├── TP 4.RI.1 new.KEY.tex
+│   ├── TP 4.RI.2 new.KEY.tex
+│   ├── TP 4.RI.3 new.KEY.tex
+│   ├── TP 4.RL.1 new.KEY.tex
+│   ├── TP 4.RL.2 new.KEY.tex
+│   ├── TP 4.RL.3 new.KEY.tex
+│   ├── TP 4.W.1 new.tex
+│   ├── TP 5.L.1c new.KEY.tex
+│   ├── TP 5.L.1d new.KEY.tex
+│   ├── TP 5.RI.1 new.KEY.tex
+│   ├── TP 5.RI.2 new.KEY.tex
+│   ├── TP 5.RI.3 new.KEY.tex
+│   ├── TP 5.RI.5 new.KEY.tex
+│   ├── TP 5.RL.1 new.KEY.tex
+│   ├── TP 5.RL.2 new.KEY.tex
+│   ├── TP 5.RL.3 new.KEY.tex
+│   ├── TP 6.L.1a new.KEY.tex
+│   ├── TP 6.L.1c new.KEY.tex
+│   ├── TP 6.L.1d new.KEY.tex
+│   ├── TP 6.RI.1 new.KEY.tex
+│   ├── TP 6.RI.2 new.KEY.tex
+│   ├── TP 6.RI.3 new.KEY.tex
+│   ├── TP 6.RL.1 new.KEY.tex
+│   ├── TP 6.RL.2 new.KEY.tex
+│   ├── TP 6.RL.3 new.KEY.tex
+│   ├── TP 7.L.1b new.KEY.tex
+│   ├── TP 7.L.1c new.KEY.tex
+│   ├── TP 7.L.2 new.KEY.tex
+│   ├── TP 7.RI.1 new.KEY.tex
+│   ├── TP 7.RI.2 new.KEY.tex
+│   ├── TP 7.RI.3 new.KEY.tex
+│   ├── TP 7.RL.1 new.KEY.tex
+│   ├── TP 7.RL.2 new.KEY.tex
+│   ├── TP 7.RL.3 new.KEY.tex
+│   ├── TP 8.L.1a new.KEY.tex
+│   ├── TP 8.L.1b new.KEY.tex
+│   ├── TP 8.L.1c new.KEY.tex
+│   ├── TP 8.RI.1 new.KEY.tex
+│   ├── TP 8.RI.2 new.KEY.tex
+│   ├── TP 8.RI.3 new.KEY.tex
+│   ├── TP 8.RL.1 new.KEY.tex
+│   ├── TP 8.RL.2 new.KEY.tex
+│   ├── TP 8.RL.3 new.KEY.tex
+│   ├── TP 8.W.1 new.tex
+│   ├── TP 8.W.2 new.tex
+│   └── archived
+│       ├── TP 3.L.1 new.tex
+│       ├── TP 3.L.1.tex
+│       ├── TP 3.L.2.tex
+│       ├── TP 3.RI.1.tex
+│       ├── TP 3.RI.2.tex
+│       ├── TP 3.RI.8.tex
+│       ├── TP 3.RL.2.tex
+│       ├── TP 3.RL.3.tex
+│       ├── TP 3.W.1.tex
+│       └── TP 3.W.2.tex
+├── Tutoring Cover Pages
+│   ├── ELA Assessments Materials Cover Pages
+│   │   ├── ELA Assessment B.tex
+│   │   ├── ELA Assessment C.tex
+│   │   ├── ELA Instr.Assessment D.Cover Page.tex
+│   │   ├── ELA Instr.Assessment E.Cover Page.tex
+│   │   ├── ELA Instr.Assessment F.Cover Page.tex
+│   │   ├── ELA Post-Assessment D.tex
+│   │   ├── ELA Post-Assessment E.tex
+│   │   ├── ELA Post-Assessment F.tex
+│   │   ├── ELA Post-Assessment G.tex
+│   │   ├── ELA Pre-Assessment D.tex
+│   │   ├── ELA Pre-Assessment E.tex
+│   │   ├── ELA Pre-Assessment F.tex
+│   │   ├── ELA Pre-Assessment G.tex
+│   │   └── name.tex
+│   ├── ELA Curriculum Materials Cover Pages
+│   │   ├── ELA Curriculum A.tex
+│   │   ├── ELA Curriculum B.tex
+│   │   ├── ELA Curriculum C.tex
+│   │   ├── ELA Curriculum D.tex
+│   │   ├── ELA Curriculum F.tex
+│   │   ├── ELA Curriculum G.tex
+│   │   ├── ELA Curriculum H.tex
+│   │   ├── ELA Curriculum I.tex
+│   │   ├── Instr.Curriculum F.tex
+│   │   ├── Instr.ELA Curriculum D.tex
+│   │   ├── Instr.ELA Curriculum E.tex
+│   │   ├── Instr.ELA Curriculum F.tex
+│   │   ├── Instr.ELA Curriculum G.tex
+│   │   ├── Instr.ELA Curriculum H.tex
+│   │   └── Instr.ELA Curriculum I.tex
+│   ├── Math Assessment Cover Pages
+│   │   ├── Grade 3 Math Assessments Cover Pg.tex
+│   │   ├── Grade 3 Math Post Assessment Cover Page.tex
+│   │   ├── Grade 3 Math Pre Assessment Cover Page.tex
+│   │   ├── Grade 4 Math Assessments Cover.tex
+│   │   ├── Grade 4 Math Post Assessment Cover Page.tex
+│   │   ├── Grade 4 Math Pre Assessment Cover Page.tex
+│   │   ├── Grade 5 Math Assessments Cover.tex
+│   │   ├── Grade 5 Math Post Assessment Cover Page.tex
+│   │   ├── Grade 5 Math Pre Assessment Cover Page.tex
+│   │   ├── Grade 6 Math Assessments Cover.tex
+│   │   ├── Grade 6 Math Post Assessment Cover Page.tex
+│   │   ├── Grade 6 Math Pre Assessment Cover Page.tex
+│   │   └── Instr.Grade 3 Math Post Assessment Cover Page.tex
+│   ├── Math Curriculum Materials Cover Pages
+│   │   ├── Curriculum A Math.tex
+│   │   ├── Curriculum B Math.tex
+│   │   ├── Curriculum C Math.tex
+│   │   ├── Curriculum D Math.tex
+│   │   ├── Curriculum E Math.tex
+│   │   ├── Curriculum F Math.tex
+│   │   ├── Curriculum G Math.tex
+│   │   ├── Curriculum H Math.tex
+│   │   ├── Curriculum I Math.tex
+│   │   ├── Instr.Curriculum D Math.tex
+│   │   ├── Instr.Curriculum E Math.tex
+│   │   ├── Instr.Curriculum F Math.tex
+│   │   ├── Instr.Curriculum G Math.tex
+│   │   ├── Instr.Curriculum H Math.tex
+│   │   └── Instr.Curriculum I Math.tex
+│   ├── Round Logo.png.png
+│   └── SST_Color_Logo.png
+├── directory_structure.txt
+└── main.tex
+
+85 directories, 619 files

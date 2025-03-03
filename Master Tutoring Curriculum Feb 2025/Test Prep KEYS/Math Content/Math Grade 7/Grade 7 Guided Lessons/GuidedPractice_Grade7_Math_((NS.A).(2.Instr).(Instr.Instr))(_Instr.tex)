@@ -1,0 +1,191 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper, top=0.8in, bottom=0.7in, left=0.8in, right=0.8in]{geometry}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage{tcolorbox}
+\usepackage{textcomp}
+\usepackage[defaultfam,tabular,lining]{montserrat}
+\usepackage{xcolor}
+
+% General Comment: Template for creating guided lessons in a structured format with headers, titles, and sections.
+
+\setlength{\parindent}{0pt}
+\pagestyle{fancy}
+
+\setlength{\headheight}{27.11148pt}
+\addtolength{\topmargin}{-15.11148pt}
+
+\fancyhf{}
+%\fancyhead[L]{\textbf{Standard(s): 7.NS.A.2}}
+\fancyhead[R]{\includegraphics[width=0.8cm]{Round Logo.png}}
+\fancyfoot[C]{\footnotesize © Study Smart Tutors}
+
+\sloppy
+
+\title{}
+\date{}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\begin{document}
+
+\subsection*{Guided Lesson: Multiplying and Dividing Rational Numbers}
+\onehalfspacing
+
+% Learning Objective Box
+\begin{tcolorbox}[colframe=black!40, colback=gray!5, 
+coltitle=black, colbacktitle=black!20, fonttitle=\bfseries\Large, 
+title=Learning Objective, halign title=center, left=5pt, right=5pt, top=5pt, bottom=15pt]
+\textbf{Objective:} Understand and solve problems involving multiplication and division of rational numbers, including negative fractions and decimals, to prepare for real-world applications.
+
+{\color{blue} \textbf{Instructor Note:} Emphasize that understanding multiplication and division of rational numbers is foundational for interpreting real-world scenarios, such as changes in elevation, financial transactions, and rates of change. Connect the objective to practical applications to enhance engagement.}
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Key Concepts and Vocabulary
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Key Concepts and Vocabulary, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Key Concepts:}
+\begin{itemize}
+    \item \textbf{Multiplying Rational Numbers:} Multiply the absolute values. The product is positive if both numbers have the same sign and negative if they have different signs.
+    \item \textbf{Dividing Rational Numbers:} Divide the absolute values. The quotient is positive if both numbers have the same sign and negative if they have different signs.
+    \item \textbf{Fractions and Reciprocals:} To divide fractions, multiply by the reciprocal. For example, \( \frac{3}{4} \div \frac{2}{5} = \frac{3}{4} \times \frac{5}{2} = \frac{15}{8} \).
+    \item \textbf{Decimals:} Perform multiplication or division as with whole numbers, then adjust the decimal place based on the number of decimal places in the factors.
+\end{itemize}
+
+{\color{blue} \textbf{Instructor Note:} Use examples to highlight the sign rules and the importance of absolute values. A number line can help students visualize how signs affect the product or quotient. For fractions, emphasize the reciprocal operation for division.}
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Examples (First Box)
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Examples (Part 1), halign title=center, left=10pt, right=10pt, top=10pt, bottom=5pt]
+\textbf{Example 1: Multiplying a Fraction and an Integer}
+\begin{itemize}
+    \item Problem: \( -6 \times \frac{7}{2} \)
+    \item \textcolor{red}{Solution: Step 1: Multiply the absolute values: \( 6 \times \frac{7}{2} = \frac{42}{2} = 21 \). \\ 
+    Step 2: Since the signs are different, the result is negative. Final Answer: \( -21 \).}
+\end{itemize}
+
+{\color{blue} \textbf{Instructor Note:} Ask students to identify the sign of the result before performing the calculation. This builds fluency with the sign rules.}
+
+\textbf{Example 2: Dividing Two Integers}
+\begin{itemize}
+    \item Problem: \( \frac{-56}{8} \)
+    \item \textcolor{red}{Solution: Step 1: Divide the absolute values: \( 56 \div 8 = 7 \). \\ 
+    Step 2: Since the signs are different, the result is negative. Final Answer: \( -7 \).}
+\end{itemize}
+
+{\color{blue} \textbf{Instructor Note:} Reinforce the concept that division by a positive number flips the sign of a negative dividend. Highlight the importance of simplifying fractions whenever possible.}
+
+\textbf{Example 3: Multiplying Fractions}
+\begin{itemize}
+    \item Problem: \( -\frac{4}{3} \times -9 \)
+    \item \textcolor{red}{Solution: Step 1: Multiply the absolute values: \( \frac{4}{3} \times 9 = \frac{36}{3} = 12 \). \\ 
+    Step 2: Since both numbers are negative, the result is positive. Final Answer: \( 12 \).}
+\end{itemize}
+
+{\color{blue} \textbf{Instructor Note:} Emphasize the connection between multiplying fractions and whole numbers. Ask students to check if the result can be simplified further.}
+\end{tcolorbox}
+
+% Examples (Second Box)
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Examples (Part 2), halign title=center, left=10pt, right=10pt, top=10pt, bottom=5pt]
+
+\textbf{Example 4: Multiplying Decimals}
+\begin{itemize}
+    \item Problem: \( 3.5 \times -2.5 \)
+    \item \textcolor{red}{Solution: Step 1: Multiply the absolute values: \( 3.5 \times 2.5 = 8.75 \). \\ 
+    Step 2: Since the signs are different, the result is negative. Final Answer: \( -8.75 \).}
+\end{itemize}
+
+{\color{blue} \textbf{Instructor Note:} Remind students to count the decimal places in the factors and adjust the result accordingly. Use estimation to confirm the reasonableness of the final answer.}
+
+\textbf{Example 5: Dividing by a Fraction}
+\begin{itemize}
+    \item Problem: \( -5 \div -\frac{1}{2} \)
+    \item \textcolor{red}{Solution: Step 1: Rewrite as multiplication by the reciprocal: \( -5 \times -2 \). \\ 
+    Step 2: Multiply: \( -5 \times -2 = 10 \). \\ 
+    Step 3: Since both numbers are negative, the result is positive. Final Answer: \( 10 \).}
+\end{itemize}
+
+{\color{blue} \textbf{Instructor Note:} Encourage students to rewrite division problems involving fractions as multiplication problems. This reinforces the reciprocal operation.}
+\end{tcolorbox}
+
+
+\vspace{1em}
+
+% Guided Practice
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Guided Practice, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Solve the following problems with teacher support:}
+\begin{enumerate}[itemsep=1em]
+    \item Solve: \( \frac{-72}{8} \) \\
+    \textcolor{red}{Solution: \( 72 \div 8 = 9 \). Since the signs are different, the answer is \( -9 \).}
+    \item Multiply: \( \frac{-3}{2} \times -\frac{7}{3} \) \\
+    \textcolor{red}{Solution: Multiply the absolute values: \( \frac{3}{2} \times \frac{7}{3} = \frac{21}{6} = \frac{7}{2} \). Since both numbers are negative, the result is positive. Final Answer: \( \frac{7}{2} \).}
+    \item Divide: \( 10.5 \div -3 \) \\
+    \textcolor{red}{Solution: Divide the absolute values: \( 10.5 \div 3 = 3.5 \). Since the signs are different, the result is negative. Final Answer: \( -3.5 \).}
+    \item Write and solve an equation: A person owes \$6.50 to 5 friends. What is the total debt? \\
+    \textcolor{red}{Solution: Equation: \( -6.50 \times 5 = -32.50 \). Total debt: \$32.50.}
+    \item A diver descends at a rate of \( -2.4 \, \text{m/s} \) for 15 seconds. Write and solve an equation to find the diver’s depth. \\
+    \textcolor{red}{Solution: Equation: \( -2.4 \times 15 = -36.0 \). Depth: \( -36.0 \, \text{m} \).}
+\end{enumerate}
+
+{\color{blue} \textbf{Instructor Note:} Guide students through these problems by asking them to explain each step. Reinforce the importance of signs and how they affect the results.}
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Independent Practice
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Independent Practice, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Solve the following problems independently:}
+\begin{enumerate}[itemsep=5em]
+    \item Solve: \( -9 \times 3.5 \) \\
+    \textcolor{red}{Solution: Multiply the absolute values: \( 9 \times 3.5 = 31.5 \). Since the signs are different, the result is negative. Final Answer: \( -31.5 \).}
+    \item Divide: \( -\frac{24}{3} \) \\
+    \textcolor{red}{Solution: Divide the absolute values: \( 24 \div 3 = 8 \). Since the signs are different, the result is negative. Final Answer: \( -8 \).}
+    \item Calculate: \( \frac{-15}{2} \div \frac{5}{6} \) \\
+    \textcolor{red}{Solution: Rewrite as multiplication by the reciprocal: \( \frac{-15}{2} \times \frac{6}{5} = \frac{-90}{10} = -9 \).}
+    \item A car moves backward at \( -4.5 \, \text{miles/hour} \) for 3 hours. Write and solve an equation to find the total distance traveled. \\
+    \textcolor{red}{Solution: Equation: \( -4.5 \times 3 = -13.5 \). Total distance: \( -13.5 \, \text{miles} \).}
+    \item Solve: \( (-5) \times (-2.5) + \frac{-8}{4} \) \\
+    \textcolor{red}{Solution: Step 1: Multiply: \( -5 \times -2.5 = 12.5 \). \\ 
+    Step 2: Divide: \( \frac{-8}{4} = -2 \). \\ 
+    Step 3: Add: \( 12.5 + (-2) = 10.5 \). Final Answer: \( 10.5 \).}
+\end{enumerate}
+
+{\color{blue} \textbf{Instructor Note:} Circulate the room while students work independently, providing hints and clarifying misconceptions as needed. Pay close attention to how students handle sign rules.}
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Exit Ticket
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Exit Ticket, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Reflect and solve:}
+\begin{itemize}
+    \item Explain why \( (-4) \times (-3) \) is positive. \\
+    \textcolor{red}{Solution: Multiplying two negatives makes a positive because the product of two numbers with the same sign is positive.}
+    \item How do the rules for multiplying and dividing rational numbers help solve real-world problems like those in the problem set? \\
+    \textcolor{red}{Solution: The rules help identify whether the result is positive or negative, which is critical in interpreting debts, descents, or other scenarios.}
+\end{itemize}
+
+{\color{blue} \textbf{Instructor Note:} Use the exit ticket to assess understanding of sign rules and their application. Encourage students to reflect on how these rules apply to practical problems.}
+\end{tcolorbox}
+
+\end{document}

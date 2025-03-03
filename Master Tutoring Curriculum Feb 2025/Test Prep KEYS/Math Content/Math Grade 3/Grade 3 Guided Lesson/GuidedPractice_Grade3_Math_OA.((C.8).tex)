@@ -1,0 +1,148 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper, top=0.8in, bottom=0.7in, left=0.8in, right=0.8in]{geometry}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{tcolorbox}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage[defaultfam,tabular,lining]{montserrat} % Font settings for Montserrat
+
+\setlength{\parindent}{0pt}
+\pagestyle{fancy}
+
+\setlength{\headheight}{27.11148pt}
+\addtolength{\topmargin}{-15.11148pt}
+
+\fancyhf{}
+%\fancyhead[L]{\textbf{Standard(s): 3.OA.C.8}}
+\fancyhead[R]{\includegraphics[width=0.8cm]{Round Logo.png}} % Placeholder for logo
+\fancyfoot[C]{\footnotesize \textcopyright{} Study Smart Tutors}
+
+\sloppy
+
+\title{}
+\date{}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\begin{document}
+
+\subsection*{Guided Lesson: Solving Two-Step Word Problems Using Four Operations}
+\onehalfspacing
+
+\vspace{1cm}
+
+% Learning Objective Box
+\begin{tcolorbox}[colframe=black!40, colback=gray!5, 
+coltitle=black, colbacktitle=black!20, fonttitle=\bfseries\Large, 
+title=Learning Objective, halign title=center, left=5pt, right=5pt, top=5pt, bottom=15pt]
+\textbf{Objective:} Solve two-step word problems using addition, subtraction, multiplication, and division. Represent these problems using equations with a letter for the unknown quantity, and check for reasonableness using estimation.
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Key Concepts and Vocabulary
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Key Concepts and Vocabulary, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Key Concepts:}
+\begin{itemize}
+    \item \textbf{Two-Step Word Problems:} These problems require two operations to solve. For example, you may add first, then divide, or multiply first, then subtract.
+    \item \textbf{Equations with Variables:} Use letters to represent unknown values in equations. For example, \(5x + 10 = 35\) represents a problem where you need to solve for \(x\).
+    \item \textbf{Order of Operations:} Follow the correct order when solving equations: parentheses first, then multiplication/division, then addition/subtraction.
+    \item \textbf{Estimation and Reasonableness:} Use rounding or mental math to check if your solution makes sense.
+\end{itemize}
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Examples
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Examples, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Example 1: Addition and Multiplication}
+\begin{itemize}
+    \item \textbf{Problem:} A soccer team scores 2 goals in the first half of a game and 3 goals in the second half. If each goal is worth 5 points, how many points does the team score in total?
+    \item \textbf{Solution:} Step 1: Add the goals: \(2 + 3 = 5\).\\
+    Step 2: Multiply by the points per goal: \(5 \times 5 = 25\).\\
+    \textbf{Answer:} The team scores 25 points.
+\end{itemize}
+
+\textbf{Example 2: Subtraction and Division}
+\begin{itemize}
+    \item \textbf{Problem:} A school orders 120 markers. They distribute 30 markers to each of 3 classrooms. How many markers are left?
+    \item \textbf{Solution:} Step 1: Multiply to find the markers distributed: \(30 \times 3 = 90\).\\
+    Step 2: Subtract from the total markers: \(120 - 90 = 30\).\\
+    \textbf{Answer:} There are 30 markers left.
+\end{itemize}
+
+\textbf{Example 3: Writing an Equation}
+\begin{itemize}
+    \item \textbf{Problem:} A baker bakes \(x\) trays of cookies, with 12 cookies per tray. Then they sell 15 cookies. If 45 cookies are left, how many trays of cookies did they bake?
+    \item \textbf{Solution:} Step 1: Write an equation: \(12x - 15 = 45\).\\
+    Step 2: Solve for \(x\): \(12x = 60 \rightarrow x = 5\).\\
+    \textbf{Answer:} The baker baked 5 trays of cookies.
+\end{itemize}
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Guided Practice
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Guided Practice, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Solve the following problems with teacher support:}
+\begin{enumerate}[itemsep=5em]
+    \item A library has 120 books. After donating 40 books to a school, they divide the remaining books equally into 8 shelves. How many books are on each shelf?
+    \item A farmer collects 5 baskets of apples, with 12 apples in each basket. Then they sell 30 apples. How many apples are left?
+    \item Write an equation with a variable to represent: "A student spends $x$ dollars on lunch every day for 5 days and then spends \$10 on snacks. If they spend \$60 in total, how much is $x$?"
+    \vspace{3 cm}
+\end{enumerate}
+\end{tcolorbox}
+
+\vspace{2em}
+
+% Additional Notes
+\begin{tcolorbox}[colframe=black!40, colback=gray!5, 
+coltitle=black, colbacktitle=black!20, fonttitle=\bfseries\Large, 
+title=Additional Notes, halign title=center, left=5pt, right=5pt, top=5pt, bottom=15pt]
+\textbf{Note:}
+\begin{itemize}
+    \item Encourage students to underline important numbers and key words in word problems.
+    \item Remind students to estimate answers before solving to check reasonableness.
+    \item Use visuals, such as bar models or number lines, to represent steps in two-step problems.
+\end{itemize}
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Independent Practice
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Independent Practice, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Solve the following problems independently:}
+\begin{enumerate}[itemsep=5em]
+    \item A baker bakes 6 trays of cookies, with 10 cookies in each tray. Then they sell 25 cookies. How many cookies are left?
+    \item A student earns \$50 each week for 3 weeks. Then they spend \$120 on books. How much money do they have left?
+    \item Write an equation to represent: "A family buys 5 tickets to a concert for $x$ dollars each and spends \$20 on parking. If they spend \$120 in total, how much is $x$?"
+    \vspace{3 cm}
+\end{enumerate}
+\end{tcolorbox}
+
+\vspace{2em}
+
+% Exit Ticket
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Exit Ticket, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Answer the following question:}
+\begin{itemize}
+    \item Write a two-step word problem involving subtraction and division. Solve your problem and explain the steps.
+    \vspace{4 cm}
+\end{itemize}
+\end{tcolorbox}
+
+\end{document}

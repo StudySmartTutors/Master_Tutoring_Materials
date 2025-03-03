@@ -1,0 +1,122 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{standalone}
+\usepackage[a4paper, top=0.8in, bottom=0.7in, left=0.8in, right=0.8in]{geometry}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{amsfonts}
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage{tcolorbox}
+\usepackage{tikz}
+\usepackage{multicol}
+\usepackage[defaultfam,tabular,lining]{montserrat} % Font settings for Montserrat
+
+\usepackage{xcolor}  % To use colors
+\hypersetup{
+    colorlinks=true,   % Activate colored links
+    linkcolor=blue,    % Link color for internal links
+    urlcolor=blue,     % Link color for URLs
+    filecolor=blue,    % Link color for file links
+    menucolor=blue,    % Link color for menus
+}
+
+\sloppy
+
+\title{}
+\date{}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\setlength{\parindent}{0pt}
+\pagestyle{fancy}
+
+\setlength{\headheight}{27.11148pt}
+\addtolength{\topmargin}{-15.11148pt}
+
+\fancyhf{}
+\fancyhead[L]{\textbf{Curriculum D TWB}}
+\fancyhead[R]{\includegraphics[width=0.8cm]{Round Logo.png}} % Placeholder for logo
+\fancyfoot[C]{\footnotesize \textcopyright{} Study Smart Tutors}
+\fancyfoot[R]{\thepage}  % Page number in bottom right corner
+\fancyfoot[L]{\hyperlink{toc}{Back to Contents}} % Clickable link in bottom left to TOC
+
+\sloppy
+
+% Define a new command for the level letter
+\newcommand{\levelLetter}{D}  % Change this letter to update throughout the document
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+% Title Page
+\input{Tutoring Cover Pages/Math Curriculum Materials Cover Pages/Instr.Curriculum D Math.tex} % Include the title page content here
+title page content here
+\pagenumbering{gobble}
+\hypertarget{toc}{}  % Mark the TOC as a hyperlink target
+% Table of Contents
+\tableofcontents
+\newpage
+
+% Restart page numbering from 1 after TOC
+\pagenumbering{arabic}
+\pagestyle{fancy}  % Re-enable fancy headers/footers
+
+% Guided Lesson and Answer Key for 3.OA.A.1, 3.OA.A.3
+\newpage
+\section{3.OA.A.1, 3.OA.A.3 Guided Lesson (Instructor Version)}
+\input{Grade 3/Grade 3 Guided Lesson/Generic.3.OA.A.1, 3.OA.A.3.GL.Instructor Version.tex}
+
+\newpage
+\section{3.OA.A.1, 3.OA.A.3 Problem Set Answer Key}
+\input{Grade 3/PS Answer Keys/Generic.KEY.3.OA.A.1, 3.OA.A.3.tex}
+
+% Guided Lesson and Answer Key for 3.OA.A.4
+\newpage
+\section{3.OA.A.4 Guided Lesson (Instructor Version)}
+\input{Grade 3/Grade 3 Guided Lesson/Generic.3.OA.A.4.GL.Instructor Version.tex}
+
+\newpage
+\section{3.OA.A.4 Problem Set Answer Key}
+\input{Grade 3/PS Answer Keys/Generic.KEY.3.OA.A.4.tex}
+
+% Guided Lesson and Answer Key for 3.OA.B.5, 3.OA.B.6
+\newpage
+\section{3.OA.B.5, 3.OA.B.6 Guided Lesson (Instructor Version)}
+\input{Grade 3/Grade 3 Guided Lesson/Generic.3.OA.B.5, 3.OA.B.6.GL.Instructor Version.tex}
+
+\newpage
+\section{3.OA.B.5, 3.OA.B.6 Problem Set Answer Key}
+\input{Grade 3/PS Answer Keys/Generic.KEY.3.OA.B.5, 3.OA.B.6.tex}
+
+% Guided Lesson and Answer Key for 3.OA.C.7
+\newpage
+\section{3.OA.C.7 Guided Lesson (Instructor Version)}
+\input{Grade 3/Grade 3 Guided Lesson/Generic.3.OA.C.7.GL.Instructor Version.tex}
+
+\newpage
+\section{3.OA.C.7 Problem Set Answer Key}
+\input{Grade 3/PS Answer Keys/Generic.KEY.3.OA.C.7.tex}
+
+% Guided Lesson and Answer Key for 3.OA.C.8
+\newpage
+\section{3.OA.C.8 Guided Lesson (Instructor Version)}
+\input{Grade 3/Grade 3 Guided Lesson/Generic.3.OA.C.8.GL.Instructor Version.tex}
+
+\newpage
+\section{3.OA.C.8 Problem Set Answer Key}
+\input{Grade 3/PS Answer Keys/Generic.KEY.3.OA.C.8.tex}
+
+% Guided Lesson and Answer Key for 3.NF.A.1
+\newpage
+\section{3.NF.A.1 Guided Lesson (Instructor Version)}
+\input{Grade 3/Grade 3 Guided Lesson/Generic.3.NF.A.1.GL.Instructor Version.tex}
+
+\newpage
+\section{3.NF.A.1 Problem Set Answer Key}
+\input{Grade 3/PS Answer Keys/Generic.KEY.3.NF.A.1.tex}
+
+\end{document}

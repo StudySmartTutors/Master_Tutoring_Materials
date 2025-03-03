@@ -1,0 +1,155 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper, top=0.8in, bottom=0.7in, left=0.8in, right=0.8in]{geometry}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{tcolorbox}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage[defaultfam,tabular,lining]{montserrat} % Font settings for Montserrat
+
+% ChatGPT Directions:
+% ----------------------------------------------------------------------
+% This template is designed for creating guided lessons that align strictly with specific standards.
+% Key points to ensure proper usage:
+% 
+% 1. **Key Concepts and Vocabulary**:
+%    - Include only the concepts necessary for meeting the standards.
+%    - Each Key Concept section must align explicitly with the standards being addressed.
+% 2. **Examples**:
+%    - Provide concrete worked examples to illustrate the Key Concepts.
+%    - These should directly tie back to the Key Concepts presented earlier.
+% 3. **Guided Practice**:
+%    - Problems should reinforce Key Concepts and Examples.
+%    - Allow for ample spacing between problems to give students room for work.
+% 4. **Additional Notes**:
+%    - Use this section for helpful but non-essential concepts, strategies, or teacher notes.
+%    - Examples: Fact families, properties of operations, or alternative explanations.
+% 5. **Independent Practice**:
+%    - Provide problems for students to practice Key Concepts individually.
+% 6. **Exit Ticket**:
+%    - Include a reflective or assessment-based question to evaluate student understanding.
+% ----------------------------------------------------------------------
+
+\setlength{\parindent}{0pt}
+\pagestyle{fancy}
+
+\setlength{\headheight}{27.11148pt}
+\addtolength{\topmargin}{-15.11148pt}
+
+\fancyhf{}
+%\fancyhead[L]{\textbf{7.EE.B.4: Writing and Solving Equations and Inequalities}}
+\fancyhead[R]{\includegraphics[width=0.8cm]{Round Logo.png}} % Placeholder for logo
+\fancyfoot[C]{\footnotesize © Study Smart Tutors}
+
+\sloppy
+
+\title{}
+\date{}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\begin{document}
+
+\subsection*{Guided Lesson: Writing and Solving Equations and Inequalities}
+\onehalfspacing
+
+% Learning Objective Box
+\begin{tcolorbox}[colframe=black!40, colback=gray!5, 
+coltitle=black, colbacktitle=black!20, fonttitle=\bfseries\Large, 
+title=Learning Objective, halign title=center, left=5pt, right=5pt, top=5pt, bottom=15pt]
+\textbf{Objective:} Write and solve equations and inequalities to model real-world situations, and solve for unknowns in two-step equations.
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Key Concepts and Vocabulary
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Key Concepts and Vocabulary, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Key Concepts:}
+\begin{itemize}
+    \item \textbf{Equations:} Represent real-world situations with mathematical expressions that include variables.
+    \item \textbf{Two-Step Equations:} Solve equations with two operations by isolating the variable step by step.
+    \item \textbf{Inequalities:} Model situations where there is a range of possible solutions using \( \leq, \geq, <, > \).
+    \item \textbf{Steps to Solve:}
+    \begin{itemize}
+        \item Identify the variable and translate the problem into an equation or inequality.
+        \item Perform inverse operations to isolate the variable.
+        \item Check your solution to ensure it fits the problem.
+    \end{itemize}
+\end{itemize}
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Examples Box
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Examples, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Example 1: Solving a Two-Step Equation}
+\begin{itemize}
+    \item Problem: Solve \( 5x + 3 = 18 \).
+    \item Solution:
+    \[
+    5x + 3 = 18 \quad \text{(Subtract 3 from both sides)} \quad 5x = 15 \quad \text{(Divide by 5)} \quad x = 3.
+    \]
+    The solution is \( x = 3 \).
+\end{itemize}
+
+\textbf{Example 2: Writing and Solving an Inequality}
+\begin{itemize}
+    \item Problem: A student needs at least 75 points to pass a test. They have scored 48 points. Write and solve an inequality to find how many more points they need.
+    \item Solution:
+    Let \( x \) represent the additional points needed.
+    \[
+    48 + x \geq 75 \quad \text{(Subtract 48 from both sides)} \quad x \geq 27.
+    \]
+    The student needs at least 27 more points to pass.
+\end{itemize}
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Guided Practice Box
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Guided Practice, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Solve the following problems with teacher support:}
+\begin{enumerate}[itemsep=3em]
+    \item Solve: \( 7x - 4 = 24 \).
+    \item Write and solve an equation: The sum of twice a number and 8 is 20.
+    \item Write and solve an inequality: A car can hold at most 15 gallons of fuel. It currently holds 8 gallons. How much more fuel can it hold?
+\end{enumerate}
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Independent Practice Box
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Independent Practice, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Solve the following problems independently:}
+\begin{enumerate}[itemsep=3em]
+    \item Solve: \( \frac{x}{3} + 5 = 14 \).
+    \item Write and solve an equation: Sarah buys 4 notebooks at \$3 each and a pencil for \$2. Find the total cost.
+    \item Write and solve an inequality: A box of books weighs \( x \) pounds. If 4 such boxes weigh a total of 32 pounds, find the weight of each box.
+    \item Solve: The length of a rectangle is 3 cm more than twice its width. If the perimeter is 30 cm, find the width.
+\end{enumerate}
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Exit Ticket Box
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Exit Ticket, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Reflect and Solve:}
+\begin{itemize}
+    \item Describe a real-world situation where you would use an equation or inequality to model and solve a problem. Write the equation or inequality and solve it.
+\end{itemize}
+\end{tcolorbox}
+
+\end{document}

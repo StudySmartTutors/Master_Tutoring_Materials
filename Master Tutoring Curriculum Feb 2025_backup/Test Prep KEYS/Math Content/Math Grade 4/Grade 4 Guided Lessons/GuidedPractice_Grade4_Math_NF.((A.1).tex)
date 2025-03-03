@@ -1,0 +1,147 @@
+% ChatGPT Directions 0 : 
+% This is a Tbox Problem set for the following standards 4.NF.A.1
+%--------------------------------------------------
+\documentclass[12pt]{article}
+\usepackage[a4paper, top=0.8in, bottom=0.7in, left=0.8in, right=0.8in]{geometry}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{tcolorbox}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage[defaultfam,tabular,lining]{montserrat} % Font settings for Montserrat
+
+% General Comment: Template for creating problem sets in a structured format with headers, titles, and sections.
+% This document uses Montserrat font and consistent styles for exercises, problems, and performance tasks.
+
+% -------------------------------------------------------------------
+% ChatGPT Directions:
+% 1. Always include a header with standards and topic title: \fancyhead[L]{\textbf{<Standards>: <Topic Title>}}.
+% 2. Subsection titles should always start with "Problem Set:" followed by the topic title.
+% 3. Use tcolorbox for distinct sections: Learning Objective, Exercises, Problems, Performance Task, and Reflection.
+% 4. Style guidelines:
+%    - Frame color: black or dark gray (colframe=black!60).
+%    - Background color: light gray or white (colback=gray!5 or colback=white).
+%    - Title background: slightly darker gray (colbacktitle=black!15).
+%    - Font style: Bold for titles (fonttitle=\bfseries\Large).
+% -------------------------------------------------------------------
+
+\setlength{\parindent}{0pt}
+\pagestyle{fancy}
+
+\setlength{\headheight}{27.11148pt}
+\addtolength{\topmargin}{-15.11148pt}
+
+\fancyhf{}
+%\fancyhead[L]{\textbf{4.NF.A.1: Equivalence of Fractions}}
+\fancyhead[R]{\includegraphics[width=0.8cm]{Round Logo.png}} % Placeholder for logo
+\fancyfoot[C]{\footnotesize © Study Smart Tutors}
+
+\sloppy
+
+\title{}
+\date{}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\begin{document}
+
+\subsection*{Guided Lesson: Equivalence of Fractions}
+\onehalfspacing
+
+% Learning Objective Box
+\begin{tcolorbox}[colframe=black!40, colback=gray!5, 
+coltitle=black, colbacktitle=black!20, fonttitle=\bfseries\Large, 
+title=Learning Objective, halign title=center, left=5pt, right=5pt, top=5pt, bottom=15pt]
+\textbf{Objective:} Recognize and generate equivalent fractions using multiplication, division, and visual models. Explain why two fractions are equivalent. \vspace{1cm}
+\end{tcolorbox}
+
+% Key Concepts and Vocabulary Box
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Key Concepts and Vocabulary, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Key Concepts:}
+\begin{itemize}
+    \item \textbf{Equivalent Fractions:} Fractions that represent the same value, even though they have different numerators and denominators (e.g., \( \frac{1}{2} = \frac{2}{4} = \frac{4}{8} \)).
+    \item \textbf{Generating Equivalent Fractions:} Multiply or divide the numerator and denominator by the same number to find an equivalent fraction.
+    \item \textbf{Simplifying Fractions:} Divide the numerator and denominator by their greatest common factor (GCF) to simplify a fraction.
+    \item \textbf{Visual Models:} Fraction bars, number lines, and area models help us see why two fractions are equivalent.
+    \vspace{1cm}
+\end{itemize}
+\end{tcolorbox} 
+
+% Examples Box
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Examples, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Example 1: Generating Equivalent Fractions}
+\begin{itemize}
+    \item Problem: Write \( \frac{3}{4} \) as an equivalent fraction with a denominator of \( 16 \).
+    \item Solution:
+    Multiply both numerator and denominator by \( 4 \):
+    \[
+    \frac{3}{4} \times \frac{4}{4} = \frac{12}{16}.
+    \]
+    Equivalent Fraction: \( \frac{12}{16} \).
+\end{itemize}
+
+\textbf{Example 2: Simplifying a Fraction}
+\begin{itemize}
+    \item Problem: Simplify \( \frac{24}{36} \).
+    \item Solution:
+    The GCF of 24 and 36 is \( 12 \). Divide numerator and denominator by \( 12 \):
+    \[
+    \frac{24 \div 12}{36 \div 12} = \frac{2}{3}.
+    \]
+    Simplified Fraction: \( \frac{2}{3} \).
+\end{itemize}
+
+\textbf{Example 3: Using Visual Models}
+\begin{itemize}
+    \item Problem: Show that \( \frac{2}{5} \) is equivalent to \( \frac{4}{10} \) using a fraction bar.
+    \item Solution:
+    Draw a fraction bar divided into 5 equal parts. Shade 2 parts to represent \( \frac{2}{5} \). Divide each part into 2 smaller parts, making 10 equal parts in total. Shade 4 parts to represent \( \frac{4}{10} \). Both fractions represent the same area, so \( \frac{2}{5} = \frac{4}{10} \). \vspace{1cm}
+\end{itemize}
+\end{tcolorbox}
+
+% Guided Practice Box
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Guided Practice, halign title=center, left=10pt, right=10pt, top=10pt, bottom=100pt]
+\textbf{Solve these problems with teacher support:}
+\begin{enumerate}[itemsep=3em]
+    \item Write \( \frac{5}{6} \) as an equivalent fraction with a denominator of \( 18 \). \vspace{1cm}
+    \item Simplify \( \frac{16}{20} \) by dividing the numerator and denominator by their GCF. \vspace{1cm}
+    \item Use a fraction bar to show that \( \frac{3}{4} = \frac{9}{12} \). \vspace{1cm}
+    \item Find two equivalent fractions for \( \frac{4}{9} \) by multiplying both numerator and denominator by different numbers. 
+\end{enumerate}
+\end{tcolorbox}
+
+% Independent Practice Box
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Independent Practice, halign title=center, left=10pt, right=10pt, top=10pt, bottom=100pt]
+\textbf{Solve the following problems independently:}
+\begin{enumerate}[itemsep=3em]
+    \item Multiply the numerator and denominator of \( \frac{7}{8} \) by 5. What is the equivalent fraction? \vspace{1cm}
+    \item Simplify \( \frac{27}{36} \) to its simplest form. \vspace{1cm}
+    \item Use a number line to show that \( \frac{2}{5} \) is equivalent to \( \frac{4}{10} \). \vspace{1cm}
+    \item Write three equivalent fractions for \( \frac{3}{7} \) by multiplying or dividing. \vspace{1cm}
+    \item Explain why \( \frac{4}{6} \) is equivalent to \( \frac{2}{3} \) using a visual model or mathematical reasoning.
+\end{enumerate}
+\end{tcolorbox}
+
+% Exit Ticket Box
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Exit Ticket, halign title=center, left=10pt, right=10pt, top=10pt, bottom=80pt]
+\textbf{Reflect on and solve:}
+\begin{itemize}
+    \item Explain how to generate an equivalent fraction for \( \frac{3}{5} \) with a denominator of \( 15 \). Why does multiplying both the numerator and denominator by \( 3 \) keep the fraction equivalent?
+\end{itemize}
+\vspace{1cm}
+\end{tcolorbox}
+
+\end{document}

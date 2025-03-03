@@ -1,0 +1,183 @@
+% ChatGPT Directions 0 : 
+% This is a Tbox Problem set for the following standards 6.EE.A.2
+%--------------------------------------------------
+\documentclass[12pt]{article}
+\usepackage[a4paper, top=0.8in, bottom=0.7in, left=0.8in, right=0.8in]{geometry}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{tcolorbox}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage[defaultfam,tabular,lining]{montserrat} % Font settings for Montserrat
+
+% General Comment: Template for creating problem sets in a structured format with headers, titles, and sections.
+% This document uses Montserrat font and consistent styles for exercises, problems, and performance tasks.
+
+% -------------------------------------------------------------------
+% ChatGPT Directions:
+% 1. Always include a header with standards and topic title: \fancyhead[L]{\textbf{<Standards>: <Topic Title>}}.
+% 2. Subsection titles should always start with "Problem Set:" followed by the topic title.
+% 3. Use tcolorbox for distinct sections: Learning Objective, Exercises, Problems, Performance Task, and Reflection.
+% 4. Style guidelines:
+%    - Frame color: black or dark gray (colframe=black!60).
+%    - Background color: light gray or white (colback=gray!5 or colback=white).
+%    - Title background: slightly darker gray (colbacktitle=black!15).
+%    - Font style: Bold for titles (fonttitle=\bfseries\Large).
+% -------------------------------------------------------------------
+
+\setlength{\parindent}{0pt}
+\pagestyle{fancy}
+
+\setlength{\headheight}{27.11148pt}
+\addtolength{\topmargin}{-15.11148pt}
+
+\fancyhf{}
+%\fancyhead[L]{\textbf{6.EE.A.2: Writing, Reading, and Evaluating Expressions}}
+\fancyhead[R]{\includegraphics[width=0.8cm]{Round Logo.png}} % Placeholder for logo
+\fancyfoot[C]{\footnotesize © Study Smart Tutors}
+
+\sloppy
+
+\title{}
+\date{}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\begin{document}
+
+\subsection*{Guided Lesson: Writing, Reading, and Evaluating Expressions}
+\onehalfspacing
+
+% Learning Objective Box
+\begin{tcolorbox}[colframe=black!40, colback=gray!5, 
+coltitle=black, colbacktitle=black!20, fonttitle=\bfseries\Large, 
+title=Learning Objective, halign title=center, left=5pt, right=5pt, top=5pt, bottom=15pt]
+\textbf{Objective:} Write, read, and evaluate expressions in which letters stand for numbers. Understand how to translate verbal phrases into algebraic expressions and evaluate expressions for specific values of the variables.
+\end{tcolorbox}
+
+% Key Concepts and Vocabulary Box
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Key Concepts and Vocabulary, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Key Concepts:}
+\begin{itemize}
+    \item \textbf{Variable:} A letter that represents an unknown value.
+    \item \textbf{Expression:} A combination of numbers, variables, and operations (e.g., \( 3x + 5 \)).
+    \item \textbf{Evaluate an Expression:} Substitute a number for a variable and perform the operations to find the value.
+    \item \textbf{Verbal to Algebraic Expressions:} Translate verbal descriptions into algebraic expressions (e.g., “the sum of a number and 7” translates to \( x + 7 \)).
+\end{itemize}
+\textcolor{blue}{Instructor Note: Highlight the importance of distinguishing between expressions and equations. Remind students that expressions do not have an equal sign, while equations do. Use examples to clarify the distinction.}
+\end{tcolorbox}
+
+
+
+% Examples Box
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Examples, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Example 1: Translating Verbal Phrases to Algebraic Expressions}
+\begin{itemize}
+    \item Problem: Translate “5 more than a number” into an algebraic expression.
+    \item Solution: \textcolor{red}{The phrase “5 more than a number” means adding 5 to the number. Write it as \( x + 5 \).}
+\end{itemize}
+\textcolor{blue}{Instructor Note: Emphasize to students the need to identify keywords in the phrase, such as "more than," which signals addition.}
+
+\textbf{Example 2: Evaluating an Expression}
+\begin{itemize}
+    \item Problem: Evaluate \( 3x + 4 \) when \( x = 2 \).
+    \item Solution: \textcolor{red}{Substitute \( x = 2 \) into \( 3x + 4 \): 
+    \[
+    3(2) + 4 = 6 + 4 = 10.
+    \]
+    The result is 10.}
+\end{itemize}
+\textcolor{blue}{Instructor Note: Model how to substitute correctly and follow the order of operations when simplifying expressions. Ensure students understand that multiplication is performed before addition.}
+
+\textbf{Example 3: Writing Expressions for Real-World Problems}
+\begin{itemize}
+    \item Problem: A movie ticket costs \$12. Write an expression for the total cost of \( t \) tickets.
+    \item Solution: \textcolor{red}{The cost of 1 ticket is \$12, so the cost of \( t \) tickets is \( 12t \).}
+\end{itemize}
+\textcolor{blue}{Instructor Note: Relate this problem to real-life situations, such as purchasing items in bulk, to make the concept relevant and engaging.}
+\end{tcolorbox}
+
+% Guided Practice Box
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Guided Practice, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Work through the following problems with teacher support:}
+\begin{enumerate}[itemsep=3em]
+    \item Translate: “7 times a number decreased by 3” into an algebraic expression. \\
+    \textcolor{red}{Expression: \( 7n - 3 \). Multiply \( n \) by 7, then subtract 3.}
+    \textcolor{blue}{Instructor Note: Encourage students to break the phrase into parts: identify "7 times a number" and "decreased by 3" separately before combining them.}
+
+    \item Evaluate \( 4n - 5 \) when \( n = 3 \). \\
+    \textcolor{red}{Substitute \( n = 3 \): 
+    \[
+    4(3) - 5 = 12 - 5 = 7.
+    \]
+    The result is 7.}
+    \textcolor{blue}{Instructor Note: Check that students substitute \( n = 3 \) into the expression and simplify step by step, avoiding calculation errors.}
+
+    \item A car rental costs \$30 per day plus a one-time fee of \$50. Write an expression for the total cost of renting a car for \( d \) days. \\
+    \textcolor{red}{Expression: \( 30d + 50 \). Multiply the number of days by 30 and add the one-time fee.}
+    \textcolor{blue}{Instructor Note: Discuss the importance of understanding fixed costs (one-time fee) versus variable costs (dependent on days).}
+
+    \item Write an algebraic expression to represent: “The sum of twice a number and 8.” \\
+    \textcolor{red}{Expression: \( 2n + 8 \). Multiply \( n \) by 2 and add 8.}
+    \textcolor{blue}{Instructor Note: Use examples with small values of \( n \) to verify the expression makes sense and reinforce understanding.}
+\end{enumerate}
+\end{tcolorbox}
+
+% Independent Practice Box
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Independent Practice, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Solve the following problems independently:}
+\begin{enumerate}[itemsep=3em]
+    \item Translate: “10 less than three times a number” into an algebraic expression. \\
+    \textcolor{red}{Expression: \( 3n - 10 \).}
+    \textcolor{blue}{Instructor Note: Prompt students to identify "three times a number" first and then subtract 10.}
+
+    \item Evaluate \( 2x + 7 \) when \( x = 4 \). \\
+    \textcolor{red}{Substitute \( x = 4 \): 
+    \[
+    2(4) + 7 = 8 + 7 = 15.
+    \]
+    The result is 15.}
+    \textcolor{blue}{Instructor Note: Remind students to follow the order of operations. Multiplication is performed before addition.}
+
+    \item A subscription costs \$15 per month. Write an expression for the total cost of \( m \) months. Then find the cost for 6 months. \\
+    \textcolor{red}{Expression: \( 15m \). For \( m = 6 \): 
+    \[
+    15(6) = 90.
+    \]
+    The total cost is \$90.}
+    \textcolor{blue}{Instructor Note: Relate this problem to budgeting scenarios to make it more applicable.}
+
+    \item Write an algebraic expression to represent: “Twice the sum of a number and 5.” \\
+    \textcolor{red}{Expression: \( 2(n + 5) \). First add \( n \) and 5, then multiply by 2.}
+    \textcolor{blue}{Instructor Note: Reinforce the use of parentheses to group terms in "sum" before applying multiplication.}
+\end{enumerate}
+\end{tcolorbox}
+
+% Exit Ticket Box
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Exit Ticket, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Reflect and Solve:}
+\begin{itemize}
+    \item How do you translate verbal phrases into algebraic expressions? Write an example problem and solve it. \\
+    \textcolor{red}{Example: “4 more than twice a number.” Expression: \( 2x + 4 \). If \( x = 5 \): 
+    \[
+    2(5) + 4 = 10 + 4 = 14.
+    \]
+    The result is 14.}
+    \textcolor{blue}{Instructor Note: Use the exit ticket to assess whether students can independently create and evaluate expressions. Encourage students to explain their thought process in detail.}
+\end{itemize}
+\end{tcolorbox}
+
+\end{document}

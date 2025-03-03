@@ -1,0 +1,159 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper, top=0.8in, bottom=0.7in, left=0.8in, right=0.8in]{geometry}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage{tcolorbox}
+\usepackage{textcomp}
+\usepackage[defaultfam,tabular,lining]{montserrat} % Font settings for Montserrat
+
+% General Comment: Template for creating guided lessons in a structured format with headers, titles, and sections.
+
+\setlength{\parindent}{0pt}
+\pagestyle{fancy}
+
+\setlength{\headheight}{27.11148pt}
+\addtolength{\topmargin}{-15.11148pt}
+
+\fancyhf{}
+%\fancyhead[L]{\textbf{Standard(s): 8.EE.B.5}}
+\fancyhead[R]{\includegraphics[width=0.8cm]{Round Logo.png}} % Placeholder for logo
+\fancyfoot[C]{\footnotesize © Study Smart Tutors}
+
+\sloppy
+
+\title{}
+\date{}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\begin{document}
+
+\subsection*{Guided Lesson: Graphing and Comparing Proportional Relationships}
+\onehalfspacing
+
+% Learning Objective Box
+\begin{tcolorbox}[colframe=black!40, colback=gray!5, 
+coltitle=black, colbacktitle=black!20, fonttitle=\bfseries\Large, 
+title=Learning Objective, halign title=center, left=5pt, right=5pt, top=5pt, bottom=15pt]
+\textbf{Objective:} Graph proportional relationships, interpret the unit rate as the slope of the graph, and compare proportional relationships represented in different ways.
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Key Concepts and Vocabulary
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Key Concepts and Vocabulary, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Key Concepts:}
+\begin{itemize}
+    \item \textbf{Proportional Relationships:} A relationship is proportional if the ratio between the two quantities is constant, resulting in a straight-line graph that passes through the origin \((0, 0)\).
+    \item \textbf{Unit Rate and Slope:}
+    \begin{itemize}
+        \item The \textbf{unit rate} is the ratio of \(y\) to \(x\), which can be interpreted as the slope of the line in a graph of a proportional relationship.
+        \item The slope formula is \(\text{slope} = \frac{\Delta y}{\Delta x}\), or the "rise over run."
+    \end{itemize}
+    \item \textbf{Graphing Proportional Relationships:} Plot points using a table of values, connect them with a straight line, and ensure the graph passes through the origin.
+\end{itemize}
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Examples
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Examples, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Example 1: Identifying Slope from a Graph}
+\begin{itemize}
+    \item Problem: The graph of a proportional relationship passes through the points \((0, 0)\) and \((4, 12)\). What is the slope of the graph?
+    \item Solution:
+    \begin{itemize}
+        \item Step 1: Use the slope formula: \(\text{slope} = \frac{\Delta y}{\Delta x}\).
+        \item Step 2: Calculate: \(\text{slope} = \frac{12 - 0}{4 - 0} = \frac{12}{4} = 3\).
+        \item Final Answer: The slope is \(3\), which means the unit rate is \(3\) units of \(y\) per \(1\) unit of \(x\).
+    \end{itemize}
+\end{itemize}
+
+\textbf{Example 2: Comparing Two Proportional Relationships}
+\begin{itemize}
+    \item Problem: Compare two proportional relationships:
+    \begin{enumerate}
+        \item Relationship A: \(y = 2x\).
+        \item Relationship B: A graph passing through the points \((0, 0)\) and \((3, 12)\).
+    \end{enumerate}
+    \item Solution:
+    \begin{itemize}
+        \item For Relationship A, the slope is \(2\).
+        \item For Relationship B, calculate the slope: \(\frac{12 - 0}{3 - 0} = \frac{12}{3} = 4\).
+        \item Final Answer: Relationship B has a steeper slope (\(4\)) compared to Relationship A (\(2\)).
+    \end{itemize}
+\end{itemize}
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Guided Practice
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Guided Practice, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Solve the following problems with teacher support:}
+\begin{enumerate}[itemsep=5em]
+    \item A graph of a proportional relationship passes through the points \((0, 0)\) and \((5, 20)\). Find the slope.
+    \item Write the equation of a proportional relationship with a unit rate of \(6\).
+    \item Compare two proportional relationships:
+    \begin{enumerate}
+        \item Relationship A: Table with points \((1, 4), (2, 8), (3, 12)\).
+        \item Relationship B: \(y = 5x\).
+    \end{enumerate}
+\end{enumerate}
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Additional Notes
+\begin{tcolorbox}[colframe=black!40, colback=gray!5, 
+coltitle=black, colbacktitle=black!20, fonttitle=\bfseries\Large, 
+title=Additional Notes, halign title=center, left=5pt, right=5pt, top=5pt, bottom=15pt]
+\textbf{Helpful Tips:}
+\begin{itemize}
+    \item Use clear, labeled graphs to illustrate proportional relationships.
+    \item Emphasize that proportional graphs always pass through the origin.
+    \item Verify your slope calculations with multiple points on the graph.
+\end{itemize}
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Independent Practice
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Independent Practice, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Solve the following problems independently:}
+\begin{enumerate}[itemsep=5em]
+    \item Find the slope of a graph that passes through the points \((0, 0)\) and \((7, 14)\).
+    \item Write the equation for a proportional relationship with a slope of \(5\).
+    \item Compare two proportional relationships:
+    \begin{enumerate}
+        \item Relationship A: A graph passing through the points \((0, 0)\) and \((4, 16)\).
+        \item Relationship B: Table with points \((1, 6), (2, 12), (3, 18)\).
+    \end{enumerate}
+\end{enumerate}
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Exit Ticket
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Exit Ticket, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Reflect and solve:}
+\begin{itemize}
+    \item Explain how the unit rate relates to the slope of a proportional relationship. Provide an example to illustrate your explanation.
+\end{itemize}
+\end{tcolorbox}
+
+\end{document}

@@ -1,0 +1,140 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper, top=0.8in, bottom=0.7in, left=0.8in, right=0.8in]{geometry}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage{tcolorbox}
+\usepackage{textcomp}
+\usepackage[defaultfam,tabular,lining]{montserrat} % Font settings for Montserrat
+\usepackage{xcolor}
+\usepackage{pgfplots}
+
+\setlength{\parindent}{0pt}
+\pagestyle{fancy}
+
+\setlength{\headheight}{27.11148pt}
+\addtolength{\topmargin}{-15.11148pt}
+
+\fancyhf{}
+%\fancyhead[L]{\textbf{6.NS.C.6, 6.NS.C.7: Number Lines, Inequalities, and Absolute Value}} % Header with standards and topic title
+\fancyhead[R]{\includegraphics[width=0.8cm]{Round Logo.png}} % Placeholder for logo
+\fancyfoot[C]{\footnotesize © Study Smart Tutors}
+
+\sloppy
+
+\title{}
+\date{}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\pgfplotsset{compat=1.18}
+
+\begin{document}
+
+\subsection*{Guided Lesson: Number Lines, Inequalities, and Absolute Value}
+\onehalfspacing
+
+% Learning Objective Box
+\begin{tcolorbox}[colframe=black!40, colback=gray!5, 
+coltitle=black, colbacktitle=black!20, fonttitle=\bfseries\Large, 
+title=Learning Objective, halign title=center, left=5pt, right=5pt, top=5pt, bottom=15pt]
+\textbf{Objective:} Develop an understanding of how to locate numbers on a number line, compare rational numbers, interpret inequalities, and use absolute value to solve real-world problems.
+
+% Instructor Note:
+% -------------------------
+\textcolor{blue}{Instructor Note: This section sets the tone for the lesson. Explain to students how inequalities, absolute value, and number lines connect to real-world problems like measuring temperature, elevation, or distances.}
+\end{tcolorbox}
+
+% Key Concepts and Vocabulary
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Key Concepts and Vocabulary, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Key Concepts:}
+\begin{itemize}
+    \item \textbf{Number Line:} A visual representation of numbers where positive numbers are to the right of zero and negative numbers are to the left.
+    \item \textbf{Inequalities:} Statements about the relative size of two numbers, using \( <, \leq, >, \geq \).
+    \item \textbf{Absolute Value:} The distance of a number from zero on a number line, always non-negative.
+    \item \textbf{Coordinate Plane:} A two-dimensional system where points are defined by \( (x, y) \), representing horizontal and vertical positions.
+\end{itemize}
+
+% Instructor Note:
+% -------------------------
+\textcolor{blue}{Instructor Note: Use real-world examples to make these concepts relatable. For instance, describe absolute value as measuring distance (e.g., “How far is -5 from 0?”), and highlight that inequalities can represent scenarios like “at least” or “no more than” conditions.}
+\end{tcolorbox}
+
+% Examples Box
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Examples, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Example 1: Representing Numbers on a Number Line}
+\begin{itemize}
+    \item Problem: Plot \( -3, 0, 2.5, -1.5 \) on a number line.
+    \item Solution: \textcolor{red}{First, draw a number line and label points. Place \( -3 \) three units to the left of zero, \( 0 \) at the origin, \( 2.5 \) between \( 2 \) and \( 3 \), and \( -1.5 \) halfway between \( -1 \) and \( -2 \).}
+    \begin{center}
+        \begin{tikzpicture}
+            \draw[thick, <->] (-5.5,0) -- (5.5,0); % Number line
+            \foreach \x in {-5,-4,-3,-2,-1,0,1,2,3,4,5} {
+                \draw (\x,0.1) -- (\x,-0.1) node[below] {\x};
+            }
+        \end{tikzpicture}
+    \end{center}
+\end{itemize}
+
+% Instructor Note:
+% -------------------------
+\textcolor{blue}{Instructor Note: Walk students through this example slowly. Emphasize that negative numbers are always to the left of zero, and discuss how decimals and fractions fit between integers.}
+\end{tcolorbox}
+
+% Guided Practice Box
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Guided Practice, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Solve the following problems with teacher support:}
+\begin{enumerate}[itemsep=3em]
+    \item Plot \( -5, 0, 3.2, -1.8 \) on a number line. \textcolor{red}{Mark the positions on the number line, ensuring appropriate spacing.}
+    \item Solve and graph: \( y - 1 \geq -2 \). \textcolor{red}{Add 1 to both sides: \( y \geq -1 \). Graph by shading all points to the right of \( -1 \).}
+    \item Find the absolute value of \( -7 \). \textcolor{red}{The absolute value is \( | -7 | = 7 \).}
+    \item Write an inequality to represent: "The number of participants must be greater than 10 and less than or equal to 30." \textcolor{red}{The inequality is \( 10 < x \leq 30 \).}
+\end{enumerate}
+
+% Instructor Note:
+% -------------------------
+\textcolor{blue}{Instructor Note: As students work through these problems, ask guiding questions such as, “What does the inequality symbol mean in the context of this problem?” For the graphing questions, encourage students to check their work by interpreting their graphs.}
+\end{tcolorbox}
+
+% Independent Practice Box
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Independent Practice, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Solve the following problems independently:}
+\begin{enumerate}[itemsep=3em]
+    \item Order \( -3, 0, 1.5, -1.2 \) from least to greatest. \textcolor{red}{The order is \( -3, -1.2, 0, 1.5 \).}
+    \item Solve \( x + 4 > 7 \) and graph the solution. \textcolor{red}{Subtract 4: \( x > 3 \). Graph by shading all points to the right of \( 3 \).}
+    \item Compare \( |3.2| \) and \( |-3.5| \). Which is greater? \textcolor{red}{\( |-3.5| = 3.5 > |3.2| = 3.2 \).}
+    \item Write the inequality for: "The temperature is at least \( -5^\circ C \)." \textcolor{red}{The inequality is \( x \geq -5 \).}
+\end{enumerate}
+
+% Instructor Note:
+% -------------------------
+\textcolor{blue}{Instructor Note: Monitor students as they complete these problems independently. Focus on common misunderstandings, such as forgetting to reverse the inequality sign when dividing by a negative number.}
+\end{tcolorbox}
+
+% Exit Ticket Box
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Exit Ticket, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Answer the following question:}
+\begin{itemize}
+    \item Reflect on how absolute value and inequalities are used to compare and interpret real-world quantities. Provide an example. \textcolor{red}{Example: Comparing elevations where one is above sea level and the other is below. Use absolute value to find the distance from sea level.}
+\end{itemize}
+
+% Instructor Note:
+% -------------------------
+\textcolor{blue}{Instructor Note: Use the exit ticket to check student understanding of the entire lesson. Encourage students to share specific real-life examples, such as comparing temperatures or elevations.}
+\end{tcolorbox}
+
+\end{document}

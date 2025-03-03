@@ -1,0 +1,128 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{standalone}
+\usepackage[a4paper, top=0.8in, bottom=0.7in, left=0.8in, right=0.8in]{geometry}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{amsfonts}
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage{tcolorbox}
+\usepackage{tikz}
+\usepackage{multicol}
+\usepackage{xcolor}
+\usepackage[defaultfam,tabular,lining]{montserrat} % Font settings for Montserrat
+
+% Hyperref settings for colored and clickable links
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+    filecolor=blue,
+    menucolor=blue,
+}
+
+\sloppy
+
+\title{}
+\date{}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\setlength{\parindent}{0pt}
+\pagestyle{fancy}
+
+\setlength{\headheight}{27.11148pt}
+\addtolength{\topmargin}{-15.11148pt}
+
+\fancyhf{}
+\fancyhead[L]{\textbf{CCSS Grade 5 TWB}}
+\fancyhead[R]{\includegraphics[width=0.8cm]{Round Logo.png}} % Placeholder for logo
+\fancyfoot[C]{\footnotesize © Study Smart Tutors}
+\fancyfoot[R]{\thepage}  % Page number in bottom right corner
+\fancyfoot[L]{\hyperlink{toc}{Back to Contents}} % Clickable link in bottom left to TOC
+
+\sloppy
+
+% Define a new command for the level letter
+\newcommand{\levelLetter}{F}  % Change this letter to update throughout the document
+
+% Define red and blue text for solutions and notes
+\newcommand{\solution}[1]{\textcolor{red}{#1}}
+\newcommand{\note}[1]{\textcolor{blue}{\textbf{Instructor Note: #1}}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+% Title Page (Instructor Version)
+\input{Tutoring Cover Pages/Math Curriculum Materials Cover Pages/Instr.Curriculum F Math.tex} % Include the title page content here
+
+\pagenumbering{gobble} 
+\hypertarget{toc}{}  % Mark the TOC as a hyperlink target
+
+% Table of Contents
+\tableofcontents
+\newpage
+
+% Restart page numbering from 1 after TOC
+\pagenumbering{arabic}
+\pagestyle{fancy}  % Re-enable fancy headers/footers
+
+% Guided Lesson and Problem Set for 5.NBT.A.1, 5.NBT.A.2
+\newpage
+\section{5.NBT.A.1, 5.NBT.A.2 Guided Lesson}
+\input{Math Content/Math Grade 5/Grade 5 Guided Lessons/Generic.5.NBT.A.1, 5.NBT.A.2.GL.Instructor Version.tex}
+
+\newpage
+\section{5.NBT.A.1, 5.NBT.A.2 Problem Set Answer Key}
+\input{Math Content/Math Grade 5/PS Answer Keys/Generic.KEYS.5.NBT.A.1, 5.NBT.A.2.tex}
+
+% Guided Lesson and Problem Set for 5.NBT.A.3
+\newpage
+\section{5.NBT.A.3 Guided Lesson}
+\input{Math Content/Math Grade 5/Grade 5 Guided Lessons/Generic.5.NBT.A.3.GL.Instructor Version.tex}
+
+\newpage
+\section{5.NBT.A.3 Problem Set Answer Key}
+\input{Math Content/Math Grade 5/PS Answer Keys/Generic.KEYS.5.NBT.A.3.tex}
+
+% Guided Lesson and Problem Set for 5.NBT.A.5
+\newpage
+\section{5.NBT.A.5 Guided Lesson}
+\input{Math Content/Math Grade 5/Grade 5 Guided Lessons/Generic.5.NBT.A.5.GL.Instructor Version.tex}
+
+\newpage
+\section{5.NBT.A.5 Problem Set Answer Key}
+\input{Math Content/Math Grade 5/PS Answer Keys/Generic.KEYS.5.NBT.A.5.tex}
+
+% Guided Lesson and Problem Set for 5.NBT.B.6
+\newpage
+\section{5.NBT.6 Guided Lesson}
+\input{Math Content/Math Grade 5/Grade 5 Guided Lessons/Generic.5.NBT.6.GL.Instructor Version.tex}
+
+\newpage
+\section{5.NBT.6 Problem Set Answer Key}
+\input{Math Content/Math Grade 5/PS Answer Keys/Generic.KEYS.5.NBT.6.tex}
+
+% Guided Lesson and Problem Set for 5.NBT.B.7
+\newpage
+\section{5.NBT.B.7 Guided Lesson}
+\input{Math Content/Math Grade 5/Grade 5 Guided Lessons/Generic.5.NBT.B.7.GL.Instructor Version.tex}
+
+\newpage
+\section{5.NBT.B.7 Problem Set Answer Key}
+\input{Math Content/Math Grade 5/PS Answer Keys/Generic.KEYS.5.NBT.B.7.tex}
+
+% Guided Lesson and Problem Set for 5.NF.A.1, 5.NF.A.2
+\newpage
+\section{5.NF.A.1, 5.NF.A.2 Guided Lesson}
+\input{Math Content/Math Grade 5/Grade 5 Guided Lessons/Generic.5.NF.A.1, 5.NF.A.2.GL.Instructor Version.tex}
+
+\newpage
+\section{5.NF.A.1, 5.NF.A.2 Problem Set Answer Key}
+\input{Math Content/Math Grade 5/PS Answer Keys/Generic.KEYS.5.NF.A.1, 5.NF.A.2.tex}
+
+\end{document}

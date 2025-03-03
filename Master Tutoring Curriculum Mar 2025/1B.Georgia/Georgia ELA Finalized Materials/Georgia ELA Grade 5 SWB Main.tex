@@ -1,0 +1,142 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{standalone}
+\usepackage[a4paper, top=0.8in, bottom=0.7in, left=0.8in, right=0.8in]{geometry}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{amsfonts}
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage{tcolorbox}
+\usepackage{tikz}
+\usepackage{multicol}
+\usepackage[defaultfam,tabular,lining]{montserrat} % Font settings for Montserrat
+
+\usepackage{xcolor}  % To use colors
+\hypersetup{
+    colorlinks=true,   % Activate colored links
+    linkcolor=blue,    % Link color for internal links
+    urlcolor=blue,     % Link color for URLs
+    filecolor=blue,    % Link color for file links
+    menucolor=blue,    % Link color for menus
+}
+
+\sloppy
+
+\title{}
+\date{}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\setlength{\parindent}{0pt}
+\pagestyle{fancy}
+
+\setlength{\headheight}{27.11148pt}
+\addtolength{\topmargin}{-15.11148pt}
+
+\fancyhf{}
+\fancyhead[L]{\textbf{Curriculum F SWB}} 
+\fancyhead[R]{\includegraphics[width=0.8cm]{Round Logo.png}} 
+
+\fancyfoot[C]{\footnotesize © Study Smart Tutors}
+\fancyfoot[R]{\thepage}  % Page number in bottom right corner
+\fancyfoot[L]{\hyperlink{toc}{Back to Contents}} % Clickable link in bottom left to TOC
+
+
+\newcommand{\levelLetter}{F}  % Update the document leveld
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+% Title Page
+\input{Tutoring Cover Pages/ELA Curriculum Materials Cover Pages/ELA Curriculum F.tex} 
+\pagenumbering{gobble} 
+
+\hypertarget{toc}{}  % Mark the TOC as a hyperlink target
+% Table of Contents
+\tableofcontents
+\newpage
+
+% Restart page numbering from 1 after TOC
+\pagenumbering{arabic}
+\pagestyle{fancy}  % Re-enable fancy headers/footers
+
+% Guided Lesson and Exercise Set for 5.RL.1, 5.RL.3
+\newpage
+\section{5.RL.1, 5.RL.3 Guided Lesson}
+\input{Grade 5/Guided Practice/GP 5.RL.1&3.tex}
+
+\newpage
+\section{5.RL.1 Exercise Set}
+\input{Grade 5/Test Prep/TP 5.RL.1 new.tex}
+
+% \newpage
+
+% \input{Grade 5/Test Prep/TP 5.RL.3 new.tex}
+
+% Guided Lesson and Exercise Set for 5.RL.1, 5.RL.2
+\newpage
+
+\section{5.RL.1, 5.RL.2 Guided Practice}
+\input{Grade 5/Guided Practice/GP 5.RL.1&2.tex}
+
+\newpage
+\section{5.RL.1, 5.RL.2 Exercise Set}
+\input{Grade 5/Test Prep/TP 5.RL.1 new.tex}
+\input{Grade 5/Test Prep/TP 5.RL.2 new.tex}
+
+% Guided Lesson and Exercise Set for 5.RI.1, 5.RI.2, 5.RI.3
+\newpage
+\section{5.RI.1, 5.RI.2, 5.RI.3 Guided Lesson}
+\input{Grade 5/Guided Practice/GP 5.RI.1&2.tex}
+
+\input{Grade 5/Guided Practice/GP 5.RI.1&3.tex}
+
+\newpage
+\section{5.RI.1, 5.RI.2 Exercise Set}
+\input{Grade 5/Test Prep/TP 5.RI.1 new.tex}
+\input{Grade 5/Test Prep/TP 5.RI.2 new.tex}
+%\input{Grade 5/Test Prep/TP 5.RI.3 new.tex}
+
+% Guided Lesson and Exercise Set for 5.RI.5, 5.RI.6
+\newpage
+\section{5.RI.5 Guided Lesson}
+\input{Grade 5/Guided Practice/GP 5.RI.5.tex}
+%%%%%%%%%%%%%%%%%%
+%Missing 5.RI.6
+%%%%%%%%%%%%%%%%%%
+%\input{Grade 5/Guided Practice/GP 5.RI.6.tex} 
+
+
+
+% \newpage
+% \section{5.RI.5 Exercise Set}
+% \input{Grade 5/Test Prep/TP 5.RI.5 new.tex}
+
+%\input{Grade 5/Test Prep/TP 5.RI.6 new.tex}
+
+% Guided Lesson and Exercise Set for 5.W.1
+\newpage
+\section{5.W.1 Guided Lesson}
+\input{Grade 5/Guided Practice/GP 5.W.1.tex}
+
+% \newpage
+% \section{5.W.1 Exercise Set}
+% \input{Grade 5/Test Prep/TP 5.W.1 new.tex}
+
+% Guided Lesson and Exercise Set for 5.L.1
+\newpage
+\section{5.L.1 Guided Lesson}
+\input{Grade 5/Guided Practice/GP 5.L.1c.tex}
+\input{Grade 5/Guided Practice/GP 5.L.1d.tex}
+
+% \newpage
+% \section{5.L.1 Exercise Set}
+% \input{Grade 5/Test Prep/TP 5.L.1c new.tex}
+% \input{Grade 5/Test Prep/TP 5.L.1d new.tex}
+
+\end{document}

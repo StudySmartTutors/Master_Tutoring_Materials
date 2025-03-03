@@ -1,0 +1,172 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper, top=0.8in, bottom=0.7in, left=0.8in, right=0.8in]{geometry}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{tcolorbox}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage[defaultfam,tabular,lining]{montserrat}
+\usepackage{xcolor} % For red and blue text
+
+% General Comment: Template for creating problem sets in a structured format with headers, titles, and sections.
+% This document uses Montserrat font and consistent styles for exercises, problems, and performance tasks.
+
+% -------------------------------------------------------------------
+% Directions for LaTeX Styling and Content
+% 1. Include a header with standards and topic title: \fancyhead[L]{\textbf{<Standards>: <Topic Title>}}.
+% 2. Section Breakdown:
+%    - Learning Objective: Concise goal statement.
+%    - Exercises: Procedural fluency tasks.
+%    - Problems: Moderately complex scenarios.
+%    - Performance Task: Real-world, multi-step tasks.
+%    - Reflection: Prompt to reflect on strategies and learning.
+% -------------------------------------------------------------------
+
+\setlength{\parindent}{0pt}
+\pagestyle{fancy}
+
+\setlength{\headheight}{27.11148pt}
+\addtolength{\topmargin}{-15.11148pt}
+
+\fancyhf{}
+%\fancyhead[L]{\textbf{5.NBT.6: Dividing Whole Numbers with Larger Divisors}}
+\fancyhead[R]{\includegraphics[width=0.8cm]{Round Logo.png}} % Placeholder for logo
+\fancyfoot[C]{\footnotesize © Study Smart Tutors}
+
+\sloppy
+
+\title{}
+\date{}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\begin{document}
+
+\subsection*{Guided Lesson: Dividing Whole Numbers with Larger Divisors}
+\onehalfspacing
+
+% Learning Objective Box
+\begin{tcolorbox}[colframe=black!40, colback=gray!5, 
+coltitle=black, colbacktitle=black!20, fonttitle=\bfseries\Large, 
+title=Learning Objective, halign title=center, left=5pt, right=5pt, top=5pt, bottom=15pt]
+\textbf{Objective:} Apply division to find whole-number quotients of four-digit dividends and two-digit divisors. Solve real-world and multi-step problems involving division, including interpreting remainders.
+
+\textcolor{blue}{\textbf{Instructor Note:} Highlight this objective at the beginning of the lesson to set clear goals. Connect it to real-world contexts like dividing items into groups or interpreting division in everyday situations.}
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Key Concepts and Vocabulary
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Key Concepts and Vocabulary, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Key Concepts:}
+\begin{itemize}
+    \item \textbf{Division with Larger Numbers:} Use estimation and the standard algorithm to divide four-digit dividends by two-digit divisors.
+    \item \textbf{Interpreting Remainders:} Understand the meaning of remainders in real-world contexts. Decide whether to round up, leave the remainder, or express as a fraction.
+    \item \textbf{Multi-Step Division Problems:} Break real-world problems into smaller steps, and use division equations to find solutions.
+\end{itemize}
+
+\textcolor{blue}{\textbf{Instructor Note:} Emphasize the importance of estimating quotients before using the standard algorithm. Discuss scenarios where interpreting the remainder correctly changes the outcome, such as rounding up when packaging items.}
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Examples Box
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Examples, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Example 1: Using the Standard Algorithm}
+\begin{itemize}
+    \item Problem: Divide \( 3,456 \div 12 \) using the standard algorithm.
+    \item Solution:
+    \[
+    \begin{array}{r|l}
+        12 & 3456 \\
+           & \underline{-120} \quad (12 \times 10) \\
+           & \phantom{3}225 \\
+           & \underline{-120} \quad (12 \times 10) \\
+           & \phantom{3}105 \\
+           & \underline{-96} \quad (12 \times 8) \\
+           & \phantom{3}9 \quad \text{(remainder 9)} \\
+    \end{array}
+    \]
+    Quotient: \( 288 \) remainder \( 9 \). \textcolor{red}{First, divide \( 34 \div 12 = 2 \). Multiply \( 2 \times 12 = 24 \). Subtract \( 34 - 24 = 10 \). Repeat for the rest.}
+
+    \textcolor{blue}{\textbf{Instructor Note:} Walk students through each step (divide, multiply, subtract, bring down) and ask guiding questions such as, "What do we do with the remainder?"}
+\end{itemize}
+
+\textbf{Example 2: Interpreting Remainders in Real-World Contexts}
+\begin{itemize}
+    \item Problem: A bakery has \( 2,350 \) cookies to pack into boxes of \( 48 \). How many full boxes can be made? What happens to the leftover cookies?
+    \item Solution: Divide \( 2,350 \div 48 = 48 \). The quotient is \( 48 \) remainder \( 38 \). The bakery can make \( 48 \) full boxes, with \( 38 \) cookies leftover. \textcolor{red}{Divide as usual, and interpret the remainder to determine the extra cookies.}
+
+    \textcolor{blue}{\textbf{Instructor Note:} Discuss how the remainder (38 cookies) might impact decisions in real life, such as needing an extra box or saving leftovers for another use.}
+\end{itemize}
+
+\textbf{Example 3: Multi-Step Problem}
+\begin{itemize}
+    \item Problem: A farmer has \( 4,200 \) eggs and packs them in boxes of \( 36 \). Each box of eggs sells for \$20. How much revenue does the farmer generate?
+    \item Solution:
+    \[
+    4,200 \div 36 = 116 \text{ boxes (remainder 24).}
+    \]
+    Revenue: \( 116 \times 20 = \$2,320 \). \textcolor{red}{Solve the division first, then multiply the quotient by the box price to calculate revenue.}
+
+    \textcolor{blue}{\textbf{Instructor Note:} Encourage students to write and solve equations for each step. Highlight the importance of calculating correctly before interpreting the final answer.}
+\end{itemize}
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Guided Practice Box
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Guided Practice, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Work through the following problems with teacher support:}
+\begin{enumerate}[itemsep=3em]
+    \item Divide \( 4,896 \div 64 \) using the standard algorithm. \textcolor{red}{Step 1: Divide \( 48 \div 64 = 0 \). Bring down the next digit. Step 2: Repeat until quotient is complete.}
+    \item A bus company has \( 3,780 \) passengers and runs \( 45 \) buses. How many passengers are on each bus? Are there any leftover passengers? \textcolor{red}{Divide \( 3,780 \div 45 = 84 \). No remainder.}
+    \item Solve: \( 2,560 \div 32 \). Interpret the quotient and remainder in a real-world context. \textcolor{red}{Divide \( 2560 \div 32 = 80 \). No remainder.}
+    \item Write and solve an equation: A stadium has \( 4,320 \) seats divided into \( 36 \) sections. How many seats are in each section? \textcolor{red}{Equation: \( 4320 \div 36 = 120 \) seats per section.}
+\end{enumerate}
+
+\textcolor{blue}{\textbf{Instructor Note:} Have students share their thinking process aloud. Encourage them to check their work by multiplying the quotient by the divisor to verify the dividend.}
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Independent Practice Box
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Independent Practice, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Solve the following problems independently:}
+\begin{enumerate}[itemsep=3em]
+    \item Calculate \( 6,432 \div 64 \). \textcolor{red}{Solution: \( 6432 \div 64 = 100 \).}
+    \item A delivery truck carries \( 3,540 \) packages across \( 30 \) stops. How many packages are delivered at each stop? \textcolor{red}{Solution: \( 3540 \div 30 = 118 \) packages.}
+    \item Estimate and solve \( 5,212 \div 78 \). Round your answer to the nearest whole number. \textcolor{red}{Solution: \( 5212 \div 78 \approx 67 \).}
+    \item A pool holds \( 4,800 \) gallons of water. If it takes \( 60 \) minutes to fill completely, how many gallons are added per minute? \textcolor{red}{Solution: \( 4800 \div 60 = 80 \) gallons per minute.}
+    \item A zoo feeds \( 2,268 \) pounds of food to \( 42 \) animals in a week. How much food does each animal receive? \textcolor{red}{Solution: \( 2268 \div 42 = 54 \) pounds per animal.}
+\end{enumerate}
+
+\textcolor{blue}{\textbf{Instructor Note:} Provide quiet time for students to work independently, but circulate to offer guidance. Look for common mistakes, such as incorrect multiplication during the division algorithm, and address them in real time.}
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Exit Ticket Box
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Exit Ticket, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Reflect on and solve:}
+\begin{itemize}
+    \item What steps do you take to divide a four-digit dividend by a two-digit divisor? Write an example problem and explain how you would solve it. \textcolor{red}{Solution: Example \( 4320 \div 36 = 120 \). Steps: Divide, multiply, subtract, and bring down.}
+
+    \textcolor{blue}{\textbf{Instructor Note:} Use the exit ticket to assess student understanding of division steps. Look for detailed explanations in their written responses to ensure they understand the process.}
+\end{itemize}
+\end{tcolorbox}
+
+\end{document}

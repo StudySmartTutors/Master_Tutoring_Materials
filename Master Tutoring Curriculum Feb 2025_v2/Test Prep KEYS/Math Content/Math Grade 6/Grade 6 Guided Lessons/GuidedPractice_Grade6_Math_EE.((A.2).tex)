@@ -1,0 +1,134 @@
+% ChatGPT Directions 0 : 
+% This is a Tbox Problem set for the following standards 6.EE.A.2
+%--------------------------------------------------
+\documentclass[12pt]{article}
+\usepackage[a4paper, top=0.8in, bottom=0.7in, left=0.8in, right=0.8in]{geometry}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{tcolorbox}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage[defaultfam,tabular,lining]{montserrat} % Font settings for Montserrat
+
+% General Comment: Template for creating problem sets in a structured format with headers, titles, and sections.
+% This document uses Montserrat font and consistent styles for exercises, problems, and performance tasks.
+
+% -------------------------------------------------------------------
+% ChatGPT Directions:
+% 1. Always include a header with standards and topic title: \fancyhead[L]{\textbf{<Standards>: <Topic Title>}}.
+% 2. Subsection titles should always start with "Problem Set:" followed by the topic title.
+% 3. Use tcolorbox for distinct sections: Learning Objective, Exercises, Problems, Performance Task, and Reflection.
+% 4. Style guidelines:
+%    - Frame color: black or dark gray (colframe=black!60).
+%    - Background color: light gray or white (colback=gray!5 or colback=white).
+%    - Title background: slightly darker gray (colbacktitle=black!15).
+%    - Font style: Bold for titles (fonttitle=\bfseries\Large).
+% -------------------------------------------------------------------
+
+\setlength{\parindent}{0pt}
+\pagestyle{fancy}
+
+\setlength{\headheight}{27.11148pt}
+\addtolength{\topmargin}{-15.11148pt}
+
+\fancyhf{}
+%\fancyhead[L]{\textbf{6.EE.A.2: Writing, Reading, and Evaluating Expressions}}
+\fancyhead[R]{\includegraphics[width=0.8cm]{Round Logo.png}} % Placeholder for logo
+\fancyfoot[C]{\footnotesize © Study Smart Tutors}
+
+\sloppy
+
+\title{}
+\date{}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\begin{document}
+
+\subsection*{Guided Lesson: Writing, Reading, and Evaluating Expressions}
+\onehalfspacing
+
+% Learning Objective Box
+\begin{tcolorbox}[colframe=black!40, colback=gray!5, 
+coltitle=black, colbacktitle=black!20, fonttitle=\bfseries\Large, 
+title=Learning Objective, halign title=center, left=5pt, right=5pt, top=5pt, bottom=15pt]
+\textbf{Objective:} Write, read, and evaluate expressions in which letters stand for numbers. Understand how to translate verbal phrases into algebraic expressions and evaluate expressions for specific values of the variables.
+\end{tcolorbox}
+
+% Key Concepts and Vocabulary Box
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Key Concepts and Vocabulary, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Key Concepts:}
+\begin{itemize}
+    \item \textbf{Variable:} A letter that represents an unknown value.
+    \item \textbf{Expression:} A combination of numbers, variables, and operations (e.g., \( 3x + 5 \)).
+    \item \textbf{Evaluate an Expression:} Substitute a number for a variable and perform the operations to find the value.
+    \item \textbf{Verbal to Algebraic Expressions:} Translate verbal descriptions into algebraic expressions (e.g., “the sum of a number and 7” translates to \( x + 7 \)).
+\end{itemize}
+\end{tcolorbox}
+
+% Examples Box
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Examples, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Example 1: Translating Verbal Phrases to Algebraic Expressions}
+\begin{itemize}
+    \item Problem: Translate “5 more than a number” into an algebraic expression.
+    \item Solution: \( x + 5 \).
+\end{itemize}
+
+\textbf{Example 2: Evaluating an Expression}
+\begin{itemize}
+    \item Problem: Evaluate \( 3x + 4 \) when \( x = 2 \).
+    \item Solution: Substitute \( x = 2 \) into \( 3x + 4 \): \( 3(2) + 4 = 6 + 4 = 10 \).
+\end{itemize}
+
+\textbf{Example 3: Writing Expressions for Real-World Problems}
+\begin{itemize}
+    \item Problem: A movie ticket costs \$12. Write an expression for the total cost of \( t \) tickets.
+    \item Solution: Total cost = \( 12t \).
+\end{itemize}
+\end{tcolorbox}
+
+% Guided Practice Box
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Guided Practice, halign title=center, left=10pt, right=10pt, top=10pt, bottom=45pt]
+\textbf{Work through the following problems with teacher support:}
+\begin{enumerate}[itemsep=3em]
+    \item Translate: “7 times a number decreased by 3” into an algebraic expression.
+    \item Evaluate \( 4n - 5 \) when \( n = 3 \).
+    \item A car rental costs \$30 per day plus a one-time fee of \$50. Write an expression for the total cost of renting a car for \( d \) days.
+    \item Write an algebraic expression to represent: “The sum of twice a number and 8.”
+\end{enumerate}
+\end{tcolorbox}
+
+% Independent Practice Box
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Independent Practice, halign title=center, left=10pt, right=10pt, top=10pt, bottom=45pt]
+\textbf{Solve the following problems independently:}
+\begin{enumerate}[itemsep=3em]
+    \item Translate: “10 less than a number” into an algebraic expression.
+    \item Evaluate \( 2x + 3 \) when \( x = 7 \).
+    \item A gym charges a \$20 membership fee plus \$5 per visit. Write an expression for the total cost after \( v \) visits.
+    \item Write an algebraic expression to represent: “The product of 5 and the sum of a number and 6.”
+\end{enumerate}
+\end{tcolorbox}
+
+% Exit Ticket Box
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Exit Ticket, halign title=center, left=10pt, right=10pt, top=10pt, bottom=100pt]
+\textbf{Reflect and Solve:}
+\begin{itemize}
+    \item How do you translate verbal phrases into algebraic expressions? Write an example problem and solve it.
+    \vspace{1.5cm}
+\end{itemize}
+\end{tcolorbox}
+
+\end{document}

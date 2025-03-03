@@ -1,0 +1,155 @@
+% ChatGPT Directions 0 : 
+% This is a Tbox Problem set for the following standards 6.EE.B.5
+%--------------------------------------------------
+\documentclass[12pt]{article}
+\usepackage[a4paper, top=0.8in, bottom=0.7in, left=0.8in, right=0.8in]{geometry}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{tcolorbox}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage[defaultfam,tabular,lining]{montserrat} % Font settings for Montserrat
+
+% General Comment: Template for creating problem sets in a structured format with headers, titles, and sections.
+% This document uses Montserrat font and consistent styles for exercises, problems, and performance tasks.
+
+% -------------------------------------------------------------------
+% ChatGPT Directions:
+% 1. Always include a header with standards and topic title: \fancyhead[L]{\textbf{<Standards>: <Topic Title>}}.
+% 2. Subsection titles should always start with "Problem Set:" followed by the topic title.
+% 3. Use tcolorbox for distinct sections: Learning Objective, Exercises, Problems, Performance Task, and Reflection.
+% 4. Style guidelines:
+%    - Frame color: black or dark gray (colframe=black!60).
+%    - Background color: light gray or white (colback=gray!5 or colback=white).
+%    - Title background: slightly darker gray (colbacktitle=black!15).
+%    - Font style: Bold for titles (fonttitle=\bfseries\Large).
+% -------------------------------------------------------------------
+
+\setlength{\parindent}{0pt}
+\pagestyle{fancy}
+
+\setlength{\headheight}{27.11148pt}
+\addtolength{\topmargin}{-15.11148pt}
+
+\fancyhf{}
+%\fancyhead[L]{\textbf{6.EE.B.5: Understanding and Solving Equations}}
+\fancyhead[R]{\includegraphics[width=0.8cm]{Round Logo.png}} % Placeholder for logo
+\fancyfoot[C]{\footnotesize © Study Smart Tutors}
+
+\sloppy
+
+\title{}
+\date{}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\begin{document}
+
+\subsection*{Guided Lesson: Understanding and Solving Equations}
+\onehalfspacing
+
+% Learning Objective Box
+\begin{tcolorbox}[colframe=black!40, colback=gray!5, 
+coltitle=black, colbacktitle=black!20, fonttitle=\bfseries\Large, 
+title=Learning Objective, halign title=center, left=5pt, right=5pt, top=5pt, bottom=15pt]
+\textbf{Objective:} Understand solving equations as a process of reasoning and solve real-world and mathematical problems involving one-variable equations.
+\end{tcolorbox}
+
+% Key Concepts and Vocabulary Box
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Key Concepts and Vocabulary, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Key Concepts:}
+\begin{itemize}
+    \item \textbf{Equation:} A mathematical statement that shows two expressions are equal (e.g., \( 3x + 5 = 14 \)).
+    \item \textbf{Solution to an Equation:} The value of the variable that makes the equation true.
+    \item \textbf{Solving Equations:} Use inverse operations to isolate the variable on one side of the equation.
+    \item \textbf{Reasoning About Equations:} Check solutions by substituting the variable's value back into the original equation.
+\end{itemize}
+\end{tcolorbox}
+
+% Examples Box
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Examples, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Example 1: Solving a One-Step Equation}
+\begin{itemize}
+    \item Problem: Solve \( x + 7 = 15 \).
+    \item Solution: Subtract 7 from both sides: 
+    \[
+    x + 7 - 7 = 15 - 7.
+    \]
+    Simplify: \( x = 8 \). Verify by substituting \( x = 8 \): 
+    \[
+    8 + 7 = 15.
+    \]
+    The solution is correct.
+\end{itemize}
+
+\textbf{Example 2: Solving a Two-Step Equation}
+\begin{itemize}
+    \item Problem: Solve \( 2x + 3 = 11 \).
+    \item Solution: First, subtract 3 from both sides:
+    \[
+    2x + 3 - 3 = 11 - 3.
+    \]
+    Simplify: \( 2x = 8 \). Then divide both sides by 2:
+    \[
+    \frac{2x}{2} = \frac{8}{2}.
+    \]
+    Simplify: \( x = 4 \). Verify: \( 2(4) + 3 = 8 + 3 = 11 \). The solution is correct.
+\end{itemize}
+
+\textbf{Example 3: Writing and Solving Real-World Equations}
+\begin{itemize}
+    \item Problem: A family spends \$50 on dinner, which includes a \$10 tip. Write and solve an equation to find the cost of the meal before the tip.
+    \item Solution: Let \( x \) be the cost of the meal. The equation is:
+    \[
+    x + 10 = 50.
+    \]
+    Subtract 10 from both sides:
+    \[
+    x + 10 - 10 = 50 - 10.
+    \]
+    Simplify: \( x = 40 \). The cost of the meal before the tip is \$40.
+\end{itemize}
+\end{tcolorbox}
+
+% Guided Practice Box
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Guided Practice, halign title=center, left=10pt, right=10pt, top=10pt, bottom=45pt]
+\textbf{Work through the following problems with teacher support:}
+\begin{enumerate}[itemsep=3em]
+    \item Solve \( x - 5 = 12 \). 
+    \item Solve \( 3x = 21 \). 
+    \item Write and solve an equation: A gym charges \$25 for a membership fee and \$10 per visit. If a customer pays \$65, how many visits did they make?
+\end{enumerate}
+\end{tcolorbox}
+
+% Independent Practice Box
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Independent Practice, halign title=center, left=10pt, right=10pt, top=10pt, bottom=45pt]
+\textbf{Solve the following problems independently:}
+\begin{enumerate}[itemsep=3em]
+    \item Solve \( x + 4 = 10 \). 
+    \item Solve \( 5x = 45 \). 
+    \item Write and solve an equation: A farmer has 150 pounds of apples. After selling 30 pounds, he divides the rest equally into 6 baskets. How many pounds are in each basket? 
+\end{enumerate}
+\end{tcolorbox}
+
+% Exit Ticket Box
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Exit Ticket, halign title=center, left=10pt, right=10pt, top=10pt, bottom=110pt]
+\textbf{Reflect and Solve:}
+\begin{itemize}
+    \item Write an equation for the following: "A number divided by 3 equals 15." Solve the equation and explain your reasoning.
+\end{itemize}
+\end{tcolorbox}
+
+\end{document}

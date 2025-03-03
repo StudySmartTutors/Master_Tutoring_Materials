@@ -1,0 +1,130 @@
+% ChatGPT Directions 0 :  
+% This is a Tbox Problem set for the following standards: 5.NBT.A.1, 5.NBT.A.2 
+%--------------------------------------------------
+\documentclass[12pt]{article}
+\usepackage[a4paper, top=0.8in, bottom=0.7in, left=0.8in, right=0.8in]{geometry}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{tcolorbox}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage[defaultfam,tabular,lining]{montserrat} % Font settings for Montserrat
+
+% General Comment: Template for creating problem sets in a structured format with headers, titles, and sections.
+% This document uses Montserrat font and consistent styles for exercises, problems, and performance tasks.
+
+% -------------------------------------------------------------------
+% Directions for LaTeX Styling and Content
+% 1. Include a header with standards and topic title: \fancyhead[L]{\textbf{<Standards>: <Topic Title>}}.
+% 2. Section Breakdown:
+%    - Learning Objective: Concise goal statement.
+%    - Exercises: Procedural fluency tasks.
+%    - Problems: Moderately complex scenarios.
+%    - Performance Task: Real-world, multi-step tasks.
+%    - Reflection: Prompt to reflect on strategies and learning.
+% 3. Styling with tcolorbox:
+%    - Frame color: colframe=black!60.
+%    - Background color: colback=gray!5 or white.
+%    - Title Background: colbacktitle=black!15.
+%    - Font Style: Bold and large (fonttitle=\bfseries\Large).
+% -------------------------------------------------------------------
+
+\setlength{\parindent}{0pt}
+\pagestyle{fancy}
+
+\setlength{\headheight}{27.11148pt}
+\addtolength{\topmargin}{-15.11148pt}
+
+\fancyhf{}
+%\fancyhead[L]{\textbf{5.NBT.A.1, 5.NBT.A.2: Place Value and Patterns in Powers of 10}}
+\fancyhead[R]{\includegraphics[width=0.8cm]{Round Logo.png}} % Placeholder for logo
+\fancyfoot[C]{\footnotesize © Study Smart Tutors}
+
+\sloppy
+
+\title{}
+\date{}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\begin{document}
+
+\subsection*{Problem Set: Place Value and Patterns in Powers of 10}
+\onehalfspacing
+
+% Learning Objective Box
+\begin{tcolorbox}[colframe=black!40, colback=gray!5, 
+coltitle=black, colbacktitle=black!20, fonttitle=\bfseries\Large, 
+title=Learning Objective, halign title=center, left=5pt, right=5pt, top=5pt, bottom=15pt]
+\textbf{Objective:} Understand place value to the thousandths and explain patterns when multiplying or dividing by powers of 10.
+\end{tcolorbox}
+
+% Exercises Box
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Exercises, halign title=center, left=10pt, right=10pt, top=10pt, bottom=30pt]
+\begin{enumerate}[itemsep=3em]
+    \item Round \( 3,456.789 \) to the nearest whole number, tenth, and hundredth.
+    \item What is the value of the digit \( 7 \) in \( 7,845 \)? What about in \( 7.845 \)?
+    \item Multiply \( 3.45 \) by \( 10, 100, \) and \( 1,000 \). Explain the pattern in the products.
+    \item Divide \( 5,600 \) by \( 10, 100, \) and \( 1,000 \). What happens to the decimal point in each case?
+    \item Solve: \( (5,000 - 3,278) \div 2 \).
+    \item Write and solve the equation: "A package weighs 144 ounces. If divided equally into 12 smaller boxes, how much does each box weigh?"
+    \item Add and round: \( 12,345 + 45,678 \), rounded to the nearest thousand.
+    \item Multiply \( 1,250 \times 8 \).
+    \vspace{1cm}
+\end{enumerate}
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Problems Box
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Problems, halign title=center, left=10pt, right=10pt, top=10pt, bottom=100pt]
+\begin{enumerate}[start=9, itemsep=5em]
+    \item A factory produces \( 2,500 \) items in a day. How many items are produced in \( 10, 100, \) and \( 1,000 \) days? Explain the pattern in your results.
+    \item A company packs \( 24,352 \) boxes in 4 days. How many boxes are packed per day? Write an equation to represent the scenario.
+   
+    \item A bakery sells \( 432 \) cookies in the morning and \( 576 \) cookies in the afternoon. If each box holds 24 cookies, how many boxes are used in total?
+    \item A school orders \( 15,675 \) pencils. They distribute them equally to \( 25 \) classrooms. How many pencils does each classroom receive?
+    \item Solve for \( x \): \( 8x + 500 = 1,100 \).
+    \item Why does dividing \( 7,200 \) by \( 10 \) shift the digits one place to the right? Explain.
+\end{enumerate}
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Performance Task Box
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Performance Task: Designing a Playground, halign title=center, left=10pt, right=10pt, top=10pt, bottom=50pt]
+You are designing a new playground. Here’s what you know:
+\begin{itemize}
+    \item The total area of the playground is 6,400 square feet.
+    \item Half of the area is for a grassy field, and the other half is divided equally between a sandbox and a swing set.
+    \item Each square foot of the playground costs \$10 to install.
+\end{itemize}
+\textbf{Task:}
+\begin{enumerate}[itemsep=4em]
+    \item Calculate the area of the grassy field.
+    \item Calculate the area of the sandbox and swing set.
+    \item Estimate the total cost of installing the playground. Then calculate the exact total.
+    \item Write equations to represent your calculations for each part.
+    \vspace{2cm}
+\end{enumerate}
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Reflection Box
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Reflection, halign title=center, left=10pt, right=10pt, top=10pt, bottom=100pt]
+Reflect on the strategies you used to solve these problems. What patterns did you notice when multiplying or dividing by powers of 10? 
+\end{tcolorbox}
+
+\end{document}

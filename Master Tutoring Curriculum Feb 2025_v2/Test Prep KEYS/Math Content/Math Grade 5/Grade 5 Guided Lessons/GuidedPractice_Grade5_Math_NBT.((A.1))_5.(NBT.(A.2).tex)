@@ -1,0 +1,183 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper, top=0.8in, bottom=0.7in, left=0.8in, right=0.8in]{geometry}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{tcolorbox}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage[defaultfam,tabular,lining]{montserrat} % Font settings for Montserrat
+
+% ChatGPT Directions:
+% ----------------------------------------------------------------------
+% This template is designed for creating guided lessons that align strictly with specific standards.
+% Key points to ensure proper usage:
+% 
+% 1. **Key Concepts and Vocabulary**:
+%    - Include only the concepts necessary for meeting the standards.
+%    - Each Key Concept section must align explicitly with the standards being addressed.
+%    - If unrelated standards are introduced (e.g., introducing new operations or properties),
+%      create additional Key Concept sections labeled "Part 2," "Part 3," etc.
+% 2. **Examples**:
+%    - Provide concrete worked examples to illustrate the Key Concepts.
+%    - These should directly tie back to the Key Concepts presented earlier.
+% 3. **Guided Practice**:
+%    - Problems should reinforce Key Concepts and Examples.
+%    - Allow for ample spacing between problems to give students room for work.
+% 4. **Additional Notes**:
+%    - Use this section for helpful but non-essential concepts, strategies, or teacher notes.
+%    - Examples: Fact families, properties of operations, or alternative explanations.
+% 5. **Independent Practice**:
+%    - Provide problems for students to practice Key Concepts individually.
+% 6. **Exit Ticket**:
+%    - Include a reflective or assessment-based question to evaluate student understanding.
+% ----------------------------------------------------------------------
+
+\setlength{\parindent}{0pt}
+\pagestyle{fancy}
+
+\setlength{\headheight}{27.11148pt}
+\addtolength{\topmargin}{-15.11148pt}
+
+\fancyhf{}
+%\fancyhead[L]{\textbf{Standard(s): 5.NBT.A.1, 5.NBT.A.2}}
+\fancyhead[R]{\includegraphics[width=0.8cm]{Round Logo.png}} % Placeholder for logo
+\fancyfoot[C]{\footnotesize © Study Smart Tutors}
+
+\sloppy
+
+\title{}
+\date{}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\begin{document}
+
+\subsection*{Guided Lesson: Understanding Place Value and Patterns in Powers of 10}
+\onehalfspacing
+
+% Learning Objective Box
+\begin{tcolorbox}[colframe=black!40, colback=gray!5, 
+coltitle=black, colbacktitle=black!20, fonttitle=\bfseries\Large, 
+title=Learning Objective, halign title=center, left=5pt, right=5pt, top=5pt, bottom=15pt]
+\textbf{Objective:} Understand place value to the thousandths, explain patterns when multiplying or dividing by powers of 10, and apply this knowledge to solve real-world problems.
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Key Concepts and Vocabulary
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Key Concepts and Vocabulary, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Key Concepts:}
+\begin{itemize}
+    \item \textbf{Place Value Relationships:} Each place value represents 10 times the value of the place to its right. For example:
+    \[
+    3,456.789 = 3,000 + 400 + 50 + 6 + 0.7 + 0.08 + 0.009.
+    \]
+    \item \textbf{Patterns in Powers of 10:}
+    \begin{itemize}
+        \item Multiplying by \( 10, 100, \) or \( 1,000 \) shifts the decimal point to the right.
+        \item Dividing by \( 10, 100, \) or \( 1,000 \) shifts the decimal point to the left.
+    \end{itemize}
+    \item \textbf{Rounding Numbers:} Rounding simplifies numbers to a specific place value. For example, rounding \( 3,456.789 \) to the nearest tenth gives \( 3,456.8 \).
+\end{itemize}
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Examples Box
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Examples, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Example 1: Understanding Place Value}
+\begin{itemize}
+    \item Problem: What is the value of the digit \( 7 \) in \( 7,845.3 \) and \( 8.347 \)?
+    \item Solution:
+    \begin{itemize}
+        \item In \( 7,845.3 \), \( 7 \) is in the thousand’s place, so its value is \( 7,000 \).
+        \item In \( 8.347 \), \( 7 \) is in the thousandths place, so its value is \( 0.007 \).
+    \end{itemize}
+\end{itemize}
+
+\textbf{Example 2: Multiplying by Powers of 10}
+\begin{itemize}
+    \item Problem: Multiply \( 3.45 \times 10, 100, \) and \( 1,000 \). What pattern do you notice?
+    \item Solution:
+    \begin{itemize}
+        \item \( 3.45 \times 10 = 34.5 \) (shift decimal 1 place right).
+        \item \( 3.45 \times 100 = 345 \) (shift decimal 2 places right).
+        \item \( 3.45 \times 1,000 = 3,450 \) (shift decimal 3 places right).
+    \end{itemize}
+    Pattern: Multiplying by powers of 10 moves the decimal point to the right based on the number of zeros in the power of 10.
+\end{itemize}
+
+\textbf{Example 3: Dividing by Powers of 10}
+\begin{itemize}
+    \item Problem: Divide \( 5,600 \div 10, 100, \) and \( 1,000 \). What pattern do you notice?
+    \item Solution:
+    \begin{itemize}
+        \item \( 5,600 \div 10 = 560 \) (shift decimal 1 place left).
+        \item \( 5,600 \div 100 = 56 \) (shift decimal 2 places left).
+        \item \( 5,600 \div 1,000 = 5.6 \) (shift decimal 3 places left).
+    \end{itemize}
+    Pattern: Dividing by powers of 10 moves the decimal point to the left based on the number of zeros in the power of 10.
+\end{itemize}
+
+\textbf{Example 4: Rounding Numbers}
+\begin{itemize}
+    \item Problem: Round \( 7,845.67 \) to the nearest hundred and the nearest tenth.
+    \item Solution:
+    \begin{itemize}
+        \item Nearest hundred: \( 7,846 \to 7,800 \) (look at the tens digit).
+        \item Nearest tenth: \( 7,845.67 \to 7,845.7 \) (look at the hundredths digit).
+    \end{itemize}
+\end{itemize}
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Guided Practice
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Guided Practice, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Solve the following problems with teacher support:}
+\begin{enumerate}[itemsep=3em]
+    \item Write \( 6,708.25 \) in expanded form.
+    \item Multiply \( 4.32 \times 10, 100, \) and \( 1,000 \). Describe the pattern.
+    \item Divide \( 12,450 \div 10, 100, \) and \( 1,000 \). Describe the pattern.
+    \item Round \( 23,789.56 \) to the nearest thousand, hundred, and tenth.
+\end{enumerate}
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Independent Practice
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Independent Practice, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Solve the following problems independently:}
+\begin{enumerate}[itemsep=3em]
+    \item What is the value of the digit \( 5 \) in \( 35,472.89 \)?
+    \item Write \( 7,230.045 \) in expanded form.
+    \item Multiply \( 0.784 \times 10, 100, \) and \( 1,000 \).
+    \item Divide \( 98,340 \div 10, 100, \) and \( 1,000 \).
+    \item Round \( 6,235.478 \) to the nearest hundred and nearest hundredth.
+\end{enumerate}
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Exit Ticket
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Exit Ticket, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Answer the following question:}
+\begin{itemize}
+    \item What happens to a number when it is divided by \( 1,000 \)? Provide an example and explain the pattern.
+\end{itemize}
+\end{tcolorbox}
+
+\end{document}

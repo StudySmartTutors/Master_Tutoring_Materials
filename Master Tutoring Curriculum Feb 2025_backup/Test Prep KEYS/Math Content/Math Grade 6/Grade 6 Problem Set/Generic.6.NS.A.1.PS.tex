@@ -1,0 +1,166 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper, top=0.8in, bottom=0.7in, left=0.8in, right=0.8in]{geometry}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{tcolorbox}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage{tikz}
+\usepackage[defaultfam,tabular,lining]{montserrat} % Font settings for Montserrat
+
+% General Comment: Template for creating problem sets in a structured format with headers, titles, and sections.
+% This document uses Montserrat font and consistent styles for exercises, problems, and performance tasks.
+
+% -------------------------------------------------------------------
+
+%    - Include a header with standards and topic title: \fancyhead[L]{\textbf{<Standards>: <Topic Title>}}.
+%    - Use "Problem Set:" as the prefix for subsection titles, followed by the topic title.
+%    - Example: \subsection*{Problem Set: Understanding Division of Fractions}.
+%
+% 2. **Section Breakdown**:
+%    - **Learning Objective**: A concise statement summarizing the goal of the problem set.
+%    - **Exercises**: Focus on procedural fluency with straightforward tasks.
+%    - **Problems**: Include moderately complex scenarios requiring reasoning or application.
+%    - **Performance Task**: Real-world, open-ended tasks that require multi-step solutions or creative thinking.
+%    - **Reflection**: Prompt students to reflect on their strategies and learning.
+%
+% 3. **Styling with tcolorbox**:
+%    - Use the following guidelines for tcolorbox styling:
+%        - **Frame color**: black or dark gray (colframe=black!60).
+%        - **Background color**: light gray or white (colback=gray!5 or colback=white).
+%        - **Title background**: slightly darker gray (colbacktitle=black!15).
+%        - **Font style**: Bold and large for titles (fonttitle=\bfseries\Large).
+%
+% 4. **Content and Alignment**:
+%    - Align tasks with the defined standard(s).
+%    - Ensure a balance of exercises (procedural), problems (conceptual), and performance tasks (application).
+%    - Adjust spacing for student work using `\vspace` and `itemsep` as needed.
+%
+% -------------------------------------------------------------------
+
+\setlength{\parindent}{0pt}
+\pagestyle{fancy}
+
+\setlength{\headheight}{27.11148pt}
+\addtolength{\topmargin}{-15.11148pt}
+
+\fancyhf{}
+%\fancyhead[L]{\textbf{6.NS.A.1: Dividing Fractions by Fractions}} % Header with standards and topic title
+\fancyhead[R]{\includegraphics[width=0.8cm]{Round Logo.png}} % Placeholder for logo
+\fancyfoot[C]{\footnotesize © Study Smart Tutors}
+
+\sloppy
+
+%\newcommand{\dfrac}[2]{\displaystyle\frac{#1}{#2}} % New command for display style fractions
+
+
+\title{}
+\date{}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\begin{document}
+
+\subsection*{Problem Set: Dividing Fractions by Fractions}
+\onehalfspacing
+
+% Learning Objective Box
+\begin{tcolorbox}[colframe=black!40, colback=gray!5, 
+coltitle=black, colbacktitle=black!20, fonttitle=\bfseries\Large, 
+title=Learning Objective, halign title=center, left=5pt, right=5pt, top=5pt, bottom=15pt]
+\textbf{Objective:} Understand how to divide fractions and solve real-world problems involving division of fractions by fractions.
+\end{tcolorbox}
+
+% Exercises Box
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Exercises, halign title=center, left=10pt, right=10pt, top=10pt, bottom=60pt]
+\begin{enumerate}[itemsep=3em]
+    \item Divide: \( \dfrac{2}{3} \div \dfrac{4}{5} \).
+    \item Simplify: \( \dfrac{5}{6} \div \dfrac{2}{3} \).
+    \item Solve: \( 3 \div \dfrac{3}{4} \).
+    \item Divide: \( \dfrac{7}{8} \div 2 \).
+    \item Divide and simplify: \( \dfrac{4}{9} \div \dfrac{2}{5} \).
+    \item Write and solve: "A recipe calls for \( \dfrac{3}{4} \) cup of sugar. If this is split equally among \( \dfrac{1}{2} \)-cup portions, how many portions are there?"
+    \item Solve: \( 1 \dfrac{1}{2} \div \dfrac{3}{4} \).
+    \item Simplify: \( \dfrac{9}{10} \div \dfrac{3}{5} \).
+\end{enumerate}
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Problems Box
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Problems, halign title=center, left=10pt, right=10pt, top=10pt, bottom=80pt]
+\begin{enumerate}[start=9, itemsep=5em]
+    \item A rope is \( \dfrac{5}{6} \) meters long. If it is cut into pieces each \( \dfrac{1}{6} \) meter long, how many pieces are there?
+    \item A painter uses \( \dfrac{4}{5} \) gallon of paint for \( \dfrac{1}{4} \) of a wall. How much paint is needed for the whole wall?
+    \item A cyclist rides \( 2 \dfrac{1}{2} \) miles every \( \dfrac{3}{4} \) of an hour. How far does the cyclist ride in 1 hour?
+  
+    \item Draw a model to represent dividing \( \dfrac{3}{4} \) by \( \dfrac{1}{2} \). Use your model to explain how many groups of \( \dfrac{1}{2} \) fit into \( \dfrac{3}{4} \).
+    % Example Problem with Diagram
+\item The diagram below shows a total length \( x \) represented as a bar divided into equal sections. Each section is \( \dfrac{1}{4} \). Write a division equation that represents the diagram and solve for \( x \).
+
+\begin{center}
+\begin{tikzpicture}
+    % Draw the main rectangle
+    \draw[thick] (0,0) rectangle (6,1);
+    % Divide into eight sections
+    \foreach \x in {1,2,3,4,5,6} {
+        \draw[thick] (\x,0) -- (\x,1);
+    }
+    % Shade the first five sections
+    \foreach \x in {0,1,2,3,4} {
+        \fill[gray!30] (\x,0) rectangle (\x+1,1);
+    }
+    % Label the sections
+    \node at (0.5, 0.5) {\( \dfrac{1}{4} \)};
+    \node at (1.5, 0.5) {\( \dfrac{1}{4} \)};
+    \node at (2.5, 0.5) {\( \dfrac{1}{4} \)};
+    \node at (3.5, 0.5) {\( \dfrac{1}{4} \)};
+    \node at (4.5, 0.5) {\( \dfrac{1}{4} \)};
+\end{tikzpicture}
+\end{center}
+
+
+
+
+
+    \item Write and solve: "A piece of fabric is \( 2 \dfrac{1}{3} \) yards long. If each section is \( \dfrac{2}{5} \) yards long, how many sections can be cut?"
+\end{enumerate}
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Performance Task Box
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Performance Task: Sharing Ingredients, halign title=center, left=10pt, right=10pt, top=10pt, bottom=90pt]
+You are preparing for a community bake sale and have the following ingredients:
+\begin{itemize}
+    \item \( 6 \dfrac{1}{2} \) pounds of flour.
+    \item Each cake requires \( \dfrac{3}{4} \) pound of flour.
+    \item Each batch of cookies requires \( \dfrac{2}{5} \) pound of flour.
+\end{itemize}
+\textbf{Task:}
+\begin{enumerate}[itemsep=4em]
+    \item Write and solve an equation to find how many cakes can be made.
+    \item Write and solve an equation to find how many batches of cookies can be made.
+    \item If both cakes and cookies are made, how many pounds of flour will be left?
+\end{enumerate}
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Reflection Box
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Reflection, halign title=center, left=10pt, right=10pt, top=10pt, bottom=100pt]
+What strategies did you use to divide fractions? Reflect on how dividing fractions can be applied to solving real-world problems.
+\end{tcolorbox}
+
+\end{document}

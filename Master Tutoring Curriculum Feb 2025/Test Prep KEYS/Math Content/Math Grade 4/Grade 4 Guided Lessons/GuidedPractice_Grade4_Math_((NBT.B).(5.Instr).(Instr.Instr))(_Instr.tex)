@@ -1,0 +1,171 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper, top=0.8in, bottom=0.7in, left=0.8in, right=0.8in]{geometry}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{tcolorbox}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage[defaultfam,tabular,lining]{montserrat} % Font settings for Montserrat
+\usepackage{xcolor} % For red and blue text
+
+% General Comment: Template for creating problem sets in a structured format with headers, titles, and sections.
+% This document uses Montserrat font and consistent styles for exercises, problems, and performance tasks.
+
+% -------------------------------------------------------------------
+% Directions for LaTeX Styling and Content
+% 1. Include a header with standards and topic title: \fancyhead[L]{\textbf{<Standards>: <Topic Title>}}.
+% 2. Section Breakdown:
+%    - Learning Objective: Concise goal statement.
+%    - Exercises: Procedural fluency tasks.
+%    - Problems: Moderately complex scenarios.
+%    - Performance Task: Real-world, multi-step tasks.
+%    - Reflection: Prompt to reflect on strategies and learning.
+% -------------------------------------------------------------------
+
+\setlength{\parindent}{0pt}
+\pagestyle{fancy}
+
+\setlength{\headheight}{27.11148pt}
+\addtolength{\topmargin}{-15.11148pt}
+
+\fancyhf{}
+%\fancyhead[L]{\textbf{4.NBT.B.5: Multiplying Whole Numbers Using Place Value Strategies}}
+\fancyhead[R]{\includegraphics[width=0.8cm]{Round Logo.png}} % Placeholder for logo
+\fancyfoot[C]{\footnotesize © Study Smart Tutors}
+
+\sloppy
+
+\title{}
+\date{}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\begin{document}
+
+\subsection*{Guided Lesson: Multiplying Whole Numbers Using Place Value Strategies}
+\onehalfspacing
+
+% Learning Objective Box
+\begin{tcolorbox}[colframe=black!40, colback=gray!5, 
+coltitle=black, colbacktitle=black!20, fonttitle=\bfseries\Large, 
+title=Learning Objective, halign title=center, left=5pt, right=5pt, top=5pt, bottom=15pt]
+\textbf{Objective:} Multiply a whole number of up to four digits by a one-digit whole number, and multiply two two-digit numbers using strategies based on place value and the properties of operations.
+
+\textcolor{blue}{\textbf{Instructor Note:} Highlight how place value and breaking apart numbers simplify multiplication. Remind students that both strategies and algorithms are valid approaches.}
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Key Concepts and Vocabulary
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Key Concepts and Vocabulary, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Key Concepts:}
+\begin{itemize}
+    \item \textbf{Place Value:} Use the value of each digit to break numbers into parts when multiplying.
+    \item \textbf{Properties of Operations:}
+    \begin{itemize}
+        \item \textbf{Distributive Property:} Break apart numbers into smaller parts to simplify multiplication.
+        \item \textbf{Associative Property:} Group numbers in different ways to make multiplication easier.
+    \end{itemize}
+    \item \textbf{Standard Algorithm:} Multiply numbers using the traditional algorithm for accuracy.
+\end{itemize}
+
+\textcolor{blue}{\textbf{Instructor Note:} When introducing properties, use visual aids like area models to connect these properties to multiplication.}
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Examples Box
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Examples, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Example 1: Multiply a Four-Digit Number by a One-Digit Number}
+\begin{itemize}
+    \item Problem: Multiply \( 3,245 \times 6 \).
+    \item Solution:
+    \textcolor{red}{
+    \[
+    \begin{aligned}
+    &6 \times 5 = 30 \quad \text{(Write down 0, carry 3)} \\
+    &6 \times 4 = 24, \quad 24 + 3 = 27 \quad \text{(Write down 7, carry 2)} \\
+    &6 \times 2 = 12, \quad 12 + 2 = 14 \quad \text{(Write down 4, carry 1)} \\
+    &6 \times 3 = 18, \quad 18 + 1 = 19 \quad \text{(Write down 19)} \\
+    &\text{Final Answer: } 19,470.
+    \end{aligned}
+    \]}
+\end{itemize}
+
+\textcolor{blue}{\textbf{Instructor Note:} Encourage students to verbalize each step as they multiply, ensuring they understand why they carry digits.}
+
+\textbf{Example 2: Multiply Two Two-Digit Numbers Using the Distributive Property}
+\begin{itemize}
+    \item Problem: Multiply \( 34 \times 27 \).
+    \item Solution:
+    \textcolor{red}{
+    \[
+    \begin{aligned}
+    &(30 + 4) \times (20 + 7) \\
+    &= (30 \times 20) + (30 \times 7) + (4 \times 20) + (4 \times 7) \\
+    &= 600 + 210 + 80 + 28 \\
+    &\text{Final Answer: } 918.
+    \end{aligned}
+    \]}
+\end{itemize}
+
+\textcolor{blue}{\textbf{Instructor Note:} Ask students to explain how breaking numbers into parts helps them solve complex problems.}
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Guided Practice Box
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Guided Practice, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Work through the following problems with teacher support:}
+\begin{enumerate}[itemsep=3em]
+    \item Multiply \( 2,436 \times 4 \). \textcolor{red}{Answer: \( 9,744 \).}
+    \item Multiply \( 4,321 \times 7 \). \textcolor{red}{Answer: \( 30,247 \).}
+    \item Solve \( 26 \times 43 \) using the distributive property. \textcolor{red}{Answer: \( 1,118 \).}
+    \item Solve \( 19 \times 52 \) by breaking apart the numbers. \textcolor{red}{Answer: \( 988 \).}
+\end{enumerate}
+
+\textcolor{blue}{\textbf{Instructor Note:} Monitor students’ progress closely. Model solving one problem as a group before transitioning to individual attempts.}
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Independent Practice Box
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Independent Practice, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Solve the following problems independently:}
+\begin{enumerate}[itemsep=3em]
+    \item Multiply \( 3,218 \times 5 \). \textcolor{red}{Answer: \( 16,090 \).}
+    \item Multiply \( 4,127 \times 6 \). \textcolor{red}{Answer: \( 24,762 \).}
+    \item Solve \( 25 \times 32 \) using the distributive property. \textcolor{red}{Answer: \( 800 \).}
+    \item Solve \( 47 \times 18 \) using place value strategies. \textcolor{red}{Answer: \( 846 \).}
+    \item Solve \( 38 \times 24 \) and check your work using estimation. \textcolor{red}{Answer: \( 912 \).}
+\end{enumerate}
+
+\textcolor{blue}{\textbf{Instructor Note:} Encourage students to show all steps. Walk around and identify misconceptions for timely feedback.}
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Exit Ticket Box
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Exit Ticket, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Reflect on and solve:}
+\begin{itemize}
+    \item Solve \( 45 \times 39 \) using the distributive property. Explain each step of your solution. \textcolor{red}{Answer: \( 45 \times 39 = 1,755 \).}
+\end{itemize}
+
+\textcolor{blue}{\textbf{Instructor Note:} Use this as a formative assessment. Review explanations to ensure students understand both the process and the concepts.}
+\end{tcolorbox}
+
+\end{document}

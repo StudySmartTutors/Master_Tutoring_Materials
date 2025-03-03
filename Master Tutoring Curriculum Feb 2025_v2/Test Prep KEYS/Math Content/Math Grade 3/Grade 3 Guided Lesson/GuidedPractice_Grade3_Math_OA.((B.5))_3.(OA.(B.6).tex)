@@ -1,0 +1,158 @@
+\documentclass[11pt]{article} 
+\usepackage[a4paper, top=0.8in, bottom=0.7in, left=0.8in, right=0.8in]{geometry}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage{tcolorbox}
+\usepackage{textcomp}
+\usepackage[defaultfam,tabular,lining]{montserrat} % Font settings for Montserrat
+
+% ChatGPT Directions:
+% ----------------------------------------------------------------------
+% This template is designed for creating guided lessons that align strictly with specific standards.
+% Key points to ensure proper usage:
+% 1. **Key Concepts and Vocabulary**:
+%    - Include only the concepts necessary for meeting the standards.
+%    - Each Key Concept section must align explicitly with the standards being addressed.
+% 2. **Examples**:
+%    - Provide concrete worked examples to illustrate the Key Concepts.
+%    - These should directly tie back to the Key Concepts presented earlier.
+% 3. **Guided Practice**:
+%    - Problems should reinforce Key Concepts and Examples.
+%    - Allow for ample spacing between problems to give students room for work.
+% 4. **Additional Notes**:
+%    - Use this section for helpful but non-essential concepts, strategies, or teacher notes.
+% 5. **Independent Practice**:
+%    - Provide problems for students to practice Key Concepts individually.
+% 6. **Exit Ticket**:
+%    - Include a reflective or assessment-based question to evaluate student understanding.
+% ----------------------------------------------------------------------
+
+\setlength{\parindent}{0pt}
+\pagestyle{fancy}
+
+\setlength{\headheight}{27.11148pt}
+\addtolength{\topmargin}{-15.11148pt}
+
+\fancyhf{}
+%\fancyhead[L]{\textbf{Standard(s): 3.OA.B.5, 3.OA.B.6}}
+\fancyhead[R]{\includegraphics[width=0.8cm]{Round Logo.png}}
+\fancyfoot[C]{\footnotesize © Study Smart Tutors}
+
+\sloppy
+
+\title{}
+\date{}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\begin{document}
+
+\subsection*{Guided Lesson: Properties and Relationships in Multiplication and Division}
+\onehalfspacing
+
+% Learning Objective Box
+\begin{tcolorbox}[colframe=black!40, colback=gray!5, 
+coltitle=black, colbacktitle=black!20, fonttitle=\bfseries\Large, 
+title=Learning Objective, halign title=center, left=5pt, right=5pt, top=5pt, bottom=15pt]
+\textbf{Objective:} Understand and apply properties of multiplication and the relationship between multiplication and division to solve real-world problems and reason quantitatively.
+\end{tcolorbox}
+
+\vspace{3em}
+
+% Key Concepts and Vocabulary
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Key Concepts and Vocabulary, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Key Concepts:}
+\begin{itemize}
+    \item \textbf{Commutative Property of Multiplication:} Changing the order of factors does not change the product. For example, \(4 \times 3 = 3 \times 4 = 12\).
+    \item \textbf{Associative Property of Multiplication:} Grouping factors differently does not change the product. For example, \((2 \times 3) \times 4 = 2 \times (3 \times 4) = 24\).
+    \item \textbf{Distributive Property:} A number multiplied by a sum can be distributed across the addition. For example, \(5 \times (2 + 3) = (5 \times 2) + (5 \times 3) = 25\).
+    \item \textbf{Inverse Relationship Between Multiplication and Division:} Multiplication and division undo each other. For example, \(4 \times 6 = 24\) and \(24 \div 6 = 4\).
+\end{itemize}
+\end{tcolorbox}
+
+\vspace{5em}
+
+% Examples
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Examples, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Example 1: Commutative Property}
+\begin{itemize}
+    \item Problem: Show that \(6 \times 4 = 4 \times 6\).
+    \item Solution: \(6 \times 4 = 24\) and \(4 \times 6 = 24\). Both give the same product, so the commutative property holds.
+\end{itemize}
+
+\textbf{Example 2: Associative Property}
+\begin{itemize}
+    \item Problem: Show that \((3 \times 2) \times 5 = 3 \times (2 \times 5)\).
+    \item Solution: \((3 \times 2) \times 5 = 6 \times 5 = 30\) and \(3 \times (2 \times 5) = 3 \times 10 = 30\). Both give the same product, so the associative property holds.
+\end{itemize}
+
+\textbf{Example 3: Distributive Property}
+\begin{itemize}
+    \item Problem: Simplify \(4 \times (7 + 2)\) using the distributive property.
+    \item Solution: \(4 \times (7 + 2) = (4 \times 7) + (4 \times 2) = 28 + 8 = 36\).
+\end{itemize}
+
+\textbf{Example 4: Relationship Between Multiplication and Division}
+\begin{itemize}
+    \item Problem: Solve \(18 \div 3 = ?\) using multiplication.
+    \item Solution: Think of the related multiplication fact: \(3 \times ? = 18\). The missing number is \(6\), so \(18 \div 3 = 6\).
+\end{itemize}
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Guided Practice
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Guided Practice, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Solve the following problems with teacher support:}
+\begin{enumerate}[itemsep=5em]
+    \item Use the commutative property to rewrite and solve \(9 \times 4\).
+    \item Use the distributive property to simplify \(6 \times (5 + 3)\).
+    \item Solve \(30 \div 5 = ?\). Write the related multiplication fact.
+    \item Mia has \(3\) baskets of \(8\) apples each. Write and solve an equation to find the total number of apples. Then write the related division fact.
+    \item A classroom has \(5\) rows of chairs with \(6\) chairs in each row. Show how to calculate the total using the associative property.
+    \vspace{3 cm}
+\end{enumerate}
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Independent Practice
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Independent Practice, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Solve the following problems independently:}
+\begin{enumerate}[itemsep=5em]
+    \item Show that \(7 \times 3 = 3 \times 7\) using the commutative property.
+    \item Use the associative property to simplify \((4 \times 2) \times 5\).
+    \item Solve \(36 \div 6 = ?\) and write the corresponding multiplication fact.
+    \item Write and solve an equation to find the total number of items in \(4\) groups of \(9\). Then write the related division equation.
+    \item Solve \(48 \div 8 = ?\) and explain your reasoning using the inverse relationship between multiplication and division.
+\end{enumerate}
+\vspace{3 cm}
+\end{tcolorbox}
+
+% \vspace{3em}
+
+% Exit Ticket
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Exit Ticket, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Reflection:}
+\begin{itemize}
+    \item How do the properties of multiplication (commutative, associative, and distributive) help you solve problems? Provide an example.
+\vspace{1cm}
+\end{itemize}
+\end{tcolorbox}
+
+\end{document}

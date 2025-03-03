@@ -1,0 +1,128 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{standalone}
+\usepackage[a4paper, top=0.8in, bottom=0.7in, left=0.8in, right=0.8in]{geometry}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{amsfonts}
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage{tcolorbox}
+\usepackage{tikz}
+\usepackage{multicol}
+\usepackage[defaultfam,tabular,lining]{montserrat} % Font settings for Montserrat
+\usepackage{xcolor}  % To use colors
+
+\hypersetup{
+    colorlinks=true,   % Activate colored links
+    linkcolor=blue,    % Link color for internal links
+    urlcolor=blue,     % Link color for URLs
+    filecolor=blue,    % Link color for file links
+    menucolor=blue     % Link color for menus
+}
+
+\sloppy
+\title{}
+\date{}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+\setlength{\parindent}{0pt}
+\pagestyle{fancy}
+\setlength{\headheight}{27.11148pt}
+\addtolength{\topmargin}{-15.11148pt}
+% Define new commands for subject, assessment type, and Level
+\newcommand{\standards}{CCSS} 
+\newcommand{\subject}{Math} 
+\newcommand{\doctype}{SWB}
+\newcommand{\levelLetter}{E}
+
+
+% Change these commands to update throughout the document
+
+
+%Document Title Command
+\newcommand{\doctitle}{\standards \ \subject  \ Curriculum \levelLetter \ \doctype }
+
+
+
+\fancyhf{}
+\fancyhead[L]{\textbf{\doctitle}}
+\fancyhead[R]{\includegraphics[width=0.8cm]{Round Logo.png}} % Placeholder for logo
+\fancyfoot[C]{\footnotesize \textcopyright{} Study Smart Tutors}
+\fancyfoot[R]{\thepage}  % Page number in bottom right corner
+\fancyfoot[L]{\hyperlink{toc}{Back to Contents}} % Clickable link in bottom left to TOC
+
+
+
+\begin{document}
+
+% Title Page
+\input{Tutoring Cover Pages/Math Curriculum Materials Cover Pages/Curriculum E Math.tex} % Include the title page content here
+
+\pagenumbering{gobble} 
+\hypertarget{toc}{}  % Mark the TOC as a hyperlink target
+% Table of Contents
+\tableofcontents
+\newpage
+
+% Restart page numbering from 1 after TOC
+\pagenumbering{arabic}
+\pagestyle{fancy}  % Re-enable fancy headers/footers
+
+% Guided Lesson and Problem Set for 4.NBT.A.1, 4.NBT.A.2
+\newpage
+\section{4.NBT.A.1, 4.NBT.A.2 Guided Lesson}
+\input{Math Content/Math Grade 4/Grade 4 Guided Lessons/Generic.4.NBT.A.1, 4.NBT.A.2.GL.tex}
+
+\newpage
+\section{4.NBT.A.1, 4.NBT.A.2 Problem Set}
+\input{Math Content/Math Grade 4/Grade 4 Problem Set/Generic.4.NBT.A.1, 4.NBT.A.2.PS.tex}
+
+% Guided Lesson and Problem Set for 4.NBT.B.4
+\newpage
+\section{4.NBT.B.4 Guided Lesson}
+\input{Math Content/Math Grade 4/Grade 4 Guided Lessons/Generic.4.NBT.B.4.GL.tex}
+
+\newpage
+\section{4.NBT.B.4 Problem Set}
+\input{Math Content/Math Grade 4/Grade 4 Problem Set/Generic.4.NBT.B.4.PS.tex}
+
+% Guided Lesson and Problem Set for 4.NBT.B.5
+\newpage
+\section{4.NBT.B.5 Guided Lesson}
+\input{Math Content/Math Grade 4/Grade 4 Guided Lessons/Generic.4.NBT.B.5.GL.tex}
+
+\newpage
+\section{4.NBT.B.5 Problem Set}
+\input{Math Content/Math Grade 4/Grade 4 Problem Set/Generic.4.NBT.B.5.PS.tex}
+
+% Guided Lesson and Problem Set for 4.NBT.B.6
+\newpage
+\section{4.NBT.B.6 Guided Lesson}
+\input{Math Content/Math Grade 4/Grade 4 Guided Lessons/Generic.4.NBT.B.6.GL.tex}
+
+\newpage
+\section{4.NBT.B.6 Problem Set}
+\input{Math Content/Math Grade 4/Grade 4 Problem Set/Generic.4.NBT.B.6.PS.tex}
+
+% Guided Lesson and Problem Set for 4.NF.A.1
+\newpage
+\section{4.NF.A.1 Guided Lesson}
+\input{Math Content/Math Grade 4/Grade 4 Guided Lessons/Generic.4.NF.A.1.GL.tex}
+
+\newpage
+\section{4.NF.A.1 Problem Set}
+\input{Math Content/Math Grade 4/Grade 4 Problem Set/Generic.4.NF.A.1.PS.tex}
+
+% Guided Lesson and Problem Set for 4.OA.A.2, 4.OA.A.3
+\newpage
+\section{4.OA.A.2, 4.OA.A.3 Guided Lesson}
+\input{Math Content/Math Grade 4/Grade 4 Guided Lessons/Generic.4.OA.A.2, 4.OA.A.3.GL.tex}
+
+\newpage
+\section{4.OA.A.2, 4.OA.A.3 Problem Set}
+\input{Math Content/Math Grade 4/Grade 4 Problem Set/Generic.4.OA.A.2, 4.OA.A.3.PS.tex}
+
+\end{document}

@@ -1,0 +1,123 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{standalone}
+\usepackage[a4paper, top=0.8in, bottom=0.7in, left=0.8in, right=0.8in]{geometry}
+\usepackage{amsmath, amsfonts, latexsym, graphicx, fancyhdr, enumitem, setspace, tcolorbox, tikz, multicol, hyperref, xcolor}
+\usepackage[defaultfam,tabular,lining]{montserrat}
+
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+    filecolor=blue,
+    menucolor=blue,
+}
+
+
+\sloppy
+
+\title{}
+\date{}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\setlength{\parindent}{0pt}
+\pagestyle{fancy}
+
+\setlength{\headheight}{27.11148pt}
+\addtolength{\topmargin}{-15.11148pt}
+
+% Change these commands to update throughout the document
+\newcommand{\standards}{CCSS}    % Standard Set (e.g., CCSS, Georgia)
+\newcommand{\subject}{Math}      % Subject Name
+\newcommand{\levelLetter}{I}     % Curriculum Level (Grade 7)
+\newcommand{\doctype}{SWB}       % Document Type (SWB, TWB, etc.)
+
+% Document Title Command
+\newcommand{\doctitle}{\standards\ \subject\ Curriculum \levelLetter\ \doctype}
+
+\fancyhf{}
+\fancyhead[L]{\textbf{\doctitle}}
+\fancyhead[R]{\includegraphics[width=0.8cm]{Round Logo.png}} % Placeholder for logo
+\fancyfoot[C]{\footnotesize \textcopyright{} Study Smart Tutors}
+\fancyfoot[R]{\thepage}  % Page number in bottom right corner
+\fancyfoot[L]{\hyperlink{toc}{Back to Contents}} % Clickable link in bottom left to TOC
+
+% Reset page numbers after TOC
+\newcommand{\startPageNumbers}{\setcounter{page}{1}}
+
+\sloppy
+
+
+
+\begin{document}
+
+% Title Page
+\pagenumbering{gobble}
+\input{Tutoring Cover Pages/Math Curriculum Materials Cover Pages/Curriculum I Math.tex}
+\newpage
+
+% Table of Contents
+\hypertarget{toc}{}
+\tableofcontents
+\newpage
+
+% Start Numbering
+\pagenumbering{arabic}
+\pagestyle{fancy}
+
+% Guided Lesson and Exercise Set for 8.EE.A.1
+\newpage
+\section{8.EE.A.1 Guided Lesson}
+\input{Math Content/Math Grade 8/Grade 8 Guided Lesson/Generic.8.EE.A.1.GL.tex}
+
+\newpage
+\section{8.EE.A.1 Exercise Set}
+\input{Math Content/Math Grade 8/Grade 8 Problem Set/Generic.8.EE.A.1.PS.tex}
+
+% Guided Lesson and Exercise Set for 8.EE.A.2
+\newpage
+\section{8.EE.A.2 Guided Lesson}
+\input{Math Content/Math Grade 8/Grade 8 Guided Lesson/Generic.8.EE.A.2.GL.tex}
+
+\newpage
+\section{8.EE.A.2 Exercise Set}
+\input{Math Content/Math Grade 8/Grade 8 Problem Set/Generic.8.EE.A.2.PS.tex}
+
+% Guided Lesson and Exercise Set for 8.EE.B.5
+\newpage
+\section{8.EE.B.5 Guided Lesson}
+\input{Math Content/Math Grade 8/Grade 8 Guided Lesson/Generic.8.EE.B.5.GL.tex}
+
+\newpage
+\section{8.EE.B.5 Exercise Set}
+\input{Math Content/Math Grade 8/Grade 8 Problem Set/Generic.8.EE.B.5.PS.tex}
+
+% Guided Lesson and Exercise Set for 8.EE.C.7
+\newpage
+\section{8.EE.C.7 Guided Lesson}
+\input{Math Content/Math Grade 8/Grade 8 Guided Lesson/Generic.8.EE.C.7.GL.tex}
+
+\newpage
+\section{8.EE.C.7 Exercise Set}
+\input{Math Content/Math Grade 8/Grade 8 Problem Set/Generic.8.EE.C.7.PS.tex}
+
+% Guided Lesson and Exercise Set for 8.NS.A.1
+\newpage
+\section{8.NS.A.1 Guided Lesson}
+\input{Math Content/Math Grade 8/Grade 8 Guided Lesson/Generic.8.NS.A.1.GL.tex}
+
+\newpage
+\section{8.NS.A.1 Exercise Set}
+\input{Math Content/Math Grade 8/Grade 8 Problem Set/Generic.8.NS.A.1.PS.tex}
+
+% Guided Lesson and Exercise Set for 8.NS.A.2
+\newpage
+\section{8.NS.A.2 Guided Lesson}
+\input{Math Content/Math Grade 8/Grade 8 Guided Lesson/Generic.8.NS.A.2.GL.tex}
+
+\newpage
+\section{8.NS.A.2 Exercise Set}
+\input{Math Content/Math Grade 8/Grade 8 Problem Set/Generic.8.NS.A.2.PS.tex}
+
+\end{document}

@@ -1,0 +1,133 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper, top=0.8in, bottom=0.7in, left=0.8in, right=0.8in]{geometry}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage{tcolorbox}
+\usepackage{textcomp}
+\usepackage[defaultfam,tabular,lining]{montserrat}
+
+\setlength{\parindent}{0pt}
+\pagestyle{fancy}
+
+\setlength{\headheight}{27.11148pt}
+\addtolength{\topmargin}{-15.11148pt}
+
+\fancyhf{}
+%\fancyhead[L]{\textbf{Standard(s): 8.NS.A.1}}
+\fancyhead[R]{\includegraphics[width=0.8cm]{Round Logo.png}} % Placeholder for logo
+\fancyfoot[C]{\footnotesize © Study Smart Tutors}
+
+\sloppy
+
+\title{}
+\date{}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\begin{document}
+
+\subsection*{Guided Lesson: Understanding Rational and Irrational Numbers}
+\onehalfspacing
+
+% Learning Objective Box
+\begin{tcolorbox}[colframe=black!40, colback=gray!5, 
+coltitle=black, colbacktitle=black!20, fonttitle=\bfseries\Large, 
+title=Learning Objective, halign title=center, left=5pt, right=5pt, top=5pt, bottom=15pt]
+\textbf{Objective:} Identify and differentiate between rational and irrational numbers. Convert repeating decimals into fractions and recognize that irrational numbers cannot be expressed as fractions.
+\end{tcolorbox}
+
+% Key Concepts and Vocabulary
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Key Concepts and Vocabulary, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Key Concepts:}
+\begin{itemize}
+    \item \textbf{Rational Numbers:} Numbers that can be expressed as a ratio of two integers, \( \frac{a}{b} \), where \(b \neq 0\). Their decimal expansions terminate (e.g., \(0.5\)) or repeat (e.g., \(0.\overline{3}\)).
+    \item \textbf{Irrational Numbers:} Numbers that cannot be expressed as a ratio of two integers. Their decimal expansions never terminate and never repeat (e.g., \(\pi\), \(\sqrt{2}\)).
+    \item \textbf{Repeating Decimals to Fractions:} Use algebraic methods to convert repeating decimals into fractions.
+\end{itemize}
+\end{tcolorbox}
+
+% Examples
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Examples, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Example 1: Identify Rational and Irrational Numbers}
+\begin{itemize}
+    \item Problem: Is \(0.75\) rational or irrational?
+    \item Solution: \(0.75\) terminates, so it is rational. It can be expressed as \(\frac{3}{4}\).
+\end{itemize}
+
+\textbf{Example 2: Convert a Repeating Decimal to a Fraction}
+\begin{itemize}
+    \item Problem: Convert \(0.\overline{6}\) to a fraction.
+    \item Solution:
+    \begin{itemize}
+        \item Let \(x = 0.\overline{6}\).
+        \item Multiply both sides by \(10\): \(10x = 6.\overline{6}\).
+        \item Subtract \(x\): \(10x - x = 6.\overline{6} - 0.\overline{6}\).
+        \item Solve: \(9x = 6 \implies x = \frac{6}{9} = \frac{2}{3}\).
+    \end{itemize}
+\end{itemize}
+
+\textbf{Example 3: Recognizing an Irrational Number}
+\begin{itemize}
+    \item Problem: Is \(\sqrt{2}\) rational or irrational?
+    \item Solution: \(\sqrt{2}\) is irrational because it cannot be expressed as a fraction, and its decimal expansion never terminates or repeats.
+\end{itemize}
+\end{tcolorbox}
+
+% Guided Practice
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Guided Practice, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Solve the following problems with teacher support:}
+\begin{enumerate}[itemsep=3em]
+    \item Classify the following numbers as rational or irrational: \(0.333...\), \(\pi\), \(4.25\), and \(1.414...\).
+    \item Convert \(0.\overline{4}\) to a fraction.
+    \item Explain why \(\sqrt{3}\) is irrational.
+\end{enumerate}
+\end{tcolorbox}
+
+% Additional Notes
+\begin{tcolorbox}[colframe=black!40, colback=gray!5, 
+coltitle=black, colbacktitle=black!20, fonttitle=\bfseries\Large, 
+title=Additional Notes, halign title=center, left=5pt, right=5pt, top=5pt, bottom=15pt]
+\textbf{Notes:}
+\begin{itemize}
+    \item Every number has a decimal expansion. Rational numbers have decimal expansions that terminate or repeat.
+    \item Irrational numbers are non-repeating and non-terminating.
+    \item Use algebraic techniques to convert repeating decimals to fractions.
+\end{itemize}
+\end{tcolorbox}
+
+% Independent Practice
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Independent Practice, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Solve the following problems independently:}
+\begin{enumerate}[itemsep=3em]
+    \item Classify the following numbers as rational or irrational: \(1.5\), \(\sqrt{5}\), \(0.\overline{7}\), and \(0.123456...\) (non-repeating).
+    \item Convert \(0.\overline{3}\) to a fraction.
+    \item Write \(1.111...\) as a fraction.
+    \item Prove that \(0.\overline{12}\) is rational.
+\end{enumerate}
+\end{tcolorbox}
+
+% Exit Ticket
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Exit Ticket, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Reflect and Solve:}
+\begin{itemize}
+    \item Why are some numbers irrational? Provide an example.
+    \item Prove that \(0.\overline{8}\) is a rational number.
+\end{itemize}
+\end{tcolorbox}
+
+\end{document}

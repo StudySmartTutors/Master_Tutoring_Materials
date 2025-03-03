@@ -1,0 +1,116 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper, top=0.8in, bottom=0.7in, left=0.8in, right=0.8in]{geometry}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage{tcolorbox}
+\usepackage{textcomp}
+\usepackage[defaultfam,tabular,lining]{montserrat} % Font settings for Montserrat
+
+\setlength{\parindent}{0pt}
+\pagestyle{fancy}
+
+\setlength{\headheight}{27.11148pt}
+\addtolength{\topmargin}{-15.11148pt}
+
+\fancyhf{}
+%\fancyhead[L]{\textbf{Standard(s): 8.NS.A.2}}
+\fancyhead[R]{\includegraphics[width=0.8cm]{Round Logo.png}}
+\fancyfoot[C]{\footnotesize © Study Smart Tutors}
+
+\sloppy
+
+\title{}
+\date{}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\begin{document}
+
+\subsection*{Guided Lesson: Approximating Irrational Numbers}
+\onehalfspacing
+
+% Learning Objective Box
+\begin{tcolorbox}[colframe=black!40, colback=gray!5, 
+coltitle=black, colbacktitle=black!20, fonttitle=\bfseries\Large, 
+title=Learning Objective, halign title=center, left=5pt, right=5pt, top=5pt, bottom=15pt]
+\textbf{Objective:} Learn to approximate irrational numbers, compare them with rational numbers, locate them on a number line, and estimate values in expressions.
+\end{tcolorbox}
+
+% Key Concepts and Vocabulary
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Key Concepts and Vocabulary, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Key Concepts:}
+\begin{itemize}
+    \item \textbf{Irrational Numbers:} Numbers that cannot be written as fractions and have non-terminating, non-repeating decimal expansions (e.g., \( \sqrt{2}, \pi \)).
+    \item \textbf{Rational Approximations:} Use decimal approximations to represent irrational numbers (e.g., \( \sqrt{5} \approx 2.236 \)).
+    \item \textbf{Number Line Placement:} Place approximations of irrational numbers on a number line to show relative positions.
+    \item \textbf{Estimating Expressions:} Simplify and estimate expressions involving irrational numbers using their approximations.
+\end{itemize}
+\end{tcolorbox}
+
+% Examples
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Examples, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Example 1: Comparing \( \sqrt{5} \) and \( 2.2 \)}
+\begin{itemize}
+    \item Problem: Which is larger, \( \sqrt{5} \) or \( 2.2 \)?\\
+    \textbf{Solution:} Approximate \( \sqrt{5} \approx 2.236 \). Since \( 2.236 > 2.2 \), \( \sqrt{5} \) is larger.
+\end{itemize}
+
+\textbf{Example 2: Locating \( \sqrt{7} \) on a Number Line}
+\begin{itemize}
+    \item Problem: Place \( \sqrt{7} \) on a number line.\\
+    \textbf{Solution:} Approximate \( \sqrt{7} \approx 2.645 \). Plot \( \sqrt{7} \) slightly below 2.7 between 2.6 and 2.7.
+\end{itemize}
+
+\textbf{Example 3: Estimating \( \sqrt{3} \cdot 2 \)}
+\begin{itemize}
+    \item Problem: Estimate \( \sqrt{3} \cdot 2 \) to the nearest tenth.\\
+    \textbf{Solution:} Approximate \( \sqrt{3} \approx 1.732 \). Multiply: \( 1.732 \cdot 2 = 3.464 \). To the nearest tenth: \( 3.5 \).
+\end{itemize}
+\end{tcolorbox}
+
+% Guided Practice
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Guided Practice, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Solve the following problems with teacher support:}
+\begin{enumerate}[itemsep=3em]
+    \item Compare \( \sqrt{8} \) and \( 2.9 \). Which is larger?
+    \item Place \( \sqrt{12} \) approximately on a number line.
+    \item Estimate \( \sqrt{10} - 3 \) and round to the nearest tenth.
+\end{enumerate}
+\end{tcolorbox}
+
+% Independent Practice
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Independent Practice, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Solve the following problems independently:}
+\begin{enumerate}[itemsep=3em]
+    \item Compare \( \sqrt{13} \) and \( 3.5 \). Which is greater?
+    \item Locate \( \sqrt{15} \) approximately on a number line.
+    \item Estimate \( \pi - 3.14 \) and explain whether it is a rational or irrational value.
+    \item Use approximations to evaluate \( \sqrt{11} + 2.5 \) and round to the nearest tenth.
+\end{enumerate}
+\end{tcolorbox}
+
+% Exit Ticket
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Exit Ticket, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Reflect and Solve:}
+\begin{itemize}
+    \item Approximate \( \sqrt{6} \) to the nearest hundredth and place it on a number line.
+    \item Explain why \( \sqrt{2} + 2 \) is irrational, and use an approximation to evaluate it.
+\end{itemize}
+\end{tcolorbox}
+
+\end{document}

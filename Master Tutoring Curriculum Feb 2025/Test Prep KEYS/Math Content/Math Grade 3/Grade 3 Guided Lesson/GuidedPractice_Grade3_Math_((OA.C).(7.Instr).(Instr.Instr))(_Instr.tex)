@@ -1,0 +1,132 @@
+\documentclass[12pt]{article} 
+\usepackage[a4paper, top=0.8in, bottom=0.7in, left=0.8in, right=0.8in]{geometry}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage{tcolorbox}
+\usepackage{textcomp}
+\usepackage[defaultfam,tabular,lining]{montserrat} % Font settings for Montserrat
+
+% General Comment: Template for creating problem sets in a structured format with headers, titles, and sections.
+% This document uses Montserrat font and consistent styles for exercises, problems, and performance tasks.
+
+% -------------------------------------------------------------------
+% ChatGPT Directions: 
+% 1. Always include a header that dynamically updates based on the standards and topic title.
+%    Example: \fancyhead[L]{\textbf{<Standards>: <Topic Title>}}
+%
+% -------------------------------------------------------------------
+
+\setlength{\parindent}{0pt}
+\pagestyle{fancy}
+
+\setlength{\headheight}{27.11148pt}
+\addtolength{\topmargin}{-15.11148pt}
+
+\fancyhf{}
+%\fancyhead[L]{\textbf{3.OA.C.7: Fluently Multiply and Divide Within 100}} % Header with standards and topic title
+\fancyhead[R]{\includegraphics[width=0.8cm]{Round Logo.png}} % Placeholder for logo
+\fancyfoot[C]{\footnotesize \textcopyright{} Study Smart Tutors}
+
+\sloppy
+
+\title{}
+\date{}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\begin{document}
+
+\subsection*{Problem Set: Fluently Multiply and Divide Within 100}
+\onehalfspacing
+
+% Learning Objective Box
+\begin{tcolorbox}[colframe=black!40, colback=gray!5, 
+coltitle=black, colbacktitle=black!20, fonttitle=\bfseries\Large, 
+title=Learning Objective, halign title=center, left=5pt, right=5pt, top=5pt, bottom=15pt]
+\textbf{Objective:} Fluently multiply and divide within 100 using strategies based on the properties of operations and the relationship between multiplication and division.
+
+{\color{blue}\textbf{Instructor Note:} Reinforce the importance of understanding multiplication and division as inverse operations. Use real-world examples to connect the concept to students' experiences.}
+\end{tcolorbox}
+
+\vspace{1cm}
+
+% Key Concepts and Vocabulary
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Key Concepts and Vocabulary, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Key Concepts:}
+\begin{itemize}
+    \item \textbf{Multiplication Facts:} Fluency in multiplication helps solve problems quickly. For example, \(8 \times 7 = 56\).
+    \item \textbf{Division Facts:} Division undoes multiplication. For example, \(56 \div 8 = 7\).
+    \item \textbf{Commutative Property:} Changing the order of factors does not change the product (\(4 \times 9 = 9 \times 4\)).
+    \item \textbf{Distributive Property:} Break apart problems for easier calculation (\(7 \times 8 = (7 \times 5) + (7 \times 3)\)).
+\end{itemize}
+{\color{blue}\textbf{Instructor Note:} Use visuals (e.g., arrays or area models) to connect abstract properties to concrete representations.}
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Examples
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Examples, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Example 1: Using Multiplication Facts}
+\begin{itemize}
+    \item Problem: Solve \(8 \times 9\).
+    \item {\color{red}Solution: Recall the fact \(8 \times 9 = 72\). The product is \(72\).}
+\end{itemize}
+
+\textbf{Example 2: Distributive Property}
+\begin{itemize}
+    \item Problem: Solve \(6 \times 7\) using the distributive property.
+    \item {\color{red}Solution: Break \(7\) into \(5 + 2\). Calculate \((6 \times 5) + (6 \times 2) = 30 + 12 = 42\). The product is \(42\).}
+\end{itemize}
+\end{tcolorbox}
+
+\vspace{2em}
+
+% Guided Practice
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Guided Practice, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Directions: Solve the following problems with teacher support.}
+
+\begin{enumerate}[itemsep=5em]
+    \item Solve \(7 \times 6\). Write the related division fact.\\
+    {\color{red}Solution: \(7 \times 6 = 42\). Related division fact: \(42 \div 6 = 7\).}
+\end{enumerate}
+{\color{blue}\textbf{Instructor Note:} Use manipulatives (like counters) if students struggle with understanding fact families.}
+\end{tcolorbox}
+
+\vspace{2em}
+
+% Independent Practice
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Independent Practice, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Solve these problems independently:}
+\begin{enumerate}[itemsep=5em]
+    \item Simplify \(48 \div 8\). Write the related multiplication fact.\\
+    {\color{red}Solution: \(48 \div 8 = 6\). Related multiplication fact: \(6 \times 8 = 48\).}
+\end{enumerate}
+\end{tcolorbox}
+
+\vspace{2em}
+
+% Exit Ticket
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Exit Ticket, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Reflection:}
+\begin{itemize}
+    \item How does knowing multiplication facts help with division? Share an example.
+    {\color{red}Example Answer: Knowing \(8 \times 7 = 56\) helps solve \(56 \div 7 = 8\).}
+\end{itemize}
+\end{tcolorbox}
+
+\end{document}

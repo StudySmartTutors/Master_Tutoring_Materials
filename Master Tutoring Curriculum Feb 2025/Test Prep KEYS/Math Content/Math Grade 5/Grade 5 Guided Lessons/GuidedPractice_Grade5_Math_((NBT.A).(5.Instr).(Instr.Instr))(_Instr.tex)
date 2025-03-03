@@ -1,0 +1,119 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper, top=0.8in, bottom=0.7in, left=0.8in, right=0.8in]{geometry}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{tcolorbox}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage{xcolor}
+\usepackage[defaultfam,tabular,lining]{montserrat} 
+
+% ----------------------------------------------------------------------
+% ChatGPT Directions:
+% Instructor Notes are added in blue throughout the document to guide the instructor. Notes do not alter the content or formatting.
+% ----------------------------------------------------------------------
+
+\setlength{\parindent}{0pt}
+\pagestyle{fancy}
+
+\setlength{\headheight}{27.11148pt}
+\addtolength{\topmargin}{-15.11148pt}
+
+\fancyhf{}
+%\fancyhead[L]{\textbf{5.NBT.A.5: Multi-Step Word Problems}}
+\fancyhead[R]{\includegraphics[width=0.8cm]{Round Logo.png}}
+\fancyfoot[C]{\footnotesize © Study Smart Tutors}
+
+\sloppy
+
+\title{}
+\date{}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\begin{document}
+
+\subsection*{Problem Set: Solving Two-Step Word Problems Using Multiplication and Division}
+\onehalfspacing
+
+% Learning Objective Box
+\begin{tcolorbox}[colframe=black!40, colback=gray!5, 
+coltitle=black, colbacktitle=black!20, fonttitle=\bfseries\Large, 
+title=Learning Objective, halign title=center, left=5pt, right=5pt, top=5pt, bottom=15pt]
+\textbf{Objective:} Solve two-step word problems involving multiplication and division, representing solutions using equations with a variable.\\
+\textcolor{blue}{\textit{Instructor Note: Emphasize that two-step problems require careful planning and reasoning. Encourage students to write equations before solving.}}
+\end{tcolorbox}
+
+% Exercises Box
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Exercises, halign title=center, left=10pt, right=10pt, top=10pt, bottom=60pt]
+\textbf{Step-by-Step Solutions:}
+\begin{enumerate}[itemsep=3em]
+    \item Find the product: \( 23 \times 45 \). \\
+    \textcolor{blue}{\textit{Instructor Note: Walk students through breaking the problem into smaller parts—partial products—before adding the totals.}}
+
+    \item Divide and find the quotient: \( 750 \div 25 \). \\
+    \textcolor{blue}{\textit{Instructor Note: Reinforce the connection between division and multiplication as inverse operations.}}
+
+    \item Multiply: \( 356 \times 12 \). \\
+    \textcolor{blue}{\textit{Instructor Note: Remind students to align digits by place value to avoid errors.}}
+
+    \item Solve: \( 48 \div 6 \times 4 \). \\
+    \textcolor{blue}{\textit{Instructor Note: Emphasize the order of operations (division first, then multiplication).}}
+
+    \item Write the equation and solve: "A box contains 125 pencils, and there are 8 boxes. How many pencils are there in total?" \\
+    \textcolor{blue}{\textit{Instructor Note: Guide students to write a multiplication equation (\( 125 \times 8 \)) before solving.}}
+
+    \item Simplify: \( (240 \div 8) + 42 \). \\
+    \textcolor{blue}{\textit{Instructor Note: Help students simplify step-by-step, focusing on parentheses first.}}
+
+    \item Solve for \( x \): \( 3x = 450 \div 10 \). \\
+    \textcolor{blue}{\textit{Instructor Note: Discuss how to isolate \( x \) by reversing multiplication with division.}}
+
+    \item Write and solve: "A group of 5 friends collects 350 marbles in total. If they divide the marbles equally, how many marbles does each friend get?" \\
+    \textcolor{blue}{\textit{Instructor Note: Encourage students to write and solve the equation \( 350 \div 5 \).}}
+\end{enumerate}
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Problems Box
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Problems, halign title=center, left=10pt, right=10pt, top=10pt, bottom=100pt]
+\textbf{Step-by-Step Solutions:}
+\begin{enumerate}[start=9, itemsep=5em]
+    \item Maria bought 6 boxes of markers, and each box costs \$15. She also purchased a notebook for \$12. Write and solve an equation to find the total amount Maria spent. \\
+    \textcolor{blue}{\textit{Instructor Note: Highlight that students need to complete multiplication first, then addition.}}
+
+    \item A bakery bakes 120 cupcakes in the morning and 140 in the afternoon. If each box holds 10 cupcakes, how many boxes do they use in total? \\
+    \textcolor{blue}{\textit{Instructor Note: Guide students to add first, then divide. Ask them to check their answers.}}
+
+    \item A farmer harvests 1,250 apples in a week. If he packs them into baskets holding 25 apples each, how many baskets are needed? \\
+    \textcolor{blue}{\textit{Instructor Note: Use this problem to reinforce long division strategies.}}
+
+    \item Find the missing factor: \( 45 \times x = 2,250 \). Solve for \( x \) and explain your reasoning. \\
+    \textcolor{blue}{\textit{Instructor Note: Remind students to isolate \( x \) by dividing both sides of the equation.}}
+
+    \item A teacher bought 300 pencils for her class. If each student gets 12 pencils, how many students can receive pencils? \\
+    \textcolor{blue}{\textit{Instructor Note: Encourage students to write the equation \( 300 \div 12 \) and solve step-by-step.}}
+\end{enumerate}
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Reflection Box
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Exit Ticket, halign title=center, left=10pt, right=10pt, top=10pt, bottom=90pt]
+\textcolor{blue}{\textit{Instructor Note: Encourage students to reflect on their strategies and highlight the importance of using equations to solve unknowns.}}
+
+\textcolor{red}{
+Sample Answer: Multiplication and division work together to solve multi-step problems. For example, I used division to find the quotient and multiplication to find the total in real-world problems.}
+\end{tcolorbox}
+
+\end{document}

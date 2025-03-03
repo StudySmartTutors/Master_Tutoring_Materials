@@ -1,0 +1,132 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper, top=0.8in, bottom=0.7in, left=0.8in, right=0.8in]{geometry}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{tcolorbox}
+\usepackage{enumitem}
+\usepackage{xcolor} % For red and blue text
+\usepackage[defaultfam,tabular,lining]{montserrat} % Font settings for Montserrat
+\usepackage{setspace} % For spacing commands like \onehalfspacing
+
+\setlength{\parindent}{0pt}
+\pagestyle{fancy}
+
+\setlength{\headheight}{27.11148pt}
+\addtolength{\topmargin}{-15.11148pt}
+
+\fancyhf{}
+%\fancyhead[L]{\textbf{8.EE.C.7: Solving Linear Equations (Instructor Version)}}
+\fancyhead[R]{\includegraphics[width=0.8cm]{Round Logo.png}}
+\fancyfoot[C]{\footnotesize © Study Smart Tutors}
+
+\sloppy
+
+\title{}
+\date{}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\begin{document}
+
+\onehalfspacing
+
+\subsection*{Guided Lesson: Solving Linear Equations in One Variable (Instructor Version)}
+
+% Learning Objective Box
+\begin{tcolorbox}[colframe=black!40, colback=gray!5, 
+coltitle=black, colbacktitle=black!20, fonttitle=\bfseries\Large, 
+title=Learning Objective, halign title=center, left=5pt, right=5pt, top=5pt, bottom=15pt]
+\textbf{Objective:} Solve linear equations in one variable, including equations with coefficients represented by letters.
+
+\textcolor{blue}{\textbf{Instructor Note:} Emphasize the importance of maintaining equality while solving linear equations. Discuss common mistakes, such as forgetting to apply operations to both sides.}
+\end{tcolorbox}
+
+% Key Concepts and Vocabulary
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Key Concepts and Vocabulary, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Key Concepts:}
+\begin{itemize}
+    \item \textbf{Inverse Operations:} Use addition, subtraction, multiplication, and division to isolate the variable.
+    \item \textbf{Balancing Equations:} Perform the same operation on both sides to maintain equality.
+    \item \textbf{Distributive Property:} Expand expressions like \(a(b+c)\) into \(ab+ac\).
+    \item \textbf{Combining Like Terms:} Simplify expressions by combining terms with the same variable.
+\end{itemize}
+
+\textcolor{blue}{\textbf{Instructor Note:} Consider using visuals such as balance scales to demonstrate equality. This can help students understand why operations must be performed on both sides of the equation.}
+\end{tcolorbox}
+
+% Examples
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Examples, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Example 1: Solve \(2x + 5 = 15\).}\\
+\textcolor{red}{\textbf{Solution:} Subtract \(5\) from both sides: \(2x = 10\). Divide both sides by \(2\): \(x = 5\).}
+
+\textbf{Example 2: Solve \(4(x - 3) = 16\).}\\
+\textcolor{red}{\textbf{Solution:} Expand: \(4x - 12 = 16\). Add \(12\) to both sides: \(4x = 28\). Divide by \(4\): \(x = 7\).}
+
+\textbf{Example 3: Solve \(\frac{x+2}{3} = 4\).}\\
+\textcolor{red}{\textbf{Solution:} Multiply both sides by \(3\): \(x + 2 = 12\). Subtract \(2\): \(x = 10\).}
+
+\textcolor{blue}{\textbf{Instructor Note:} Highlight how different types of equations (e.g., with fractions, parentheses) require distinct steps. Ask students to explain why each step is taken.}
+\end{tcolorbox}
+
+% Guided Practice
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Guided Practice, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Solve the following problems with teacher support:}
+\begin{enumerate}[itemsep=5em]
+    \item Solve \(3x - 4 = 14\).\\
+    \textcolor{red}{\textbf{Solution:} Add \(4\): \(3x = 18\). Divide by \(3\): \(x = 6\).}
+
+    \item Solve \(5(x + 1) = 25\).\\
+    \textcolor{red}{\textbf{Solution:} Expand: \(5x + 5 = 25\). Subtract \(5\): \(5x = 20\). Divide by \(5\): \(x = 4\).}
+
+    \item Solve \(2x + 3 = 2x - 7\).\\
+    \textcolor{red}{\textbf{Solution:} Subtract \(2x\): \(3 = -7\) (No solution).}
+\end{enumerate}
+
+\textcolor{blue}{\textbf{Instructor Note:} Use guided questions to help students identify the next step, such as “What can we do to isolate the variable?” For the third problem, discuss why there is no solution.}
+\end{tcolorbox}
+
+% Independent Practice
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Independent Practice, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Solve the following problems independently:}
+\begin{enumerate}[itemsep=5em]
+    \item Solve \(7x + 4 = 25\).\\
+    \textcolor{red}{\textbf{Solution:} Subtract \(4\): \(7x = 21\). Divide by \(7\): \(x = 3\).}
+
+    \item Solve \(6(x - 2) = 18\).\\
+    \textcolor{red}{\textbf{Solution:} Expand: \(6x - 12 = 18\). Add \(12\): \(6x = 30\). Divide by \(6\): \(x = 5\).}
+
+    \item Solve \(\frac{x+1}{4} = 3\).\\
+    \textcolor{red}{\textbf{Solution:} Multiply by \(4\): \(x + 1 = 12\). Subtract \(1\): \(x = 11\).}
+\end{enumerate}
+
+\textcolor{blue}{\textbf{Instructor Note:} Encourage students to check their solutions by substituting the value of \(x\) back into the original equation. This reinforces the importance of verifying work.}
+\end{tcolorbox}
+
+% Exit Ticket
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Exit Ticket, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Solve and reflect:}
+\begin{itemize}
+    \item Solve \(4x - 7 = 21\).\\
+    \textcolor{red}{\textbf{Solution:} Add \(7\): \(4x = 28\). Divide by \(4\): \(x = 7\).}
+    
+    \item Reflect: How does balancing equations help solve problems?\\
+    \textcolor{red}{\textbf{Reflection:} Balancing equations ensures equality is maintained, allowing systematic problem-solving.}
+\end{itemize}
+
+\textcolor{blue}{\textbf{Instructor Note:} Use the reflection question to discuss real-world applications of solving equations, such as budgeting or engineering.}
+\end{tcolorbox}
+
+\end{document}

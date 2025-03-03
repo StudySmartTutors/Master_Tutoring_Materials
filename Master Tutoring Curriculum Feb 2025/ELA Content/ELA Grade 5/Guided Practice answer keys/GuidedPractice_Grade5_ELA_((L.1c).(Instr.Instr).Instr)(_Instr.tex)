@@ -1,0 +1,130 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper, top=0.8in, bottom=0.7in, left=0.8in, right=0.8in]{geometry}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage{tcolorbox}
+\usepackage{xcolor}
+\usepackage[defaultfam,tabular,lining]{montserrat}
+
+\setlength{\parindent}{0pt}
+\pagestyle{fancy}
+
+\setlength{\headheight}{27.11148pt}
+\addtolength{\topmargin}{-15.11148pt}
+
+\fancyhf{}
+%\fancyhead[L]{\textbf{Standard(s): 5.L.1c}}
+\fancyhead[R]{\includegraphics[width=0.8cm]{Round Logo.png}}
+\fancyfoot[C]{\footnotesize \copyright Study Smart Tutors}
+
+\sloppy
+
+\title{}
+\date{}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\begin{document}
+
+\subsection*{Guided Lesson: Verb Tenses to Show Time, Sequence, States, and Conditions}
+\onehalfspacing
+
+% Learning Objective Box
+\begin{tcolorbox}[colframe=black!40, colback=gray!5, 
+coltitle=black, colbacktitle=black!20, fonttitle=\bfseries\Large, 
+title=Learning Objective, halign title=center, left=5pt, right=5pt, top=5pt, bottom=15pt]
+\textbf{Objective:} Understand and correctly use verb tenses to show time, sequence, states, and conditions in sentences.
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Key Concepts and Vocabulary
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Key Concepts and Vocabulary, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Key Concepts:}
+\begin{itemize}
+    \item \textbf{Past tense}: Shows actions or events that already happened (e.g., She walked to school.).
+    \item \textbf{Present tense}: Shows actions happening now or general truths (e.g., He plays soccer.).
+    \item \textbf{Future tense}: Shows actions that will happen later (e.g., They will travel to Spain.).
+    \item Verb tenses help clarify the sequence and timing of events or the conditions of actions.
+\end{itemize}
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Examples
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Examples, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+
+\textbf{Example Sentences:}
+\begin{itemize}
+    \item \textbf{Past:} Yesterday, we \textbf{\textcolor{red}{watched}} a movie at the theater.
+    \item \textbf{Present:} I \textbf{\textcolor{red}{ride}} my bike to school every day.
+    \item \textbf{Future:} Tomorrow, she \textbf{\textcolor{red}{will visit}} her grandparents.
+    \item \textbf{Sequence:} After I \textbf{\textcolor{red}{finish}} my homework, I \textbf{\textcolor{red}{will go}} outside to play.
+    \item \textbf{Condition:} If it \textbf{\textcolor{red}{rains}}, we \textbf{\textcolor{red}{will stay}} inside.
+\end{itemize}
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Guided Practice
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Guided Practice, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Choose the correct verb tense to complete each sentence:}
+\begin{enumerate}[itemsep=3em]
+    \item I \_\_\_\_\_ my homework before dinner. (\textcolor{red}{finished})
+    \item She \_\_\_\_\_ to the park yesterday. (\textcolor{red}{went})
+    \item They \_\_\_\_\_ soccer every afternoon. (\textcolor{red}{play})
+    \item If we \_\_\_\_\_ early, we \_\_\_\_\_ the sunrise. (\textcolor{red}{wake, will see})
+    \item Tomorrow, I \_\_\_\_\_ my friend at the library. (\textcolor{red}{will meet})
+\end{enumerate}
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Independent Practice
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Independent Practice, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Rewrite each sentence, correcting the verb tense as needed:}
+\begin{enumerate}[itemsep=3em]
+    \item Yesterday, I \textbf{\textcolor{red}{went}} to the store.
+    \item She \textbf{\textcolor{red}{will play}} basketball tomorrow.
+    \item We \textbf{\textcolor{red}{watched}} a movie last night.
+    \item If it \textbf{\textcolor{red}{rains}}, we \textbf{\textcolor{red}{will go}} inside.
+    \item He \textbf{\textcolor{red}{is eating}} lunch now.
+\end{enumerate}
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Exit Ticket
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Exit Ticket, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+
+\begin{itemize}
+    \item Write one sentence in the past tense, one in the present tense, and one in the future tense. Underline the verb in each sentence.
+    
+\vspace{1em}
+
+    \textcolor{red}{\textbf{Past Tense:}} Yesterday, I \underline{\textcolor{red}{walked}} to the park.  
+
+    \textcolor{red}{\textbf{Present Tense:}} She \underline{\textcolor{red}{is reading}} a book right now.  
+
+    \textcolor{red}{\textbf{Future Tense:}} Tomorrow, we \underline{\textcolor{red}{will travel}} to the beach.  
+
+\end{itemize}
+\end{tcolorbox}
+
+\end{document}

@@ -1,0 +1,187 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper, top=0.8in, bottom=0.7in, left=0.8in, right=0.8in]{geometry}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage{tcolorbox}
+\usepackage{textcomp}
+\usepackage[defaultfam,tabular,lining]{montserrat} % Font settings for Montserrat
+
+% ChatGPT Directions:
+% ----------------------------------------------------------------------
+% This template is designed for creating guided lessons that align strictly with specific standards.
+% Key points to ensure proper usage:
+% 
+% 1. **Key Concepts and Vocabulary**:
+%    - Include only the concepts necessary for meeting the standards.
+%    - Each Key Concept section must align explicitly with the standards being addressed.
+%    - If unrelated standards are introduced (e.g., introducing new operations or properties),
+%      create additional Key Concept sections labeled "Part 2," "Part 3," etc.
+% 2. **Examples**:
+%    - Provide concrete worked examples to illustrate the Key Concepts.
+%    - These should directly tie back to the Key Concepts presented earlier.
+% 3. **Guided Practice**:
+%    - Problems should reinforce Key Concepts and Examples.
+%    - Allow for ample spacing between problems to give students room for work.
+% 4. **Additional Notes**:
+%    - Use this section for helpful but non-essential concepts, strategies, or teacher notes.
+%    - Examples: Fact families, properties of operations, or alternative explanations.
+% 5. **Independent Practice**:
+%    - Provide problems for students to practice Key Concepts individually.
+% 6. **Exit Ticket**:
+%    - Include a reflective or assessment-based question to evaluate student understanding.
+% ----------------------------------------------------------------------
+
+\setlength{\parindent}{0pt}
+\pagestyle{fancy}
+
+\setlength{\headheight}{27.11148pt}
+\addtolength{\topmargin}{-15.11148pt}
+
+\fancyhf{}
+%\fancyhead[L]{\textbf{Standard(s): 8.EE.A.2}}
+\fancyhead[R]{\includegraphics[width=0.8cm]{Round Logo.png}} % Placeholder for logo
+\fancyfoot[C]{\footnotesize © Study Smart Tutors}
+
+\sloppy
+
+\title{}
+\date{}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\begin{document}
+
+\subsection*{Guided Lesson: Using Square and Cube Roots to Solve Problems}
+\onehalfspacing
+
+% Learning Objective Box
+\begin{tcolorbox}[colframe=black!40, colback=gray!5, 
+coltitle=black, colbacktitle=black!20, fonttitle=\bfseries\Large, 
+title=Learning Objective, halign title=center, left=5pt, right=5pt, top=5pt, bottom=15pt]
+\textbf{Objective:} Solve problems involving square and cube roots, including those with perfect squares and cubes. Apply square roots and exponents to equations involving area, volume, and other real-world scenarios.
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Key Concepts and Vocabulary
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Key Concepts and Vocabulary, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Key Concepts:}
+\begin{itemize}
+    \item \textbf{Square Roots:} The square root of a number \(p\), written \(\sqrt{p}\), is the number \(x\) such that \(x^2 = p\). For example, \(\sqrt{36} = 6\) because \(6^2 = 36\).
+    \item \textbf{Cube Roots:} The cube root of a number \(p\), written \(\sqrt[3]{p}\), is the number \(x\) such that \(x^3 = p\). For example, \(\sqrt[3]{27} = 3\) because \(3^3 = 27\).
+    \item \textbf{Perfect Squares and Cubes:}
+    \begin{itemize}
+        \item Perfect Squares: Numbers like \(1, 4, 9, 16, 25\), etc.
+        \item Perfect Cubes: Numbers like \(1, 8, 27, 64\), etc.
+    \end{itemize}
+    \item \textbf{Real-World Applications:} Square roots are used in geometry (e.g., finding the side length of a square), while cube roots are used in problems involving volume (e.g., side length of a cube).
+\end{itemize}
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Examples
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Examples, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Example 1: Solving a Square Root Problem}
+\begin{itemize}
+    \item Problem: A square has an area of 64 square meters. What is the side length of the square?
+    \item Solution:
+    \begin{itemize}
+        \item Step 1: Write the equation for the area of a square: \(s^2 = 64\), where \(s\) is the side length.
+        \item Step 2: Solve for \(s\): \(s = \sqrt{64} = 8\).
+        \item Final Answer: The side length is 8 meters.
+    \end{itemize}
+\end{itemize}
+
+\textbf{Example 2: Solving a Cube Root Problem}
+\begin{itemize}
+    \item Problem: A cube has a volume of 125 cubic inches. What is the side length of the cube?
+    \item Solution:
+    \begin{itemize}
+        \item Step 1: Write the equation for the volume of a cube: \(s^3 = 125\), where \(s\) is the side length.
+        \item Step 2: Solve for \(s\): \(s = \sqrt[3]{125} = 5\).
+        \item Final Answer: The side length is 5 inches.
+    \end{itemize}
+\end{itemize}
+
+\textbf{Example 3: Pythagorean Theorem with Square Roots}
+\begin{itemize}
+    \item Problem: A right triangle has legs of 6 units and 8 units. What is the length of the hypotenuse?
+    \item Solution:
+    \begin{itemize}
+        \item Step 1: Write the Pythagorean theorem: \(a^2 + b^2 = c^2\), where \(a\) and \(b\) are the legs and \(c\) is the hypotenuse.
+        \item Step 2: Substitute: \(6^2 + 8^2 = c^2\), so \(36 + 64 = c^2\).
+        \item Step 3: Solve for \(c\): \(c^2 = 100\), so \(c = \sqrt{100} = 10\).
+        \item Final Answer: The hypotenuse is 10 units.
+    \end{itemize}
+\end{itemize}
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Guided Practice
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Guided Practice, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Solve the following problems with teacher support:}
+\begin{enumerate}[itemsep=5em]
+    \item A square has an area of 49 square feet. What is the side length?
+    \item Solve for \(x\): \(x^2 = 36\).
+    \item A cube has a volume of 64 cubic meters. What is the side length of the cube?
+    \item Simplify: \(\sqrt{81} + \sqrt[3]{8}\).
+\end{enumerate}
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Additional Notes
+\begin{tcolorbox}[colframe=black!40, colback=gray!5, 
+coltitle=black, colbacktitle=black!20, fonttitle=\bfseries\Large, 
+title=Additional Notes, halign title=center, left=5pt, right=5pt, top=5pt, bottom=15pt]
+\textbf{Helpful Tips:}
+\begin{itemize}
+    \item Remember that square roots have both positive and negative solutions when solving equations (e.g., \(x^2 = 25\) has \(x = 5\) and \(x = -5\)).
+    \item Cube roots always have one real solution.
+    \item Estimation is useful for square roots of non-perfect squares.
+\end{itemize}
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Independent Practice
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Independent Practice, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Solve the following problems independently:}
+\begin{enumerate}[itemsep=5em]
+    \item Solve \(x^2 = 81\).
+    \item Evaluate \(\sqrt[3]{64}\).
+    \item Solve \(x^3 = 27\).
+    \item Simplify \(\sqrt{25} + \sqrt[3]{125}\).
+    \item A square garden has an area of 144 square feet. Find the side length.
+\end{enumerate}
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Exit Ticket
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Exit Ticket, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Reflect and solve:}
+\begin{itemize}
+    \item A cube has a volume of 512 cubic inches. What is the side length of the cube? Show your work.
+    \item Explain how to determine if \(\sqrt{7}\) is rational or irrational.
+\end{itemize}
+\end{tcolorbox}
+
+\end{document}

@@ -1,0 +1,163 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper, top=0.8in, bottom=0.7in, left=0.8in, right=0.8in]{geometry}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage{tcolorbox}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage[defaultfam,tabular,lining]{montserrat}
+\usepackage[T1]{fontenc}
+\renewcommand{\familydefault}{\sfdefault}
+
+\setlength{\headheight}{27.11148pt}
+
+% Header Configuration
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{AASA Practice Exam I}
+\fancyhead[R]{\includegraphics[width=0.8cm]{Round Logo.png}} % Replace 'RoundLogo.png' with your logo file
+\fancyfoot[C]{\footnotesize © Study Smart Tutors}
+
+\begin{document}
+
+\subsection*{Assessment I: Math Pre/Post-Assessment}
+\onehalfspacing
+
+\begin{tcolorbox}[colframe=black!50, colback=white, title=Assessment Directions]
+\textbf{Directions:} Solve each question carefully. For multiple-choice questions, circle the best answer. For "select all that apply" questions, mark all the correct answers. For performance tasks, explain your reasoning clearly.
+\end{tcolorbox}
+
+% Problem 1: Simplifying Exponents
+\begin{tcolorbox}[colframe=black!50, colback=white, title=\textbf{Problem 1 (8.EE.A.1)}]
+Simplify the expression \(2^5 \cdot 2^3\).
+
+\begin{enumerate}[label=(\Alph*)]
+    \item \(2^8\)
+    \item \(2^{15}\)
+    \item \(2^{10}\)
+    \item \(2^6\)
+\end{enumerate}
+\end{tcolorbox}
+
+% Problem 2: Exponent Properties
+\begin{tcolorbox}[colframe=black!50, colback=white, title=\textbf{Problem 2 (8.EE.A.1)}]
+Simplify the expression \(\frac{3^7}{3^2}\).
+
+\begin{enumerate}[label=(\Alph*)]
+    \item \(3^5\)
+    \item \(3^9\)
+    \item \(3^3\)
+    \item \(3^{10}\)
+\end{enumerate}
+\end{tcolorbox}
+
+% Problem 3: Solving Cube Root Equation
+\begin{tcolorbox}[colframe=black!50, colback=white, title=\textbf{Problem 3 (8.EE.A.2)}]
+Solve for \(x\): \(x^3 = 64\). Show your work.
+
+\vspace{3cm}
+\textbf{Answer:} \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+\end{tcolorbox}
+
+% Problem 4: Identifying Irrational Numbers
+\begin{tcolorbox}[colframe=black!50, colback=white, title=\textbf{Problem 4 (8.NS.A.1)}]
+Which of the following numbers is irrational? Select one:
+
+\begin{enumerate}[label=(\Alph*)]
+    \item \( \sqrt{25} \)
+    \item \( \pi \)
+    \item \( \frac{3}{4} \)
+    \item \( 0.5 \)
+\end{enumerate}
+\end{tcolorbox}
+
+% Problem 5: Approximating Irrational Numbers
+\begin{tcolorbox}[colframe=black!50, colback=white, title=\textbf{Problem 5 (8.NS.A.2)}]
+Approximate \(\sqrt{45}\) to the nearest tenth. Explain your reasoning.
+
+\vspace{2cm}
+\textbf{Answer:} \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+\end{tcolorbox}
+
+% Problem 6: Comparing Irrational Numbers
+\begin{tcolorbox}[colframe=black!50, colback=white, title=\textbf{Problem 6 (8.NS.A.2)}]
+Which is greater: \( \sqrt{50} \) or \( 7 \)? Use reasoning to support your answer.
+
+\vspace{1.75cm}
+\textbf{Answer:} \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+\end{tcolorbox}
+
+% Problem 7: Solving Linear Equations
+\begin{tcolorbox}[colframe=black!50, colback=white, title=\textbf{Problem 7 (8.EE.C.7)}]
+Solve the equation \(3(x - 2) = 9x + 4\). Show your work and write your solution.
+
+\vspace{2cm}
+\textbf{Answer:} \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+\end{tcolorbox}
+
+% Problem 8: Linear Equations
+\begin{tcolorbox}[colframe=black!50, colback=white, title=\textbf{Problem 8 (8.EE.C.7)}]
+Which of the following equations have no solution? Select all that apply:
+
+\begin{enumerate}[label=(\Alph*)]
+    \item \(5x + 2 = 5x + 4\)
+    \item \(3(x - 1) = 3x - 3\)
+    \item \(x + 1 = x + 1\)
+    \item \(2x - 4 = 2x + 4\)
+\end{enumerate}
+\end{tcolorbox}
+
+% Problem 9: Interpreting Slope
+\begin{tcolorbox}[colframe=black!50, colback=white, title=\textbf{Problem 9 (8.EE.B.5)}]
+The graph below shows the relationship between distance (in miles) and time (in hours) for a biker riding at a constant speed. Select all the true statements about the slope of the graph.
+
+\begin{center}
+\begin{tikzpicture}[scale=0.8]
+    \draw[thick,->] (0,0) -- (6,0) node[right]{Time (hours)};
+    \draw[thick,->] (0,0) -- (0,6) node[above]{Distance (miles)};
+    \draw[thick] (0,0) -- (5,5);
+    \draw[fill=black] (4,4) circle (2pt);
+    \node[below right] at (4,4) {(4,4)};
+    \foreach \x in {0,1,...,5} {
+        \draw (\x,0.1) -- (\x,-0.1) node[below]{\x};
+    }
+    \foreach \y in {0,1,...,5} {
+        \draw (0.1,\y) -- (-0.1,\y) node[left]{\y};
+    }
+\end{tikzpicture}
+\end{center}
+
+\begin{enumerate}[label=(\Alph*)]
+    \item The slope represents the total distance traveled
+    \item The slope is \(  1 \).
+    \item The slope is \( \frac{1}{4} \).
+    \item The slope is constant.
+\end{enumerate}
+\end{tcolorbox}
+
+% Problem 10: Graphing a Line
+\begin{tcolorbox}[colframe=black!50, colback=white, title=\textbf{Problem 10 (8.EE.B.5)}]
+Graph the equation \(y = 2x\). Identify the slope and explain its meaning.
+
+\begin{center}
+\begin{tikzpicture}[scale=0.8]
+    \draw[thick,->] (0,0) -- (6,0) node[right]{\(x\)};
+    \draw[thick,->] (0,0) -- (0,6) node[above]{\(y\)};
+    \foreach \x in {0,1,...,5} {
+        \draw (\x,0.1) -- (\x,-0.1) node[below]{\x};
+    }
+    \foreach \y in {0,1,...,5} {
+        \draw (0.1,\y) -- (-0.1,\y) node[left]{\y};
+    }
+\end{tikzpicture}
+\end{center}
+
+\vspace{1cm}
+\textbf{Answer:} \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+\end{tcolorbox}
+
+\end{document}

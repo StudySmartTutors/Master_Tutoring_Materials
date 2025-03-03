@@ -1,0 +1,154 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper, top=0.8in, bottom=0.7in, left=0.8in, right=0.8in]{geometry}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{tcolorbox}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage[defaultfam,tabular,lining]{montserrat} 
+
+% ----------------------------------------------------------------------
+% ChatGPT Directions:
+% This guided lesson prepares students to solve multi-step word problems involving multiplication and division aligned with 5.NBT.A.5. 
+% Explicit focus is given to understanding equations with variables, partial products, and place value reasoning.
+% ----------------------------------------------------------------------
+
+\setlength{\parindent}{0pt}
+\pagestyle{fancy}
+
+\setlength{\headheight}{27.11148pt}
+\addtolength{\topmargin}{-15.11148pt}
+
+\fancyhf{}
+%\fancyhead[L]{\textbf{5.NBT.A.5: Multi-Step Word Problems}}
+\fancyhead[R]{\includegraphics[width=0.8cm]{Round Logo.png}}
+\fancyfoot[C]{\footnotesize © Study Smart Tutors}
+
+\sloppy
+
+\title{}
+\date{}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\begin{document}
+
+\subsection*{Guided Lesson: Multi-Step Problems with Multiplication and Division}
+\onehalfspacing
+
+% Learning Objective Box
+\begin{tcolorbox}[colframe=black!40, colback=gray!5, 
+coltitle=black, colbacktitle=black!20, fonttitle=\bfseries\Large, 
+title=Learning Objective, halign title=center, left=5pt, right=5pt, top=5pt, bottom=15pt]
+\textbf{Objective:} Solve two-step word problems involving multiplication and division, represent unknown quantities using equations with variables, and interpret real-world situations.
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Key Concepts and Vocabulary
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Key Concepts and Vocabulary, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Key Concepts:}
+\begin{itemize}
+    \item \textbf{Multi-Step Problems:} Problems requiring multiple operations (e.g., multiplication and division) to solve.
+    \item \textbf{Equations with Variables:} Use a letter (e.g., \( x \)) to represent an unknown value in an equation.
+    \item \textbf{Place Value Reasoning:} Align digits carefully to multiply and divide larger numbers using the standard algorithm.
+\end{itemize}
+
+\textbf{Vocabulary:}
+\begin{itemize}
+    \item \textbf{Product:} The result of multiplication.
+    \item \textbf{Quotient:} The result of division.
+    \item \textbf{Variable:} A symbol, usually a letter, that represents an unknown number.
+\end{itemize}
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Examples
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Examples, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Example 1: Solve a two-step word problem.}
+\begin{itemize}
+    \item Problem: Maria bought 6 boxes of markers, and each box costs \$15. She also bought a notebook for \$12. How much did she spend in total?
+    \item Solution:
+    \begin{align*}
+        & \text{Step 1: Find the cost of 6 boxes of markers.} \\
+        & 6 \times 15 = 90. \\
+        & \text{Step 2: Add the notebook cost.} \\
+        & 90 + 12 = 102. \\
+        & \text{Final Answer: Maria spent \$102.}
+    \end{align*}
+\end{itemize}
+
+\textbf{Example 2: Solve using an equation with a variable.}
+\begin{itemize}
+    \item Problem: A group of 5 friends collects 350 marbles. Each friend gets an equal amount. How many marbles does each friend receive?
+    \item Solution:
+    \begin{align*}
+        & \text{Step 1: Write the equation: } 5x = 350. \\
+        & \text{Step 2: Solve for } x: x = 350 \div 5. \\
+        & x = 70. \\
+        & \text{Final Answer: Each friend gets 70 marbles.}
+    \end{align*}
+\end{itemize}
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Guided Practice
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Guided Practice, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Solve the following problems with teacher support:}
+\begin{enumerate}[itemsep=4em]
+    \item A bakery bakes 120 cupcakes in the morning and 140 in the afternoon. Each box holds 10 cupcakes. How many boxes do they need?
+    \item A teacher bought 300 pencils. If she distributes them equally among 25 students, how many pencils does each student get?
+    \item Write and solve: "A total of 1,250 apples are packed into baskets holding 25 apples each. How many baskets are needed?"
+\end{enumerate}
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Additional Notes
+\begin{tcolorbox}[colframe=black!40, colback=gray!5, 
+coltitle=black, colbacktitle=black!20, fonttitle=\bfseries\Large, 
+title=Additional Notes, halign title=center, left=5pt, right=5pt, top=5pt, bottom=15pt]
+\textbf{Notes:}
+\begin{itemize}
+    \item Solving multi-step problems requires careful reading and identifying operations.
+    \item Use parentheses in equations to show the correct order of operations.
+    \item Estimate answers first to check for reasonableness.
+\end{itemize}
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Independent Practice
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Independent Practice, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Solve independently:}
+\begin{enumerate}[itemsep=4em]
+    \item A factory produces 246 items each day. How many items are produced in 12 days?
+    \item Multiply: \( 23 \times 45 \) and divide the product by \( 5 \).
+    \item Find the missing value: \( 3x = 450 \div 10 \). Solve for \( x \).
+    \item A box contains 125 pencils. There are 8 such boxes. Write and solve an equation to find the total pencils.
+\end{enumerate}
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Reflection
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Reflection, halign title=center, left=10pt, right=10pt, top=10pt, bottom=90pt]
+What strategies helped you solve multi-step word problems today? Write about how you used variables to solve unknown quantities.
+\end{tcolorbox}
+
+\end{document}
