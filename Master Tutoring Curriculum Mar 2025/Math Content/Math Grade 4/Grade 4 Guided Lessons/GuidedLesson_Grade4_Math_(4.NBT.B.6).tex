@@ -1,0 +1,157 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper, top=0.8in, bottom=0.7in, left=0.8in, right=0.8in]{geometry}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{tcolorbox}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage[defaultfam,tabular,lining]{montserrat} % Font settings for Montserrat
+
+% General Comment: Template for creating problem sets in a structured format with headers, titles, and sections.
+% This document uses Montserrat font and consistent styles for exercises, problems, and performance tasks.
+
+% -------------------------------------------------------------------
+% ChatGPT Directions:
+% 1. Always include a header with standards and topic title: \fancyhead[L]{\textbf{<Standards>: <Topic Title>}}.
+% 2. Subsection titles should always start with "Problem Set:" followed by the topic title.
+% 3. Use tcolorbox for distinct sections: Learning Objective, Exercises, Problems, Performance Task, and Reflection.
+% 4. Style guidelines:
+%    - Frame color: black or dark gray (colframe=black!60).
+%    - Background color: light gray or white (colback=gray!5 or colback=white).
+%    - Title background: slightly darker gray (colbacktitle=black!15).
+%    - Font style: Bold for titles (fonttitle=\bfseries\Large).
+% 5. Ensure a balance of procedural (Exercises), conceptual (Problems), and real-world application tasks (Performance Task).
+% -------------------------------------------------------------------
+
+\setlength{\parindent}{0pt}
+\pagestyle{fancy}
+
+\setlength{\headheight}{27.11148pt}
+\addtolength{\topmargin}{-15.11148pt}
+
+\fancyhf{}
+%\fancyhead[L]{\textbf{4.NBT.B.6: Understanding Division with Multi-Digit Numbers}}
+\fancyhead[R]{\includegraphics[width=0.8cm]{Round Logo.png}} % Placeholder for logo
+\fancyfoot[C]{\footnotesize © Study Smart Tutors}
+
+\sloppy
+
+\title{}
+\date{}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\begin{document}
+
+\subsection*{Guided Lesson: Understanding Division with Multi-Digit Numbers}
+\onehalfspacing
+
+% Learning Objective Box
+\begin{tcolorbox}[colframe=black!40, colback=gray!5, 
+coltitle=black, colbacktitle=black!20, fonttitle=\bfseries\Large, 
+title=Learning Objective, halign title=center, left=5pt, right=5pt, top=5pt, bottom=15pt]
+\textbf{Objective:} Divide multi-digit numbers by one-digit and two-digit divisors, using strategies based on place value, properties of operations, and the relationship between multiplication and division. Solve word problems involving division.
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Key Concepts and Vocabulary
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Key Concepts and Vocabulary, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Key Concepts:}
+\begin{itemize}
+    \item \textbf{Division Algorithm:} Use the steps: Divide, Multiply, Subtract, Bring Down (DMSB). Repeat as necessary.
+    \item \textbf{Quotients and Remainders:} Quotients show how many groups can be formed, while the remainder shows what is left.
+    \item \textbf{Estimation:} Use compatible numbers to estimate quotients before solving to ensure accuracy.
+    \item \textbf{Decomposing Numbers:} Break large numbers into smaller, more manageable parts using place value.
+\end{itemize}
+\vspace{1cm}
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Examples Box
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Examples, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Example 1: Dividing a Four-Digit Number}
+\begin{itemize}
+    \item Problem: Divide \( 3,456 \div 8 \).
+    \item Solution:
+    \[
+    \begin{aligned}
+    &1. \, \text{Divide: } 34 \div 8 = 4 \quad (\text{Write 4 above 34}). \\
+    &2. \, \text{Multiply: } 4 \times 8 = 32. \\
+    &3. \, \text{Subtract: } 34 - 32 = 2. \\
+    &4. \, \text{Bring down: } 5 \, (\text{making it 25}). \\
+    &5. \, \text{Divide: } 25 \div 8 = 3. \quad (\text{Write 3 above 5}). \\
+    &6. \, \text{Multiply: } 3 \times 8 = 24. \\
+    &7. \, \text{Subtract: } 25 - 24 = 1. \\
+    &8. \, \text{Bring down: } 6 \, (\text{making it 16}). \\
+    &9. \, \text{Divide: } 16 \div 8 = 2. \quad (\text{Write 2 above 6}). \\
+    &10. \, \text{Final Answer: } 432.
+    \end{aligned}
+    \]
+\end{itemize}
+
+\textbf{Example 2: Word Problem}
+\begin{itemize}
+    \item Problem: A farmer harvests \( 2,752 \) apples and wants to pack them into crates of \( 16 \). How many full crates can the farmer make, and how many apples are left over?
+    \item Solution:
+    \[
+    2,752 \div 16 = 172 \, \text{ R } \, 0.
+    \]
+    The farmer can pack all \( 2,752 \) apples evenly into \( 172 \) crates with no remainder.
+    \vspace{1cm}
+\end{itemize}
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Guided Practice Box
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Guided Practice, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Work through the following problems with teacher support:}
+\begin{enumerate}[itemsep=3em]
+    \item Divide \( 2,304 \div 6 \). \vspace{1cm}
+
+    \item A teacher has \( 1,875 \) markers and divides them equally among \( 15 \) classrooms. How many markers does each classroom receive? \vspace{1cm}
+    \item Solve \( 6,432 \div 8 \) using the division algorithm. \vspace{1cm}
+    \item A baker makes \( 3,564 \) cookies and packs them into boxes of \( 12 \). How many full boxes are made, and how many cookies are left over? \vspace{3cm}
+\end{enumerate}
+\end{tcolorbox}
+
+\vspace{1em}
+
+% Independent Practice Box
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Independent Practice, halign title=center, left=10pt, right=10pt, top=10pt, bottom=15pt]
+\textbf{Solve the following problems independently:}
+\begin{enumerate}[itemsep=3em]
+    \item Divide \( 8,136 \div 9 \). \vspace{1cm}
+    \item Solve \( 4,562 \div 7 \). Write your answer as a quotient with a remainder. \vspace{1cm}
+    \item A factory produces \( 2,640 \) boxes of cereal and distributes them equally among \( 12 \) trucks. How many boxes are on each truck? \vspace{1cm}
+    \item Divide \( 7,924 \div 8 \). \vspace{1cm}
+    \item A school library has \( 1,344 \) books and places them equally on \( 6 \) shelves. How many books are on each shelf? \vspace{3cm}
+\end{enumerate}
+\end{tcolorbox}
+
+%\vspace{1em}
+
+% Exit Ticket Box
+\begin{tcolorbox}[colframe=black!60, colback=white, 
+coltitle=black, colbacktitle=black!15, fonttitle=\bfseries\Large, 
+title=Exit Ticket, halign title=center, left=10pt, right=10pt, top=10pt, bottom=50pt]
+\textbf{Reflect on and solve:}
+\begin{itemize}
+    \item Solve \( 6,724 \div 8 \). Explain each step of the division process and how you handled the remainder.
+\end{itemize}
+\end{tcolorbox}
+
+\end{document}
